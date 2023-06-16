@@ -1,0 +1,1849 @@
+functionCodes:
+  ceo:
+    jobTitle: Algemeen Directeur
+    department: Management Team
+    people:
+      - name: Kees de Veth
+        jobTitle: Managing Director
+        src: https://media.licdn.com/dms/image/C4D03AQFjI8oXWg0E-Q/profile-displayphoto-shrink_400_400/0/1516783904775?e=1684368000&v=beta&t=bLsPXzBsbt5bqttLLy-9HcKbF5XhWuP5mgAY3j7a3FI
+        start: 2022-12
+        linkedin: https://www.linkedin.com/in/kees-de-veth-a4548b18
+  cfo:
+    jobTitle: Manager Finance
+    department: Management Team
+    people:
+      - name: Monique van der Wouden
+        jobTitle: Manager Finance
+        start: 2020-09
+        src: https://media.licdn.com/dms/image/C5603AQFguJhu_waKKw/profile-displayphoto-shrink_100_100/0/1528296662583?e=1684972800&v=beta&t=ad9Fisa6NBGjtLgwxeF6veeO8vANDylFJCChAbR66ao
+  coo:
+    jobTitle: Manager Operations
+    department: Management Team
+    people:
+      - name: Jordy Kamphorst
+        jobTitle: Manager Operations
+        start: 2021-11
+        src: https://media.licdn.com/dms/image/C4D03AQE2DLzSKtAcHA/profile-displayphoto-shrink_200_200/0/1644153145616?e=1684972800&v=beta&t=6TDa1qw-o3sUEwHI8SVfHT-PJV_lqDrz-spN6QfojMU
+
+  cmo:
+    jobTitle: Manager Sales
+    department: Management Team
+    people:
+      - name: Joost Claassen
+        jobTitle: Manager Sales
+        start: 2023-04
+        src: https://media.licdn.com/dms/image/C4D03AQHVyWAsnAQs3w/profile-displayphoto-shrink_400_400/0/1623686576110?e=1686787200&v=beta&t=8W1nj-Ao2NtnyY8psKIKkGYou2_DV7Vz_EIKuBOmeds
+  cto:
+    jobTitle: Manager Techniek
+    department: Management Team
+    people:
+      - name: Max van Kampen
+        rc: mkam
+        jobTitle: Manager Techniek
+        start: 2023-04
+        src: https://media.licdn.com/dms/image/C4E03AQF_bb_02doWzw/profile-displayphoto-shrink_100_100/0/1517673862449?e=1684972800&v=beta&t=pjrQjrAcXIC-w6jmMU-MKTM6QYxo5AfxNOdo3UoFzmQ
+        mailaddress: max.vankampen@elmabv.nl
+        verlof:
+          2023-7-24: 40
+          2023-7-31: 40
+          2023-8-7: 40
+  mpr:
+    jobTitle: Manager Projects
+    department: Management Team
+    people:
+      - name: Koen van Leeuwen
+        jobTitle: Manager Projects
+        src: https://media.licdn.com/dms/image/C4D03AQFoVXVYsyIBbA/profile-displayphoto-shrink_100_100/0/1516252191295?e=1684972800&v=beta&t=B_3RRW8HQLGmKaNnAW1F0pX4lBbUbrxaTyi5QKry1xQ
+  mhr:
+    jobTitle: Manager HR
+    department: Secretariaat
+    people:
+      - name: Ingrid Kroneman – Stevens
+        jobTitle: HR Manager
+        src: https://media.licdn.com/dms/image/C4E03AQE0OhhzQvNlEA/profile-displayphoto-shrink_200_200/0/1590932086703?e=1684972800&v=beta&t=FB_NERPdYhTBU-YuakCTMDszws5tHQt8IjN9xcwGLos
+        start: 2008-02
+  hra:
+    jobTitle: HR Adviseur
+    department: Secretariaat
+    people:
+      - name: Angelique van der Horst
+        jobTitle: HR Adviseur
+        start: 2015-12
+        src: https://media.licdn.com/dms/image/D4E03AQHO-z43fEx59A/profile-displayphoto-shrink_200_200/0/1677610877305?e=1684972800&v=beta&t=-9x9Q-ChxqvzgfY4NN0h8phRc_L05zrGU9f5prZTxrU
+  hbh:
+    jobTitle: Hoofd boekhouding
+    department: Secretariaat
+    people:
+      - name: Ida van Alphen
+        jobTitle: Hoofd boekhouding
+        start: 2022-03
+        src: https://media.licdn.com/dms/image/C4E03AQF5OHd6RNDfVA/profile-displayphoto-shrink_200_200/0/1517871364709?e=1684972800&v=beta&t=o6LZ2nG6QpKSiWk3UWCeXX40YDrMFz6jORvxmOG7pko
+  am:
+    jobTitle: Administratief medewerker
+    department: Secretariaat
+    people:
+      # - name: Petra Van den Brink
+      #   jobTitle: Administratief medewerker
+      - name: Florina Hennipman
+        jobTitle: Administratief medewerker
+        start: 2019-02
+        src: https://media.licdn.com/dms/image/C5603AQHnMMdFV9RkNg/profile-displayphoto-shrink_200_200/0/1517529357790?e=1684972800&v=beta&t=epfRh4mAjqW9jPS-_EO2_NyAmWh5AI9LE7S3a1OUfmM
+      - name: Marloes van den Bergh
+        jobTitle: Order Coördinator
+        start: 2023-03
+        src: https://media.licdn.com/dms/image/D4E03AQE_LuxXKEd4gg/profile-displayphoto-shrink_200_200/0/1673868470378?e=1684972800&v=beta&t=WL3frTeafiKSxT0iIX-3uiIR4vMY_FJrOR1IDQ1_jR4
+      - name: Hanneke Boswinkel - van den Brink
+        jobTitle: Interim Executive Assistant
+        start: 2023-03
+        src: https://media.licdn.com/dms/image/C4E03AQEDdG9YYX-qsg/profile-displayphoto-shrink_200_200/0/1650978522542?e=1684972800&v=beta&t=LA6repTPnX8k5mGoyTXmYzRqnY9ntE6PPcPHMj9Hae0
+  ink:
+    jobTitle: Inkoper
+    department: Secretariaat
+    people:
+      - name: Robert Wursten
+        jobTitle: Strategisch Inkoper
+        start: 2022-04
+        src: https://media.licdn.com/dms/image/C4D03AQGRTEk7O_--pw/profile-displayphoto-shrink_200_200/0/1609419678879?e=1684972800&v=beta&t=hBF1z1Z5tvLzrJHQHiq1btw3KXiaLfNP8Z22ecFDcdg
+      - name: Georgette Aussems
+        jobTitle: Inkoper
+        start: 2020-05
+        src: https://media.licdn.com/dms/image/C5603AQFhvkBIGbLIxw/profile-displayphoto-shrink_200_200/0/1574069916978?e=1684972800&v=beta&t=TIfcUQnjkt_iXCqBG9Du1TOANY6DOsmxLL2mbapXDHs
+      - name: Romano Barollo
+        start: 2018-01
+        jobTitle: Senior Interim Tactical Purchaser
+        src: https://media.licdn.com/dms/image/C4E03AQFt4kXOjsDfxw/profile-displayphoto-shrink_200_200/0/1614290550451?e=1684972800&v=beta&t=19opHlOgkNksX-L85AwCi4hKNfE8odOO_VgZGkLlTG4
+      - name: Belinda Noordam
+        jobTitle: Inkoper
+        start: 2016-07
+        src: https://media.licdn.com/dms/image/C4D03AQF7z-PZNYvFhg/profile-displayphoto-shrink_200_200/0/1517380449463?e=1684972800&v=beta&t=uGJer6pWEontxGJHWAnowuNG8AaJzzBkwelwLBcAoCg
+      - name: Evert Groothoff
+        jobTitle: Inkoper
+        start: 2018-04
+        src: https://media.licdn.com/dms/image/C5603AQFMnavz3CJlGQ/profile-displayphoto-shrink_200_200/0/1528987013401?e=1684972800&v=beta&t=AgGrLFcHhBgQEBT1AFRFwxYsUxMgupfB-FIG-C2m05w
+      - name: Gregory Martelli
+        jobTitle: Technisch Inkoper & Logistiek
+        start: 2021-09
+        src: https://media.licdn.com/dms/image/C5603AQHNwbyvPsK3yg/profile-displayphoto-shrink_200_200/0/1605251560068?e=1684972800&v=beta&t=NkxP9rhdn5-CldXl0sQrMdzoyOBQLwRZqk_CFz-7aZo
+  cm:
+    jobTitle: Clientmanager
+    jobTitle: Accountmanager
+    department: Sales
+    people:
+      # - name: Margo Rook	Marketing en Communicatie
+      - name: Aart Versluis
+        jobTitle: Manager Sales
+        jobTitle: Sales Manager
+        src: https://media.licdn.com/dms/image/C4E03AQGGKVKfKL0fFA/profile-displayphoto-shrink_200_200/0/1645696815276?e=1684972800&v=beta&t=DeuVBa3DkP1d22QqnMtKEJCwKgO3k_le-Gaci6OKyNc
+        start: 2021-07
+        mailaddress: aart.versluis@elmabv.nl
+        phone: +31 (0)346 745271
+      - name: Chulan Mulder
+        jobTitle: Accountmanager Systems
+        start: 2022-01
+        src: https://media.licdn.com/dms/image/C4E03AQG7Ip5GWnEt2Q/profile-displayphoto-shrink_200_200/0/1594028017829?e=1684972800&v=beta&t=X7P87Y089gTvmu-oUwGpMPAx67ppKQe3BN5NVN2qrRo
+      # - name: Tim Kuijt
+      #   start: 2018-04
+      #   historie:
+      #     - 2019-11 Jr. Accountmanager
+      #     - 2018-04 Inside Sales Engineer
+      #   jobTitle: Accountmanager
+      - name: Remco Hilligehekken
+        jobTitle: Accountmanager
+        start: 2012-04
+        src: https://media.licdn.com/dms/image/C5603AQHbi_ZJX3HomQ/profile-displayphoto-shrink_200_200/0/1516839636413?e=1684972800&v=beta&t=6dMFK1Gg-Wjx1-UUXG9wY3DpUbqfF_2OGi8mQaUU5-k
+        mailaddress: remco.hilligehekken@elmabv.nl
+        phone: +31 (0)6-13340407
+      # - name: Pieter Bouman
+      #   jobTitle: Accountmanager
+      #   start: 2022-09
+      #   src: https://media.licdn.com/dms/image/C5603AQHBR8KplLUYAQ/profile-displayphoto-shrink_200_200/0/1652974229705?e=1684972800&v=beta&t=67W73yS3TX1V5U74B2Ctk3DEq8gm7UaPibNHtd7OfLc
+  pm:
+    jobTitle: Project Manager
+    department: Projects
+    cost: 80
+    rate: 115
+    people:
+      - name: Geert-Jan Van Leeuwen
+        jobTitle: Projectmanager
+        start: 2021
+        src: https://media.licdn.com/dms/image/C4D03AQGWeZoGwNYI_A/profile-displayphoto-shrink_200_200/0/1555786738874?e=1684972800&v=beta&t=j5opPOGAN4ZqQ_9LJOlQO_-Slspy7DN94dYA1240oJ4
+        historie:
+          - 2021-01, Lead Test Engineer
+          - 2016-01, Test engineer
+          - 2013-11, Assembly engineer
+      - name: Bonnie Antonius
+        jobTitle: Administratief Project Assistent
+        start: 2022-03
+        src: https://media.licdn.com/dms/image/C4E03AQEjHTIuFSge_w/profile-displayphoto-shrink_200_200/0/1641980464048?e=1684972800&v=beta&t=K1dDpbnYEJsTwc6Dqkp1xc1IKFbob1K10sEhSKpvL8M
+  ise:
+    jobTitle: Inside Sales Engineer
+    department: Engineering
+    people:
+      - name: Mike Klasens
+        start: 1999-03
+        mailaddress: mike.klasens@elmabv.nl
+        phone: +31 (0)346 745 261
+        jobTitle: Inside Sales Engineer
+      - name: Jan Willem Oechies
+        jobTitle: Inside Sales Engineer
+        src: https://media.licdn.com/dms/image/C5603AQH9g_yPYdWPVw/profile-displayphoto-shrink_200_200/0/1604150221503?e=1684972800&v=beta&t=MSACLnwzAtfBpuOQVD00UwjY6fMIDb1UEJ_I-Y3O-dM
+        start: 1994-07
+        mailaddress: janwillem.oechies@elmabv.nl
+        phone: +31 (0)346 356 058
+        competenties:
+          - Expert in Drives and Control systems
+      - name: Peter Vlaar
+        jobTitle: Inside Sales Engineer
+        start: 1997-10
+        src: https://media.licdn.com/dms/image/C4E03AQHV-FrOoyp3YA/profile-displayphoto-shrink_200_200/0/1530695533115?e=1684972800&v=beta&t=ArwpvE_Znv66vQ5AR6ETGyjEDtw0uelz1ItGS9bitPs
+        mailaddress: peter.vlaar@elmabv.nl
+        phone: +31 (0)346 356 057
+      - name: Edwin de Boer
+        jobTitle: Inside Sales Engineer
+        start: 2014-10
+        src: https://media.licdn.com/dms/image/C4D03AQFY536jCFL0TQ/profile-displayphoto-shrink_200_200/0/1598964967254?e=1684972800&v=beta&t=-7TjOkbEW_-TngNWx0hF_nKQ2BaYJG3O_I5k92aT_Rs
+        mailaddress: edwin.deboer@elmabv.nl
+        phone: +31 (0)346 745 211
+  tpl:
+    jobTitle: Technical Project Leader
+    department: Engineering
+    cost: 80
+    rate: 115
+  le:
+    jobTitle: Lead Engineer
+    department: Engineering
+    schedule: yes
+    cost: 80
+    rate: 115
+    chapters: &chapters
+      Plaats in de organisatie: Functionaris maakt deel uit van de afdeling "engineering" en ressorteert direct onder Manager Techniek.
+      Rapporteert aan: Hoofd afdeling, Projectleider.
+      Geeft leiding aan: Coördineert, ondersteund, begeleid en geeft leiding aan het gehele projectteam (tot circa 10 personen).
+      Typering van de activiteiten:
+        - De klantvraag op het gebied van TA kunnen inventariseren en vastleggen. Interview / klantgesprek.
+        - Analyse op basis van de geleverde documentatie, klantgesprek en schouw een advies opstellen op tactisch niveau.
+          Site survey of schouw uitvoeren, tij¬dens een schouw van de installatie op basis van de klantvraag, bestek o.i.d.
+        - Communiceren rond de totale procesflow van multi¬disciplinaire complexe TA projecten van klantvraag tot en met onderhoudsprojecten. Administratie voeren.
+        - Algemene kennis TA installaties zoals deze worden toegepast in: machines en apparaten, voeding en genotsmiddelen industrie, elektriciteitsproductie, productie overige goederen en producten, chemische processen, bouwen gezondheidszorg (specifieke kennis wordt in de afzonderlijke subtaken behandeld).
+        - Kernwoorden: analytisch, proactief, adviserend, gericht op verbetering, kostenbewust, risicoanalyse, etc.
+        - Gebruik van normen, richtlijnen, tekeningen en vaktechnische documentatie.
+        - Veldinstrumentatie van de verschillende disciplines toepassen en selecteren en integreren in complexe en multidisciplinaire TA installaties op basis van inventarisatie, FPvE of klantspecificatie.
+        - Horizontale en verticale automatisering van MES t/m veldinstallaties.
+        - Regelsystemen voor TA installaties.
+        - Besturingssystemen TA installaties.
+        - In bedrijfstellen, testen en controleren.
+      Complexiteit:
+        - De functie is gericht op het ontwerpen of ontwikkelen van systemen voor het automatiseren van processen bij klanten,
+          waarbij met diverse technieken wordt gewerkt.
+        - Naast technische is er ook sprake van commerciële aspecten (projectdefinitie, advisering, globale kostenopgaaf).
+        - Grote variatie in omvang, complexiteit en eisen.
+        - Werkt veelal aan meerdere projecten tegelijkertijd en dient zeer vaak vragen te beantwoorden.
+        - Er is sprake van zeer regelmatige omschakeling.
+        - Vrijwel voortdurend dient sprake te zijn van hoge concentratie.
+        - Kent tijddwang als gevolg van de diverse projectdeadlines.
+        - De kennis dient naar inhoud en niveau gelijkwaardig te zijn aan HBO/WO,
+          aangevuld met cursussen en/of trainingen,
+          waaronder diverse leverancierscursussen,
+          met een gemiddelde studielast van 5 jaar.
+      Zelfstandigheid:
+        - Is binnen het kader van de planning van de uit te voeren projecten vrij in eigen tijdsindeling en aandachtgerichtheid.
+        - Is voor wat betreft de wijze van aanpak, keuze van technieken en materialen e.d. vrij binnen de zelf mede opgestelde opdracht.
+        - Creativiteit en eigen initiatief zijn in hoge mate vereist, temeer omdat geen twee projecten identiek zijn.
+        - Beheert het ontwikkelingssysteem geheel zelfstandig.
+        - De leiding fungeert als klankbord.
+        - Toezicht via projectoverleg.
+        - De te maken keuzen vergen een diepgaande afweging van aspecten (veiligheid, techniek, planning, kosten, efficiency en effectiviteit) van de te ontwikkelen systemen.
+        - Kan in voorkomende gevallen geconfronteerd worden met nog niet bewandelde paden.
+        - De contacten met de leiding van vrijwel alle andere afdelingen zijn van groot belang. Geeft leiding aan de projectmedewerkers (tot circa 10 personen).
+      Afbreukrisico:
+        - Fouten die de planning verstoren, kunnen ernstige gevolgen hebben ook indirect door verlies van goodwill.
+        - Fouten in de detailengineering kunnen voorkomen, maar worden doorgaans vrij snel ontdekt.
+        - Systeemfouten kunnen niet altijd tijdig worden ontdekt.
+        - Ontoereikende analyse van de faalkans kan leiden tot grote risico’s voor het bedrijf (eventueel vele tonnen).
+        - De contacten met de opdrachtgever zijn gericht op:
+            - advisering (o.a. inventariseren en concretiseren van functionele klant- en gebruikerswensen, aangeven verschillende projectalternatieven);
+            - het maken van commerciële afspraken;
+            - afstemming en informatieoverdracht.
+        - Contacten met leveranciers zijn van belang voor het verkrijgen van informatie en oplossen van problemen
+        - Overtuigingskracht is van belang.
+        - In een aantal gevallen is geheimhouding van gegevens een absolute vereiste.
+      Competenties:
+        - Contactuele vaardigheden: Treedt vlot en makkelijk in contact (actief) met nieuwe functionele relaties.
+        - Samenwerken (Extern): Is in staat vanuit de eigen organisatie / discipline de inbreng in een groter geheel te plaatsen.
+        - Overtuigingskracht: Beïnvloed. Stelt vragen om bezwaren te overwinnen.
+        - Leiderschap: Stuurt taak- en relatiegericht. Motiveert en geeft duidelijke doelen aan. Stelt prioriteiten.
+        - Initiatief: Neemt het voortouw. Onderneemt actie, ook buiten hetgeen direct wordt gevraagd.
+        - Klantgerichtheid: Voldoet aan de wensen en behoeften van klanten (actief). Houdt zich op de hoogte van klantbehoeften.
+        - Organisatievermogen: Coördineert het werk in relatie met dat van anderen. Beheerst complexe planningen. Houdt totaaloverzicht.
+        - Resultaatgerichtheid: Stelt haalbare doelen en normen vast. Treedt actief op bij haperingen in het proces.
+        - Analytische vaardigheden: Legt een probleem uiteen in onderdelen. Analyseert complexe problemen. Doorziet de samenhang tussen delen van een probleem.
+        - Vakkundigheid: Is vaktechnisch volwassen. Stelt vragen om duidelijkheid te krijgen over het verband tussen complexe vraagstukken.
+        - Technisch inzicht: Technische verbanden
+      Taken, verantwoordelijkheden en bevoegdheden:
+        - Alle werknemers zijn, op grond van hun vakmanschap en na het verkrijgen van instructie, ervoor verantwoordelijk dat:
+          - zij kennis nemen van de algemene veiligheid- en gedragsregels welke beschreven staan in het veiligheidsreglement en die op de bouwplaats gelden.
+          - zij zich houden aan:
+            - de bestaande schriftelijke instructie (o.a. veiligheidsreglement);
+            - de gemaakte afspraken met de directe leidinggevende.
+          - werktuigen, machines, transportmiddelen, gereedschappen en grondstoffen op de juiste manier worden gebruikt en onderhouden.
+          - Defecten moeten aan de directie gemeld worden.
+          - ongevallen, incidenten en/of gevaarlijke situaties gemeld worden aan de directie (meldingsformulier ongeval/incident/gevaarlijke situatie)
+          - beveiligingen op de juiste manier worden toegepast.
+          - persoonlijke beschermingsmiddelen, waar nodig, gedragen worden.
+          - afspraken en instructies worden opgevolgd.
+          - op uitnodiging toolboxmeeting van het bedrijf en/of VGM-bijeenkomsten van opdrachtgever worden bijgewoond.
+          - een eventueel gevaar of risico voor zichzelf of voor collega's zo spoedig mogelijk aan de opdrachtgever of de directie gemeld wordt.
+        - Iedere medewerker heeft de bevoegdheid het werk te onderbreken,
+          wanneer er naar zijn redelijk oordeel voor hem of andere personen onmiddellijk gevaar dreigt.
+          Wel moet hij zijn leidinggevende direct van deze werkonderbreking op de hoogte stellen.
+        - Iedere werknemer heeft het recht om bij medische klachten die in verband staan met zijn werk de bedrijfsarts te bezoeken.
+          Voor meer informatie over de bedrijfsarts, neem contact op met personeelszaken.
+        - Iedere werknemer wordt in de gelegenheid gesteld om deel te nemen aan periodieke medische onderzoeken waarvoor men door de Arbodienst opgeroepen worden.
+          Deze medische keuringen zijn beschreven in de CAO.
+      Fysieke aspecten: Werkt onder kantooromstandigheden. Werkt soms intensief aan de PC.
+    people:
+      - name: Alexandru (Alex) Ciolacu
+        rc: acio
+        jobTitle: Manager Engineering
+        jobTitle: Lead Engineer
+        start: 2022-03
+        src: https://media.licdn.com/dms/image/C4D03AQG_bSc4fswLjw/profile-displayphoto-shrink_200_200/0/1603448938943?e=1684972800&v=beta&t=JeZy8GcxDakK3jLMhfQ5RodEVvWp8rJRlrPmo711KCI
+        verlof:
+          2023-5-8: 40
+      # - name: George-Daniel Gavrila
+      #   rc: ggav
+      #   jobTitle: Lead Engineer
+      #   start: 2022-05
+      #   src: https://media.licdn.com/dms/image/C5103AQFy6wP2GrpNgQ/profile-displayphoto-shrink_200_200/0/1517534987415?e=1684972800&v=beta&t=UkX_Kw52z5v0JhDRUVgbFYXH-5NVPBRYOqw4U9sM2_A
+
+  sa:
+    jobTitle: Systeem Architect
+    department: Engineering
+    schedule: yes
+    cost: 70
+    rate: 105
+    chapters:
+      <<: *chapters
+      Rapporteert aan: Hoofd afdeling, Projectleider, Technisch Projectleider.
+      Geeft leiding aan: Coördineert, ondersteund, begeleid en geeft leiding aan de voor een project toegevoegde medewerkers (tot circa 5 personen).
+      Typering van de activiteiten:
+        - Onderzoekt reactief en proactief naar verbeterin¬gen van de automatisering in TA-installaties en de bedrijfsprocessen.
+        - Bepaalt mede het beleid van de eigen organisatie, adviseert de directie.
+        - Bepaalt op basis van de gewenste klantvraag de benodigde contouren van productiecapaciteit, haal-baarheid enz. bij generieke en specifieke processen de juiste systeemconfiguratie, omvang van systemen en componenten, maximale belasting, veiligheidsmarges.
+        - Selecteert de beste strategie voor de aanpak van technische automatiseringsprojecten, selecteert de juiste leverancier en adviseert over zaken als concept / systeem PLC, SCADA, DCS, MES, GAMP, procesmodellen, architectuurmodellen.
+        - Levert een strategisch ontwerp, compleet met eerst functioneel programma van eisen (FpvE) en onderzoek documenten (benodigde berekeningen, risicoanalyse, architectuur en procesmodellen etc., de blok schematische configuratie (HW en SW).
+        - Begeleidt systeemontwerper, projectleider, service engineer.
+        - Kan de klantvraag op het gebied van TA inventarise¬ren en vastleggen op strategisch en tactisch niveau (interview / klantgesprek).
+        - Analyseert op basis van de geleverde documentatie, klantgesprekken en schouwen. Stelt advies op op tac¬tisch niveau.
+        - Voert site survey of schouw uit op strategisch niveau.
+        - Communiceert rond de totale procesflow van multi¬disciplinaire complexe TA-projecten en voert projectadministratie.
+        - Kan zelfstandig onderzoek doen naar trends en ontwikkelingen in de TA, situatie bij complexe en multidisciplinaire klantinstallaties, implementatie van nieuwe technieken, beleid enz. binnen en buiten de eigen organisatie teneinde grootschalige projec¬ten te verwerven en nieuw beleid te ontwikkelen.
+        - Algemene kennis TA installaties zoals deze worden toegepast in machines en apparaten, voeding en genotsmiddelen industrie, elektriciteitsproductie, productie overige goederen en producten, che¬mische processen, bouw- en gezondheidszorg.
+        - Gebruik van normen, richtlijnen, tekeningen en vak¬technische documentatie.
+        - Veldinstrumentatie van de verschillende disciplines toepassen en selecteren en integreren in com¬plexe en multidisciplinaire TA installaties op basis van inventarisatie, functioneel programma van eisen (FPvE) of klantspecificatie.
+        - Horizontale en verticale automatisering van besturin¬gen, meet- en regelsystemen, PLC, SCADA, DCS t/m veldinstallaties. Ontwerpen TA deelsysteem en func¬ties op basis van een klantopdracht, functionele spe¬cificatie of case en een gedetailleerd ontwerp maken met selectie van onderdelen en functionaliteiten op detailniveau.
+        - Horizontale en verticale automatisering van besturingen, meet- en regelsystemen, PLC, SCADA, DCS t/m MES. Ontwerpen TA systeem en functies op basis van een klantopdracht of een bestek maken com-pleet met selectie van automatiseringsstrategie en -concepten, technologie en eventueel fabricaat van TA systeem en deelsysteem en inclusief benodigde functionaliteiten.
+        - Regelsystemen voor TA installaties. Besturingssystemen TA installaties. In bedrijfstellen, testen en controleren.
+      Complexiteit:
+        - De functie is gericht op het ontwerpen of ontwikkelen (in samenwerking met de klant) van complexere technische automatiseringssystemen (hard- en software).
+        - Naast technische is er ook sprake van commerciële aspecten (projectdefinitie, advisering, globale kostenopgaaf).
+        - Grote variatie in omvang, complexiteit en eisen.
+        - Werkt veelal aan meerdere projecten tegelijkertijd en dient vaak vragen te beantwoorden.
+        - Er is sprake van regelmatige omschakeling.
+        - Vrijwel continue dient sprake te zijn van hoge concentratie.
+        - Kent tijddwang als gevolg van projectdeadlines.
+        - De kennis dient naar inhoud en niveau gelijkwaardig te zijn aan HBO/WO, aangevuld met cursussen en/of trainingen, waar onder diverse leverancierscursussen, met een gemiddelde studielast tot 4 jaar.
+      Zelfstandigheid:
+        - Stelt eigen planning op binnen het kader van de project- of orderplanning.
+        - Houdt zich aan de (globale) afspraken met de klant.
+        - Heeft voor het overige een grote mate van vrijheid, waarbij creativiteit en eigen initiatief in ruime mate vereist zijn.
+        - Beheert het ontwikkelingssysteem eventueel geheel zelfstandig.
+        - Bevordert ingebouwde controlesystemen en standaardisatie.
+        - Toezicht vindt plaats via projectoverleg.
+        - De te maken keuzen hebben betrekking op de optimale fit tussen het klantsysteem, toegepaste technieken en effectiviteit van het te ontwerpen systeem.
+        - De contacten met vooral de leiding van andere afdelingen (ook van ongelijke functiesoort) zijn belangrijk in verband met de rol die aan de afdeling is toegedacht.
+      Afbreukrisico:
+        - Fouten die de planning verstoren kunnen ernstige gevolgen hebben, ook indirect door verlies van goodwill.
+        - Fouten die eventueel op langere termijn leiden tot falen van de producten of systemen kunnen onoverzienbare schades veroorzaken in het proces van de klant.
+        - De contacten met de opdrachtgever zijn gericht op advisering (o.a. inventariseren en concretiseren van functionele klant- en gebruikerswensen, aangeven verschillende projectalternatieven), afstemming en informatieoverdracht.
+        - Contacten met leveranciers zijn van belang voor het verkrijgen van informatie en oplossen van problemen.
+        - Overtuigingskracht is van belang.
+        - Er is geheimhouding vereist over klantgegevens
+      Competenties:
+        Contactuele vaardigheden: Treedt vlot en makkelijk in contact (actief) met nieuwe functionele relaties.
+        Samenwerken (extern): Weet zich inzicht te verschaffen in grotere multifunctionele projecten waarin de eigen organisatie een bijdrage heeft. Is in staat de eigen organisatie inbreng in een groter geheel te plaatsen.
+        Overtuigingskracht: Draagt enthousiasme over. Gebruikt meerdere tactieken om anderen te overtuigen.
+        Initiatief: Neemt het voortouw. Onderneemt actie ook buiten hetgeen direct wordt gevraagd door de zaak of het probleem.
+        Klantgerichtheid: Houdt zich op de hoogte van klantenwensen en behoeften. Onderzoekt wat de klant wil. Komt tegemoet aan wensen en behoeften van de klant, ook wanneer deze niet rechtstreeks door de klant worden aangegeven.
+        (Strategische) visie: Herkent patronen en legt verbanden. Merkt (externe) veranderingen op en ziet het belang ervan in voor de organisatie. Vertaalt ontwikkelingen in praktische plannen en legt deze uit.
+        Resultaatgerichtheid: Legt realistische resultaatmaatstaven vast voor zichzelf en anderen. Maakt uitvoeringsplannen om resultaten te behalen.
+        Veranderingsvermogen: Staat open voor onbekende / nieuwe informatie uit de omgeving. Gaat soepel om met problemen of niet geëigende situaties.
+        Stressbestendigheid: Houdt in stressvolle situaties het totaaloverzicht en neemt de juiste beslissingen.
+        Analytische vaardigheden: Zet diverse benaderingen tegen elkaar af t.b.v. oplossingen. Ziet volgende noodzakelijke stappen, brengt ze in kaart.
+        Creativiteit: Komt met geheel nieuwe ideeën en oplossingen. Ontwikkelt nieuwe methoden en technieken.
+        Vakkundigheid: Draagt vakinhoudelijk kennis over. Treedt op als mentor en begeleider van vaktechnisch jongere collega's en wordt geraadpleegd.
+        Nauwkeurigheid: Ontdekt fouten / onnauwkeurigheden, ook in andermans werk. Is in staat langdurig met detailinformatie om te gaan.
+        Kwaliteitsgerichtheid: Verzekert zich ervan dat eigen werk aan kwaliteitsnormen voldoet (door vragen of controle).
+        Technisch inzicht: Stelt vragen om duidelijkheid te krijgen omtrent oorzaak en gevolg in complexe technische verbanden. Hanteert analysetechnieken om verbanden in complexe technische processen te doorzien. Analyseert en ontwerpt methodisch een meet- en regelcircuit ter beheersing van productieprocessen.
+      Fysieke aspecten: Werkt onder kantooromstandigheden. Werkt langdurig aan de PC.
+  sse:
+    jobTitle: Senior Systems Engineer
+    department: Engineering
+    schedule: yes
+    cost: 70
+    rate: 105
+    chapters:
+      <<: *chapters
+      Rapporteert aan: Hoofd afdeling, Projectleider, Technisch Projectleider, Systeemarchitect, monteurs en servicemedewerkers
+      Geeft leiding aan: Stuurt softwareontwerpers, Monteurs en servicemedewerkers aan.
+      Typering van de activiteiten:
+        - Maakt het ontwerp op basis van een gegeven pro¬bleemstelling of casus (FPvE) welke door de functie in een praktische systemen, geavanceerde regel- en besturingsstrategieën uitgeengineerd FPvTE en een bijbehorend ontwerp wordt omgezet.
+        - Zet op gestructureerde wijze het FPvE en functioneel ontwerp met behulp van gebruikelijke pro-gramma's/tools om in de benodigde: PLC / SCADA / DCS-systeemconfiguraties, blokschema's, model-len, functieblokken, tekeningen en schema's (E, I, W, sequencediagrammen, voorwaardenschema's, P&ID, ladderdiagrammen, configuratielisting etc.).
+        - Bepaalt op basis van de gewenste productie¬capaciteit en de specifieke processen de juiste systeem configuratie, omvang van systemen en componenten, maximale belasting, veiligheidsmar¬ges; instellingen en of eigenschappen en selecteert de juiste systemen en systeem componenten.
+        - Selecteert de beste regel en besturingsstrategie, selecteert de juiste leverancier en het te gebruiken concept/systeem PLC, SCADA, DCS, MES.
+        - Levert een ontwerp, compleet met documentatiepak¬ket (benodigde berekeningen, programmaselecties, de blokschematische configuratie (HW en SW), PLC en besturing, I/O, configuratie, regelsystemen, veld¬apparatuur, beveiligingen).
+        - Begeleidt detailengineering, functionele testen, het schrijven van opleveringsprotocollen, maakt globale programmabeschrijvingen waar nodig voor de imple¬mentatie bij de klant.
+        - Voert klantgesprekken, overlegt met opdrachtgevers intern of extern.
+        - Analyseert op basis van de geleverde documen¬tatie, klantgegevens en opdracht en kan de uit te voeren werkzaamheden puntsgewijs beschrijven.
+        - Kan tijdens project samenwerken met verschillende betrokken partijen.
+        - Algemene kennis TA installaties zoals deze worden toegepast in machines en apparaten, voeding en genotsmiddelen industrie, elektriciteitsproductie, productie overige goederen en producten, che¬mische processen, bouwen gezondheidszorg.
+        - Gebruik van normen, richtlijnen, tekeningen en vaktechnische documentatie.
+        - Veldinstrumentatie van de verschillende disciplines toepassen en selecteren en integreren in complexe en multidisciplinaire TA installaties op basis van inventarisatie, functioneel programma van eisen (FPvE) of klantspecificatie.
+        - Horizontale en verticale automatisering van besturin¬gen, meet- en regelsystemen, PLC, SCADA, DCS t/m veldinstallaties. Ontwerpen TA deelsysteem en func¬ties op basis van een klantopdracht, functionele spe¬cificatie of case en een gedetailleerd ontwerp maken met selectie van onderdelen en functionaliteiten op detailniveau.
+        - Horizontale en verticale automatisering van besturingen, meet- en regelsystemen, PLC, SCADA, DCS t/m MES. Ontwerpen TA systeem en functies op basis van een klantopdracht of een bestek maken com-pleet met selectie van automatiseringsstrategie en -concepten, technologie en eventueel fabricaat van TA systeem en deelsysteem en inclusief benodigde functionaliteiten.
+        - Regelsystemen voor TA installaties.
+        - Besturingssystemen TA installaties.
+        - In bedrijfstellen, testen en controleren.
+      Complexiteit:
+        - De functie is gericht op het ontwerpen en/of ontwikkelen (in samenwerking met de klant) van relatief eenvoudige technische automatiseringssystemen.
+        - Heeft zowel hard- als software-aspecten in de functie.
+        - Naast technische is er ook sprake van commerciële aspecten (projectdefinitie, advisering, globale kostenopgaaf).
+        - Werkt veelal aan meerdere projecten tegelijkertijd, dient vaak vragen te beantwoorden.
+        - De aandacht moet ook regelmatig gericht zijn op het overzien van consequenties voor het klantsysteem.
+        - Het merendeel van het werk vereist grote accuratesse en hoge concentratie.
+        - Kent tijddwang als gevolg van projectdeadlines.
+        - De kennis dient naar inhoud en niveau gelijkwaardig te zijn aan VWO met pakketeisen/AD, aangevuld met cursussen en/of trainingen, waaronder diverse leverancierscursussen, met een gemiddelde studielast tot 3 jaar.
+      Zelfstandigheid:
+        - Deelt de eigen tijd in binnen de projectplanning.
+        - De globale afspraken (met de klant) over het ontwerp vormen het gegeven.
+        - Heeft daarbinnen een grote mate van vrijheid in uitvoering.
+        - Veranderingen vergen overleg.
+        - Zaken moeten tot in detail worden doordacht.
+        - Aanpak en vormgeving vereisen inzicht, inventiviteit en (jaren) ervaring.
+        - Toezicht via de resultaten en overleg.
+        - De te maken keuzen hebben betrekking op het tot stand komen van het ontwerpvoorstel.
+        - De ontwerpproblematiek bevat meervoudige meet- en regelcircuits tot en met MES-niveau en vergt ruim inzicht in de consequenties van de keuzen.
+        - De contacten met leiding en medewerkers van andere afdelingen zijn belangrijk in verband met de rol die de afdeling is toegedacht. Geeft functioneel leiding aan 1 à 2 assistent(en).
+      Afbreukrisico:
+        - Fouten in beoordeling, adviezen of interpretatie berokkenen grote financiële schade aan het bedrijf, zeker bij fouten die zich op langere termijn (bij samenloop van omstandigheden) manifesteren. Dat kan leiden tot forse schadeclaims en tot ernstige schade aan het imago van het bedrijf.
+        - Via zelfcontrole en herhaalde controle door anderen kunnen de meeste fouten worden voorkomen.
+        - Ontdekte fouten zijn goed te herstellen.
+        - De contacten met klanten en leveranciers en keuringsinstanties zijn van groot belang voor het welslagen van het project en de reputatie van het bedrijf.
+        - Enige geheimhouding is vereist.
+      Competenties:
+        Contactuele vaardigheden: Treedt vlot en makkelijk in contact (actief) met collega's.
+        Samenwerken: Werkt met anderen samen aan een bepaalde taak. Toont zich een loyaal en belangstellend collega.
+        Klantgerichtheid: Reageert op wensen en behoeften van klanten. Houdt zich op de hoogte van klantenwensen en behoeften. Onderzoekt wat de klant wil.
+        Resultaatgerichtheid: Treedt actief op bij haperingen in het proces. Blijft vasthouden aan de uitgangspunten met betrekking tot het resultaat.
+        Doorzettingsvermogen: Houdt vol om doel te bereiken.
+        Veranderingsvermogen: Staat open voor onbekende/nieuwe informatie uit de omgeving. Gaat soepel om met problemen of niet geëigende situaties.
+        Stressbestendigheid: Blijft onder druk effectief werken.
+        Analytische vaardigheden: Zet diverse benaderingen tegen elkaar af t.b.v. oplossingen. Ziet de volgende noodzakelijke stappen en brengt ze in kaart.
+        Creativiteit: Komt met nieuwe ideeën gebaseerd op bestaande concepten en modellen. Past bestaande producten, concepten of modellen toe in nieuwe probleemsituaties.
+        Vakkundigheid: Is vaktechnisch volwassen.
+        Nauwkeurigheid: Ontdekt fouten/onnauwkeurigheden, ook in andermans werk. Is in staat langdurig met detailinformatie om te gaan.
+        Kwaliteitsgerichtheid: Verzekert zich ervan dat eigen werk aan kwaliteitsnormen voldoet (door vragen of controle).
+        Technisch inzicht: Stelt vragen om duidelijkheid te krijgen omtrent oorzaak en gevolg in complexe technische verbanden.
+      Fysieke Aspecten: Werkt onder kantooromstandigheden. Werkt langdurig aan de PC.
+    people:
+      - name: William Kok
+        rc: wkok
+        jobTitle: Senior Project Engineer
+        jobTitle: Lead Engineer
+        src: https://media.licdn.com/dms/image/C5603AQF6XWpGJ_KAAg/profile-displayphoto-shrink_200_200/0/1562166019977?e=1684972800&v=beta&t=5vYwYqWNUUO3iACLxyMo15AYL1budmHDt38-cB4ioaE
+      - name: Lennard Mensch
+        rc: lmen
+        start: 2019-05
+        jobTitle: Automation & drives
+        jobTitle: System Engineer
+        jobTitle: Lead Engineer
+
+  se:
+    jobTitle: System Engineer
+    department: Engineering
+    schedule: yes
+    cost: 70
+    rate: 105
+    chapters:
+      <<: *chapters
+      Rapporteert aan: Hoofd afdeling, Projectleider, Technisch Projectleider, Systeem Architect.
+      Geeft leiding aan: Geeft functioneel leiding aan 1 à 2 assistent(en), softwareontwerpers, monteurs en servicemedewerkers.
+      Typering van de activiteiten:
+        - Maakt het ontwerp op basis van een gegeven pro¬bleemstelling of casus (FPvE) welke door de functie in een praktische systemen, geavanceerde regel- en besturingsstrategieën uitgeengineerd FPvTE en een bijbehorend ontwerp wordt omgezet.
+        - Zet op gestructureerde wijze het FPvE en functio¬neelontwerp met behulp van gebruikelijke pro-gramma's/tools om in de benodigde: PLC / SCADA / DCS-systeemconfiguraties, blokschema's, model-len, functieblokken, tekeningen en schema's (E, I, W, sequencediagrammen, voorwaardenschema's, P&ID, ladderdiagrammen, configuratielisting etc.).
+        - Bepaalt op basis van de gewenste productie¬capaciteit en de specifieke processen de juiste systeem configuratie, omvang van systemen en componenten, maximale belasting, veiligheidsmar¬ges; instellingen en of eigenschappen en selecteert de juiste systemen en systeem componenten.
+        - Selecteert de beste regel en besturingsstrategie, selecteert de juiste leverancier en het te gebruiken concept/systeem PLC, SCADA, DCS, MES.
+        - Levert een ontwerp, compleet met documentatiepak¬ket (benodigde berekeningen, programmaselecties, de blokschematische configuratie (HW en SW), PLC en besturing, I/O, configuratie, regelsystemen, veld¬apparatuur, beveiligingen).
+        - Begeleidt detailengineering, functionele testen, het schrijven van opleveringsprotocollen, maakt globale programmabeschrijvingen waar nodig voor de imple¬mentatie bij de klant.
+        - Voert klantgesprekken, overlegt met opdrachtgevers intern of extern.
+        - Analyseert op basis van de geleverde documen¬tatie, klantgegevens en opdracht en kan de uit te voeren werkzaamheden puntsgewijs beschrijven.
+        - Kan tijdens project samenwerken met verschillende betrokken partijen.
+        - Algemene kennis TA installaties zoals deze worden toegepast in machines en apparaten, voeding en genotsmiddelen industrie, elektriciteitsproductie, productie overige goederen en producten, che¬mische processen, bouwen gezondheidszorg.
+        - Gebruik van normen, richtlijnen, tekeningen en vaktechnische documentatie.
+        - Veldinstrumentatie van de verschillende disciplines toepassen en selecteren en integreren in complexe en multidisciplinaire TA installaties op basis van inventarisatie, functioneel programma van eisen (FPvE) of klantspecificatie.
+        - Horizontale en verticale automatisering van besturin¬gen, meet- en regelsystemen, PLC, SCADA, DCS t/m veldinstallaties. Ontwerpen TA deelsysteem en func¬ties op basis van een klantopdracht, functionele spe¬cificatie of case en een gedetailleerd ontwerp maken met selectie van onderdelen en functionaliteiten op detailniveau.
+        - Horizontale en verticale automatisering van besturingen, meet- en regelsystemen, PLC, SCADA, DCS t/m MES. Ontwerpen TA systeem en functies op basis van een klantopdracht of een bestek maken com-pleet met selectie van automatiseringsstrategie en -concepten, technologie en eventueel fabricaat van TA systeem en deelsysteem en inclusief benodigde functionaliteiten.
+        - Regelsystemen voor TA installaties.
+        - Besturingsystemen TA installaties.
+        - In bedrijfstellen, testen en controleren.
+      Complexiteit:
+        De functie is gericht op het ontwerpen en/of ontwikkelen (in samenwerking met de klant) van relatief eenvoudige technische automatiseringssystemen. Heeft zowel hard- als softwareaspecten in de functie. Naast technische is er ook sprake van commerciële aspecten (projectdefinitie, advisering, globale kostenopgaaf). Werkt veelal aan meerdere projecten tegelijkertijd, dient vaak vragen te beantwoorden. De aandacht moet ook regelmatig gericht zijn op het overzien van consequenties voor het klantsysteem. Het merendeel van het werk vereist grote accuratesse en hoge concentratie. Kent tijddwang als gevolg van projectdeadlines. De kennis dient naar inhoud en niveau gelijkwaardig te zijn aan VWO met pakketeisen/AD, aangevuld met cursussen en/of trainingen, waaronder diverse leverancierscursussen, met een gemiddelde studielast tot 3 jaar.
+      Zelfstandigheid:
+        Deelt de eigen tijd in binnen de projectplanning. De globale afspraken (met de klant) over het ontwerp vormen het gegeven. Heeft daarbinnen een grote mate van vrijheid in uitvoering. Veranderingen vergen overleg. Zaken moeten tot in detail worden doordacht. Aanpak en vormgeving vereisen inzicht, inventiviteit en (jaren) ervaring. Toezicht via de resultaten en overleg. De te maken keuzen hebben betrekking op het tot stand komen van het ontwerpvoorstel. De ontwerpproblematiek bevat meervoudige meet- en regelcircuits tot en met MES-niveau en vergt ruim inzicht in de consequenties van de keuzen. De contacten met leiding en medewerkers van andere afdelingen zijn belangrijk in verband met de rol die de afdeling is toegedacht.
+      Afbreukrisico:
+        Fouten in beoordeling, adviezen of interpretatie berokkenen grote financiële schade aan het bedrijf, zeker bij fouten die zich op langere termijn (bij samenloop van omstandigheden) manifesteren. Dat kan leiden tot forse schadeclaims en tot ernstige schade aan het imago van het bedrijf. Via zelfcontrole en herhaalde controle door anderen kunnen de meeste fouten worden voorkomen. Ontdekte fouten zijn goed te herstellen. De contacten met klanten en leveranciers en keuringsinstanties zijn van groot belang voor het welslagen van het project en de reputatie van het bedrijf. Enige geheimhouding is vereist.
+      Competenties:
+        Contactuele vaardigheden: Treedt vlot en makkelijk in contact (actief) met collega's.
+        Samenwerken: Werkt met anderen samen aan een bepaalde taak. Toont zich een loyaal en belangstellend collega.
+        Klantgerichtheid: Reageert op wensen en behoeften van klanten. Houdt zich op de hoogte van klantenwensen en behoeften. Onderzoekt wat de klant wil.
+        Resultaatgerichtheid: Treedt actief op bij haperingen in het proces. Blijft vasthouden aan de uitgangspunten met betrekking tot het resultaat.
+        Doorzettingsvermogen: Houdt vol om doel te bereiken.
+        Veranderingsvermogen: Staat open voor onbekende/nieuwe informatie uit de omgeving. Gaat soepel om met problemen of niet geëigende situaties.
+        Stressbestendigheid: Blijft onder druk effectief werken.
+        Analytische vaardigheden: Zet diverse benaderingen tegen elkaar af t.b.v. oplossingen. Ziet de volgende noodzakelijke stappen en brengt ze in kaart.
+        Creativiteit: Komt met nieuwe ideeën gebaseerd op bestaande concepten en modellen. Past bestaande producten, concepten of modellen toe in nieuwe probleemsituaties.
+        Vakkundigheid: Is vaktechnisch volwassen.
+        Nauwkeurigheid: Ontdekt fouten/onnauwkeurigheden, ook in andermans werk. Is in staat langdurig met detailinformatie om te gaan.
+        Kwaliteitsgerichtheid: Verzekert zich ervan dat eigen werk aan kwaliteitsnormen voldoet (door vragen of controle).
+        Technisch inzicht: Stelt vragen om duidelijkheid te krijgen omtrent oorzaak en gevolg in complexe technische verbanden.
+      Fysieke Aspecten:
+        Werkt onder kantooromstandigheden. Werkt langdurig aan de PC.
+    people:
+      - name: Paul Baas
+        rc: pbaa
+        start: 2022-04	Cost Engineer
+  sswe:
+    jobTitle: Senior Software Engineer
+    department: Engineering
+    schedule: yes
+    cost: 65
+    rate: 95
+    chapters:
+      <<: *chapters
+      Rapporteert aan: Hoofd afdeling, Projectleider, Technisch Projectleider, Systeem Architect, Systeem Ontwerper
+      Geeft leiding aan: Stuurt (zeer beperkt) monteurs en servicemedewerkers aan.
+      Typering van de activiteiten:
+        - Maakt het ontwerp op basis van een gegeven pro¬bleemstelling of casus (tot en met het niveau van deelsysteem, subroutine, PLC of regelmodule) dat door de beroepsbeoefenaar in een praktisch uitgeengineerd detailontwerp wordt omgezet.
+        - Zet op gestructureerde wijze het detailontwerp met behulp van gebruikelijke programma's / tools om in de benodigde PLC / SCADA / DCS-programma's, con¬figuraties en instellingen, tekeningen en schema's (E, I, W, sequencediagrammen, voorwaardensche¬ma's, P&ID, ladderdiagrammen, configuratielisting etc).
+        - Programmeert / voert in, configureert ontwerpen / programma's in de gangbare TA-systemen / onder-delen (smart, convertor, io, interface, besturing, regelingen etc.).
+        - Levert een werkende en geteste (deel)installatie op, compleet met documentatiepakket (benodigde programma's, de configuratie (HW en SW), PLC- en besturing, I/O-configuratie, regelsystemen, veldap-paratuur, beveiligingen).
+        - Begeleidt functionele testen, schrijft opleverings¬protocollen, maakt programmabeschrijvingen waar nodig voor de implementatie bij de klant.
+        - Voert klantgesprekken, heeft overleg met opdracht¬gevers intern of extern.
+        - Analyseert (kleinere) installaties op basis van de geleverde documen¬tatie, klantgegevens en opdracht en kan de uit te voeren werkzaamheden puntsgewijs beschrijven.
+        - Kan tijdens project samenwerken met verschillende betrokken partijen.
+        - Algemene kennis TA installaties zoals deze worden toegepast in machines en apparaten, voeding en genotsmiddelen industrie, elektriciteit productie, productie overige goederen en producten, chemi¬sche processen, bouw en gezondheidszorg (op deel¬systeemniveau).
+        - Gebruik van normen, richtlijnen, tekeningen en vaktechnische documentatie.
+        - Veldinstrumentatie van de verschillende disciplines toepassen, selecteren en integreren in complexe en multidisciplinaire TA installaties op basis van inven¬tarisatie, functioneel programma van eisen (FPvE) of klantspecificatie.
+        - Horizontale en verticale automatisering van besturin¬gen, meet- en regelsystemen, PLC, SCADA, DCS t/m veldinstallaties. Ontwerpen TA deelsysteem en func¬ties op basis van een klantopdracht, functionele spe¬cificatie of case en een gedetailleerd ontwerp maken met selectie van onderdelen en functionaliteiten op detailniveau.
+        - Regelsystemen voor TA installaties (op deelsysteem¬niveau).
+        - Besturingsystemen TA installaties (op deelsysteem¬niveau).
+        - In bedrijfstellen, testen en controleren (op deelsysteemniveau).
+        - Structurele en methodische aanpak van een TA ontwerp (op detailniveau) met gebruik gangbare ontwerp en ontwerpproces applicaties en methodie¬ken. Het resultaat is een compleet gedocumenteerd realiseerbaar ontwerp van een deelsysteem TA.
+      Complexiteit:
+        De functie is gericht op uitwerken van detailontwerpen ten behoeve van PLC/SCADA/DCS-programma’s, configuraties, instellingen en schema’s.
+        Het werk bevat een aantal facetten dat accuratesse en concentratie vereist.
+        Regelmatig is sprake van werken onder tijddwang.
+        De kennis dient naar inhoud en niveau gelijkwaardig te zijn aan HAVO met aanvullende pakketeisen/VWO/MBO-4, aangevuld met cursussen en/of trainingen, waaronder diverse leverancierscursussen, met een gemiddelde studielast tot 2 jaar.
+      Zelfstandigheid:
+        Is binnen het kader van het vastgestelde tijdschema, tamelijk vrij in eigen tijdsindeling.
+        Werkt grotendeels zelfstandig aan kleinere complexe installaties.
+        Toezicht via overleg.
+        De te maken keuzen vergen inventiviteit.
+        De ontwerpproblematiek bevat meervoudige meet- en regelcircuits en vergt inzicht in de consequenties van de keuzen.
+        De contacten met (leidinggevende) functionarissen (zoals werkvoorbereiders, engineers, installatietechnici) gaan over in bedrijfstellen, testen e.d. en zijn van belang voor de voortgang en kwaliteit van de werkzaamheden.
+      Afbreukrisico:
+        Fouten of onachtzaamheden verstoren de realisatie van de planning op de afdeling.
+        Eventueel kunnen fouten in de ontwerpkwaliteit kosten veroorzaken (b.v. door reactie van klanten) die verder reiken dan de te behalen resultaten.
+        Het eindresultaat wordt gecontroleerd met behulp van tests.
+        Heeft contacten met opdrachtgevers gericht op de technische inhoud van het ontwerp.
+      Competenties:
+        Contactuele vaardigheden: Treedt vlot en makkelijk in contact (actief) met collega's.
+        Samenwerken: Werkt met anderen samen aan een bepaalde taak. Toont zich een loyaal en belangstellend collega.
+        Klantgerichtheid: Reageert op wensen en behoeften van klanten.
+        Resultaatgerichtheid: Treedt actief op bij haperingen in het proces. Blijft vasthouden aan de uitgangspunten met betrekking tot het resultaat.
+        Doorzettingsvermogen: Houdt vol om doel te bereiken.
+        Veranderingsvermogen: Staat open voor onbekende / nieuwe informatie uit de omgeving. Gaat soepel om met problemen of niet geëigende situaties.
+        Stressbestendigheid: Blijft onder druk effectief werken.
+        Analytische vaardigheden: Onderkent problemen. Stelt vragen om duidelijkheid te krijgen over het probleem / de situatie en hoofd- en bijzaken.
+        Creativiteit: Komt met nieuwe ideeën gebaseerd op bestaande concepten en modellen. Past bestaande producten, concepten of modellen toe in nieuwe probleemsituaties.
+        Vakkundigheid: Is vaktechnisch bekwaam.
+        Nauwkeurigheid: Ontdekt fouten/onnauwkeurigheden in het eigen werk. Is opmerkzaam ten aanzien van kleinigheden.
+        Kwaliteitsgerichtheid: Verzekert zich ervan dat eigen werk aan kwaliteitsnormen voldoet (door vragen of controle).
+        Technisch inzicht: Stelt vragen om duidelijkheid te krijgen omtrent oorzaak en gevolg in complexe technische verbanden.
+      Fysieke Aspecten: Werkt onder kantooromstandigheden. Werkt langdurig aan de PC.
+    people:
+      - name: Dennis van den Hout
+        rc: dhou
+        start: 2022-12
+        competenties:
+          - Interne ICT?
+        jobTitle: Senior Software Engineer
+        src: https://media.licdn.com/dms/image/C4E03AQE9p-b_J-pD9g/profile-displayphoto-shrink_200_200/0/1641152184893?e=1684972800&v=beta&t=885zW_QBBgA8Dk98PeMFQRZdq6-X4Oik4Vl2Dbc7xaU
+        verlof:
+          2023-5-8: 40
+      - name: Mittro van Lissa
+        rc: mlis
+        jobTitle: Senior Software Engineer
+        src: https://media.licdn.com/dms/image/D4E03AQEO12ZqaKq29w/profile-displayphoto-shrink_200_200/0/1666938013783?e=1684972800&v=beta&t=Oycg5JhCV0lPdQ0nCfmB-glDvSYcvrVhRprOSV9h1FA
+      - name: Johan Scholten
+        rc: jsco
+        jobTitle: Senior Software Engineer
+        start: 2022-10
+        src: https://media.licdn.com/dms/image/C4E03AQEVn58Auh9kfA/profile-displayphoto-shrink_200_200/0/1526030908395?e=1684972800&v=beta&t=-Y17rPPzU0rzzHD7d6Iyz41IK_VsbA0pFUUBvLEB5sU
+        competenties:
+          - Lead, Sr, Controls
+
+  swe:
+    jobTitle: Software Engineer
+    department: Engineering
+    schedule: yes
+    cost: 65
+    rate: 95
+    chapters:
+      <<: *chapters
+      Rapporteert aan: Hoofd afdeling, Projectleider, Technisch Projectleider, Systeem Architect, Systeem Ontwerper
+      Geeft leiding aan: Niet van toepassing.
+      Typering van de activiteiten:
+        - Maakt het ontwerp op basis van een gegeven pro¬bleemstelling of casus (tot en met het niveau van deelsysteem, subroutine, PLC of regelmodule) dat door de beroepsbeoefenaar in een praktisch uitgeengineerd detailontwerp wordt omgezet.
+        - Zet op gestructureerde wijze het detailontwerp met behulp van gebruikelijke programma's / tools om in de benodigde PLC / SCADA / DCS-programma's, con¬figuraties en instellingen, tekeningen en schema's (E, I, W, sequencediagrammen, voorwaardensche¬ma's, P&ID, ladderdiagrammen, configuratielisting etc).
+        - Programmeert / voert in, configureert ontwerpen / programma's in de gangbare TA-systemen / onder-delen (smart, convertor, io, interface, besturing, regelingen etc.).
+        - Levert een werkende en geteste (deel)installatie op, compleet met documentatiepakket (benodigde programma's, de configuratie (HW en SW), PLC- en besturing, I/O-configuratie, regelsystemen, veldap-paratuur, beveiligingen).
+        - Begeleidt functionele testen, schrijft opleverings¬protocollen, maakt programmabeschrijvingen waar nodig voor de implementatie bij de klant.
+        - Voert klantgesprekken, heeft overleg met opdracht¬gevers intern of extern.
+        - Analyseert (kleinere) installaties op basis van de geleverde documen¬tatie, klantgegevens en opdracht en kan de uit te voeren werkzaamheden puntsgewijs beschrijven.
+        - Kan tijdens project samenwerken met verschillende betrokken partijen.
+        - Algemene kennis TA installaties zoals deze worden toegepast in machines en apparaten, voeding en genotsmiddelen industrie, elektriciteit productie, productie overige goederen en producten, chemi¬sche processen, bouwen gezondheidszorg (op deel¬systeemniveau).
+        - Gebruik van normen, richtlijnen, tekeningen en vaktechnische documentatie.
+        - Regelsystemen voor TA installaties (op deelsysteem¬niveau).
+        - Besturingsystemen TA installaties (op deelsysteem¬niveau).
+        - In bedrijfstellen, testen en controleren (op deelsysteemniveau).
+      Complexiteit:
+        De functie is gericht op het programmeren van PLC’s, of deelsystemen van SCADA in een of twee programmeertalen,
+        al dan niet met behulp van geautomatiseerde systemen.
+        Het werk bevat bureau- en computerwerk dat accuratesse en concentratie vereist.
+        Eventueel is sprake van tijddwang.
+        De kennis dient naar inhoud en niveau gelijkwaardig te zijn aan HAVO met aanvullende pakketeisen/VWO/MBO-4, aangevuld met cursussen en/of trainingen, waaronder diverse leverancierscursussen, met een gemiddelde studielast tot 1 jaar.
+      Zelfstandigheid:
+        Kan enigszins variëren binnen een vastgesteld tijdschema. Bepaalt, onder toezicht van hoger gekwalificeerd personeel, gedeeltelijk zelf de uiteindelijke vormgeving door een aantal keuzes te maken op basis van inzicht en (een jaar) praktische ervaring. Toezicht via regulier overleg. De te maken keuzen zijn gericht op de ontwerpproblematiek en liggen op enkelvoudige meet- en regelcircuits en vereisen gespecialiseerde kennis van het (PLC-) systeem. De contacten binnen de afdeling en met betrokken functionarissen van andere afdelingen zijn van belang voor de programmakwaliteit.
+      Afbreukrisico:
+        Fouten of onachtzaamheden verstoren de voortgang op de afdeling en kunnen stagnatie op andere afdelingen veroorzaken. De kans op tijdig ontdekken en herstellen is vrij groot door systeemcontrole (testen) en zelfcontrole. De incidentele contacten met leveranciers (medewerkers) zijn gericht op onderhoud en vereisen goede verstandhouding.
+      Competenties:
+        Contactuele vaardigheden: Treedt vlot en makkelijk in contact (actief) met collega's.
+        Samenwerken: Werkt met anderen samen aan een bepaalde taak. Toont zich een loyaal en belangstellend collega.
+        Klantgerichtheid: Reageert op wensen en behoeften van klanten.
+        Resultaatgerichtheid: Treedt actief op bij haperingen in het proces. Blijft vasthouden aan de uitgangspunten met betrekking tot het resultaat.
+        Doorzettingsvermogen: Houdt vol om doel te bereiken.
+        Veranderingsvermogen: Staat open voor onbekende / nieuwe informatie uit de omgeving. Gaat soepel om met problemen of niet geëigende situaties.
+        Stressbestendigheid: Blijft onder druk effectief werken.
+        Analytische vaardigheden: Onderkent problemen. Stelt vragen om duidelijkheid te krijgen over het probleem / de situatie en hoofd- en bijzaken.
+        Creativiteit: Komt met nieuwe ideeën gebaseerd op bestaande concepten en modellen. Past bestaande producten, concepten of modellen toe in nieuwe probleemsituaties.
+        Vakkundigheid: Is vaktechnisch bekwaam.
+        Nauwkeurigheid: Ontdekt fouten/onnauwkeurigheden in het eigen werk. Is opmerkzaam ten aanzien van kleinigheden.
+        Kwaliteitsgerichtheid: Verzekert zich ervan dat eigen werk aan kwaliteitsnormen voldoet (door vragen of controle).
+        Technisch inzicht: Stelt vragen om duidelijkheid te krijgen omtrent oorzaak en gevolg in complexe technische verbanden.
+      Fysieke Aspecten:
+        Werkt onder kantooromstandigheden. Werkt langdurig aan de PC.
+    people:
+      - name: Stan Spekschoor
+        rc: sspe
+        jobTitle: Software Engineer
+        src: https://media.licdn.com/dms/image/C4D03AQGbcx8-oUGCiA/profile-displayphoto-shrink_200_200/0/1648576387752?e=1684972800&v=beta&t=Er2I_prCdzYKkOZqxna_N29Z9Uv_MVj80Plq7aQwaXA
+        start: 2020-09
+      - name: Matthijs Weijers
+        rc: mw
+        jobTitle: Software Engineer PLC
+        start: 2016-09
+        src: https://media.licdn.com/dms/image/C5603AQEsNup00QQ2hg/profile-displayphoto-shrink_200_200/0/1517026377324?e=1684972800&v=beta&t=mVMqMXc3RfBcF-qbVLaVcenEBDtblU89wVVMfWAR2dA
+        competenties:
+          - Hardware / EPLAN
+      - name: Dennis Moors
+        rc: dmoo
+        jobTitle: Software Engineer PLC
+        start: 2022-09
+        src: https://media.licdn.com/dms/image/C5603AQHDG38fJ6HFRw/profile-displayphoto-shrink_200_200/0/1554059999616?e=1684972800&v=beta&t=d1DyRFXQpHQy8yOjW2FTasEBHOc-ezXkRKzLWsrmSw8
+        competenties:
+          - Data engineer
+          - Information Management
+      - name: Rik Baks
+        rc: rbak
+        jobTitle: Senior Drive Specialist
+        start: 2022-02
+        src: https://media.licdn.com/dms/image/C4E03AQFFnpn1e7ahjA/profile-displayphoto-shrink_200_200/0/1587326737143?e=1684972800&v=beta&t=-Bl7CUKrje6AAniYvYxIqwG3N065wq3XFK_GHOEUGwE
+      - name: Bart van den Beld
+        rc: bbel
+        jobTitle: Commissioning Engineer
+        start: 2021-04
+        src: https://media.licdn.com/dms/image/C5603AQFD9-WThpYdPw/profile-displayphoto-shrink_200_200/0/1614703788524?e=1684972800&v=beta&t=Ri66Dww6xJr_bm5qtbqGCANb-nV-mjgrnk3qWcD4fm8
+      - name: Richard van de Mheen
+        rc: rmhe
+        jobTitle: Repair and balancing Engineer
+      - name: Zhen Timmers
+        rc: ztim
+        jobTitle: Project Administrator
+        jobTitle: Keurmeester arbeidsmiddelen
+        jobTitle: Rewinding Engineer
+        start: 2018-07
+        src: https://media.licdn.com/dms/image/C5603AQGJw6hlS-rwMQ/profile-displayphoto-shrink_200_200/0/1630522194469?e=1684972800&v=beta&t=nBn508PpQviAhGMtOdGo3KRWBXyg945B-pSYImNY6ns
+  shwe:
+    jobTitle: Senior Hardware Engineer
+    department: Engineering
+    schedule: yes
+    cost: 60
+    rate: 85
+    people:
+      - name: Ronald Stout
+        rc: rsto
+        jobTitle: Lead project engineer
+        jobTitle: Lead Engineer
+        src: https://media.licdn.com/dms/image/C4E03AQHTQjbLO1xF3w/profile-displayphoto-shrink_200_200/0/1586975504525?e=1684972800&v=beta&t=OTlhOiMFoIgnnK1wh8GB8CZI0EKqCu0qAImmjPAmwXU
+        start: 2022-01
+        historie:
+          - 2018-04 Yellax
+  hwe:
+    jobTitle: Hardware Engineer
+    department: Engineering
+    schedule: yes
+    cost: 60
+    rate: 85
+    people:
+      - name: Raymond Kaas
+        rc: rkaa
+        start: 2022-05
+        jobTitle: Elektrisch ingenieur
+        jobTitle: Hardware Engineer
+      - name: Evert-Jan van Leeuwen
+        rc: elee
+        start: 2005-09 Service
+        jobTitle: Hardware Engineer
+      - name: Ronald Van de Bovenkamp
+        rc: rbov
+        jobTitle: Elektrotechnicus
+        start: 2022-01
+        src: https://media.licdn.com/dms/image/C4E03AQGVi5siyAozdA/profile-displayphoto-shrink_200_200/0/1631727247850?e=1684972800&v=beta&t=-Z5X0NgICGbJi9fsY_N8rJot1hRj6c8yU_4kB1j04PI
+      - name: Abdelkhalek Arichi
+        email: abdelkhalek.arichi@elmabv.nl
+      - name: Andries Quispel
+        email: andries.quispel@elmabv.nl
+        functie: shwe
+      - name: Edward van Dijk
+        functie: shwe
+      - name: Vlad Costea
+        email: vlad.costea@elmabv.nl
+        functie: shwe
+      - name: Sorin Zaharia
+        email: sorin.zaharia@elmabv.nl
+        functie: shwe
+      - name: Christian Bart
+        functie: swe
+      - name: Henri van der Horst
+        email: <henri.vanderhorst@elmabv.nl>
+        functie: sswe
+      - name: Eddy van Maren
+        opm: Commisioning engineer, ziek ivm ogen, verwachting mei beter, doel nieuwe functie senior drive sepcialist
+
+  cse:
+    jobTitle: Commissioning and Service Engineer
+    department: Service
+    people:
+      - name: Jan Wouter Koudijs
+        rc: jkou
+        jobTitle: Service Coördinator/Teamleider
+        src: https://media.licdn.com/dms/image/C4E03AQFN59i4giUg7g/profile-displayphoto-shrink_200_200/0/1612103635783?e=1684972800&v=beta&t=EHGbRJxXTtBl83QV7MWF9Pleh-3FrCxeoiS6w7bH2wk
+        start: 2007-06
+        start: 2022-12
+        mailaddress: janwouter.koudijs@elmabv.nl
+        phone: +31 (0)346 357 095
+      # - name: Ismael Atabeg
+      #   rc: iata
+      #   jobTitle: Manager Service
+      #   start: 2022-04
+      #   src: https://media.licdn.com/dms/image/C4D03AQEd2jkgptzcxg/profile-displayphoto-shrink_200_200/0/1610016952717?e=1684972800&v=beta&t=wT225ZbrqjA4pr5FymaRaKZnQ6zEGHmL-dXYfhmpCTA
+      - name: Bert Bruil
+        rc: bbru
+        start: 2013-09
+        jobTitle: Trillingen Analist cat.2
+        src: https://media.licdn.com/dms/image/C5103AQHZxZnxvYX6fg/profile-displayphoto-shrink_200_200/0/1517347911328?e=1684972800&v=beta&t=UJZ0uIsWfb5oNoW8zwhUOCbr0nsz4zT9aoV-kQvSYmI
+      - name: Erik Wesker
+        rc: ewes
+        jobTitle: Service Engineer
+        start: 1997-06
+        src: https://media.licdn.com/dms/image/C4E03AQG8Xm1cCdk1dg/profile-displayphoto-shrink_200_200/0/1609188387833?e=1684972800&v=beta&t=je3QV4gUByRTpylG-d-KSsD09RxDQtc6cAzCOh--e2U
+      # - name: Michel van Westerlaak
+      #   rc: mwes
+      #   jobTitle: Service Engineer
+      #   start: 2005-06
+      - name: Roy Massop
+        rc: rmas
+        jobTitle: Service Engineer
+        start: 2014-09
+      - name: Martijn Pannekoek
+        rc: mpan
+        jobTitle: Service Engineer
+        start: 2021-01
+        src: https://media.licdn.com/dms/image/C4D03AQFlAwTAgwgqmw/profile-displayphoto-shrink_200_200/0/1517481928256?e=1684972800&v=beta&t=gjFFn49B7uFs05ia40XMb1aXG80D83WO0weA4ymotgg
+      - name: Remon Pater
+        rc: rpat
+        jobTitle: Service Engineer
+        start: 2019-01
+        src: https://media.licdn.com/dms/image/C4E03AQHXTeeYu9vsEQ/profile-displayphoto-shrink_200_200/0/1521801789116?e=1684972800&v=beta&t=YvrK16S-1AYzRVLitlKNOi-4UIO8UR4y3SpLODZHljE
+        department: Assembly
+        department: 2018-11 Stagair
+        department: Service
+      # - name: Service Engineer
+      #   jobTitle: Service Engineer
+      #   src: https://media.licdn.com/dms/image/C4E03AQHl84ucraR0Xw/profile-displayphoto-shrink_200_200/0/1584889358273?e=1684972800&v=beta&t=4zuwf99Rjkks3D5qiJtbi6Ziu_j-X57hD6TxBggxlao
+      - name: Teus van der Grift
+        rc: tgri
+        jobTitle: Workshopcoordinator
+        jobTitle: Workshop Coordinator Balancing
+        start: 2013-10
+        mailaddress: teus.vandergrift@elmabv.nl
+        phone: +31 (0)346 356 060
+        src: https://media.licdn.com/dms/image/C4E03AQEqk0OG-GTpOQ/profile-displayphoto-shrink_200_200/0/1519762508351?e=1684972800&v=beta&t=aPn8Mrkrs7BoXLaVSBSK_9_cchXaMeLnkbpAmIholgw
+  pbm:
+    jobTitle: Monteur Panelenbouw
+    department: Production
+    people:
+      - name: Anton Vervat
+        jobTitle: Production Manager
+        start: 2004
+        src: https://media.licdn.com/dms/image/C4E03AQGKIaGBWjIJYQ/profile-displayphoto-shrink_200_200/0/1516862472542?e=1684972800&v=beta&t=YqYnIAyaLNwSHKJyZmhwa0tclLN7VtGSgQvS1HIkMqA
+      - name: Jeffrey van Soest
+        jobTitle: Allround magazijn medewerker
+        src: https://media.licdn.com/dms/image/C5603AQHGI6G9UbDQ_Q/profile-displayphoto-shrink_200_200/0/1634533679660?e=1684972800&v=beta&t=L4qG1oEwO_2kfh4EOr_yll6Ab_XkXzJ-bUyA7pKSGYM
+        start: 2019-04
+      - name: Gerwin Dokter
+        jobTitle: Monteur Panelenbouw
+        src: https://media.licdn.com/dms/image/C4E03AQFSm4SN4sDopQ/profile-displayphoto-shrink_200_200/0/1525033376236?e=1684972800&v=beta&t=eCw3T-vFlZ4M5MH4sSTSt5A-Tz5Zb7Zdnutz6l_206w
+        start: 2019-09
+      - name: Johan Mulder
+        jobTitle: Monteur Panelenbouw
+        start: 2021
+        src: https://media.licdn.com/dms/image/C4E03AQEZ4gPYywJZgg/profile-displayphoto-shrink_200_200/0/1517750384689?e=1684972800&v=beta&t=M6RxcdQJEOxkbwt4CoTHbnCOa_227LpULDtrzrHQE54
+      - name: Thijs Geertsema
+        jobTitle: Monteur paneelbouw
+        start: 2022-10
+        src: https://media.licdn.com/dms/image/C5603AQG5sJG5H6Gd3w/profile-displayphoto-shrink_200_200/0/1516947327308?e=1684972800&v=beta&t=RfcEcCjTtoI4vEbwKIqTqWJ5oEtJwLwUz3vEeI271cU
+      - name: Youri Bor
+        jobTitle: Monteur paneelbouw
+        start: 2019-09
+        src: https://media.licdn.com/dms/image/C5603AQHMGymTK_VWLw/profile-displayphoto-shrink_200_200/0/1539070887118?e=1684972800&v=beta&t=EAAB1hUwaGylxEJPz0N44WWM_BZP3BUFL3PbbOU-rVM
+      # - name: Arjan Jassies	Monteur
+      #   src: https://media.licdn.com/dms/image/C4D03AQHNlnO4o094Kg/profile-displayphoto-shrink_200_200/0/1560712139626?e=1684972800&v=beta&t=8QQ35mKCckB0q7bm-F-9nWUIQZS5AuG0SaOhmbPa9mI
+      # - name: Sven Sparreboom
+      #   start: 2007-08	Bedradings/mechanisch monteur
+      # - name: Marius Draghici
+      #   start: 2019-06
+      #   jobTitle: Electrician installer
+      #   department: Industrial automation
+
+CompetentieWoordenboek:
+  Prestatiegericht gedrag:
+    Resultaatgerichtheid:
+      definitie: De mate waarin iemand gedrag toont dat erop gericht is prestaties te leveren en successen te boeken.
+      gedrag:
+        - Toont inzet.
+        - Stelt zichzelf concrete doelen en werkt hier gericht naar toe.
+        - Werkt aan kwaliteit.
+      eigenschappen:
+        - Doelgericht
+        - Constructief
+    Plannen en Organiseren:
+      definitie: De mate waarin iemand het werk structureert en ordent.
+      gedrag:
+        - Plant en organiseert.
+        - Bewaakt de algemene voortgang.
+        - Bewaakt details.
+      eigenschappen:
+        - Gestructureerd
+        - Zorgvuldig
+    Ondernemingszin:
+      definitie: De mate waarin iemand kansen en problemen signaleert en ernaar handelt.
+      gedrag:
+        - Signaleert kansen of problemen.
+        - Onderneemt uit zichzelf actie.
+        - Anticipeert.
+        - Behoudt het initiatief ondanks obstakels.
+      eigenschappen:
+        - Doortastend
+        - Overtuigend
+        - Innovatief
+    Probleemoriëntatie:
+      definitie: De mate waarin iemand zaken vanuit verschillende invalshoeken bekijkt, onderzoekt en bevraagt.
+      gedrag:
+        - Verkent.
+        - Toont nieuwsgierigheid.
+        - Onderzoekt vanuit verschillende invalshoeken.
+      eigenschappen:
+        - Belangstellend
+        - Zorgvuldig
+    Kwaliteitsgerichtheid:
+      definitie: De mate waarin iemand eisen stelt aan de eigen prestaties en aan die van anderen.
+      gedrag:
+        - Doet wat is afgesproken.
+        - Stelt kwaliteitsnormen en handelt ernaar.
+        - Geeft anderen feedback op prestaties.
+        - Probeert verwachtingen van klanten te overtreffen.
+      eigenschappen:
+        - Zorgvuldig
+        - Constructief
+  Relatiegericht gedrag:
+    Inlevingsvermogen:
+      definitie: De mate waarin iemand luistert, non verbale signalen interpreteert en zich bewust toont van het effect van het eigen gedrag op anderen.
+      gedrag:
+        - Luistert en kijkt.
+        - Gaat in op uitlatingen en gedragingen.
+        - Stemt eigen gedrag af op anderen.
+      eigenschappen:
+        - Vriendelijk
+        - Belangstellend
+    Klantgerichtheid:
+      definitie: De mate waarin iemand de wensen en behoeften van klanten achterhaalt en hieraan voldoet. Prioriteit geven aan dienstverlening en klanttevredenheid.
+      gedrag:
+        - Zoekt informatie over wensen en behoeften van klanten.
+        - Genereert oplossingen die aan de wensen van de klant tegemoet komen.
+        - Neemt verantwoordelijkheid om problemen van klanten op te lossen.
+        - Vraagt na of de klant tevreden is.
+      eigenschappen:
+        - Belangstellend
+        - Innovatief
+        - Sociaal handig
+    Samenwerken:
+      definitie: De mate waarin iemand zich inspant om in een team bij te dragen aan het samenwerkingsproces, het gezamenlijke resultaat en de harmonie.
+      gedrag:
+        - Draagt bij aan taak- en doelstellingen van het team.
+        - Draagt bij aan sfeer en gezamenlijkheid.
+      eigenschappen:
+        - Contactgericht
+        - Constructief
+  Beïnvloedend gedrag:
+    Overtuigingskracht:
+      definitie: De mate waarin iemand in staat is de mening van anderen te beïnvloeden en / of erin slaagt instemming van anderen te verkrijgen voor voorstellen, plannen, ideeën.
+      gedrag:
+        - Verkrijgt helderheid omtrent posities en standpunten.
+        - Overtuigt anderen met argumenten.
+        - Beïnvloedt.
+        - Onderhandelt.
+      eigenschappen:
+        - Overtuigend
+        - Zelfverzekerd
+        - Sociaal handig
+    Omgevingsbewustzijn:
+      definitie: De mate waarin iemand de verhoudingen binnen de eigen (organisatie-) omgeving onderkent en hiernaar handelt. Het onderkennen van invloed en gevolgen van eigen beslissingen of activiteiten.
+      gedrag:
+        - Toont inzicht in hiërarchische en sociale verhoudingen.
+        - Handelt in lijn met hiërarchische en sociale verhoudingen.
+        - Handelt overeenkomstig de eigen handelingsvrijheid.
+      eigenschappen:
+        - Sociaal handig
+        - Constructief
+    Relatiebeheer:
+      definitie: De mate waarin iemand in staat is op verschillende niveaus relaties met mensen op te bouwen en te onderhouden.
+      gedrag:
+        - Identificeert nuttige contacten.
+        - Bouwt goede verstandhoudingen op.
+        - Maakt gebruik van relaties.
+      eigenschappen:
+        - Contactgericht
+        - Doelgericht
+  Sturend gedrag:
+    Leiderschap:
+      definitie: De mate waarin iemand de voor de functie en situatie passende leiderschapsstijl(en) vertoont.
+      gedrag:
+        - Toont sociaal-emotioneel leiderschapsgedrag.
+        - Toont participatief leiderschapsgedrag.
+        - Toont taakgericht leiderschap.
+      eigenschappen:
+        - Doortastend
+        - Contactgericht
+        - Overtuigend
+    Ontwikkelen van anderen:
+      definitie: De mate waarin iemand zich inspant om ontwikkelingsbehoeften van anderen te identificeren, en zich bereid toont anderen in hun ontwikkeling te begeleiden en te ondersteunen.
+      gedrag:
+        - Identificeert ontwikkelbehoeften en –mogelijkheden van anderen.
+        - Initieert ontwikkeling van anderen.
+        - Stimuleert en ondersteunt anderen.
+        - Evalueert behaalde resultaten.
+      eigenschappen:
+        - Belangstellend
+        - Overtuigend
+  Denkkracht:
+    Probleemanalyse:
+      definitie: De mate waarin iemand in staat is de aspecten van een probleem of situatie te doorgronden.
+      gedrag:
+        - Signaleert het bestaan van het probleem.
+        - Ontleedt het probleem.
+        - Komt tot een probleemdefinitie.
+      eigenschappen:
+        - Redeneren (Fluid)
+        - Zorgvuldig
+    Visie:
+      definitie: De mate waarin iemand problemen of situaties in groter verband doorgrondt en inzichten vertaalt naar een toekomstbeeld.
+      gedrag:
+        - Geeft beschouwingen over problemen en gebeurtenissen in hun brede context (helikopter view).
+        - Toont overzicht over consequenties en opties.
+        - Concretiseert inzichten tot visie.
+      eigenschappen:
+        - Capaciteiten
+        - Innovatief
+    Expertise:
+      definitie: Het vergaren, toepassen en ontwikkelen van kennis en vaardigheden voor eigen gebruik of om deze door te geven aan anderen.
+      gedrag:
+        - Brengt en houdt de expertise op peil.
+        - Benut de expertise in het eigen werk.
+        - Ondersteunt anderen vanuit de eigen expertise.
+        - Draagt de expertise uit.
+      eigenschappen:
+        - Belangstellend
+        - Innovatief
+        - Overtuigend
+  Persoonlijke effectiviteit:
+    Zelfbeheersing:
+      definitie: De mate waarin iemand erin slaagt de eigen impulsen / emotionele reacties die door spanningsvolle omstandigheden worden opgeroepen te beheersen.
+      gedrag:
+        - Beheerst eigen emotionele en impulsieve reacties.
+        - Toont zich stressbestendig.
+      eigenschappen:
+        - Beheerst
+        - Stabiel
+    Zelfvertrouwen:
+      definitie: De mate waarin iemand in uiteenlopende omstandigheden vertrouwt op eigen kunnen en op de eigen besluit- en meningsvorming.
+      gedrag:
+        - Toont vertrouwen in eigen kunnen.
+        - Handelt en beslist op basis van eigen oordeelsvorming.
+        - Komt op voor eigen meningen en ideeën.
+      eigenschappen:
+        - Zelfverzekerd
+    Flexibiliteit:
+      definitie: De mate waarin iemand in staat is zich aan veranderende inzichten, werkwijzen en omstandigheden aan te passen. Bereid zijn zo nodig van prioriteit, strategie of gedrag te wisselen.
+      gedrag:
+        - Hanteert verschillende gedragsstijlen.
+        - Past zich aan veranderende omstandigheden aan.
+      eigenschappen:
+        - (niet) Behoudend
+        - Doortastend
+    Organisatiecommitment:
+      definitie: De mate waarin iemand het eigen gedrag in lijn brengt met de behoeften, prioriteiten en doelen van de organisatie.
+      gedrag:
+        - Handelt in lijn met de organisatie doelen.
+      eigenschappen:
+        - Constructief
+    Besluitvaardigheid:
+      definitie: De mate waarin iemand snel en adequaat beslissingen neemt.
+      gedrag:
+        - Neemt een standpunt in, spreekt een oordeel uit.
+        - Hakt knopen door (ook in minder duidelijke situaties).
+        - Neemt verantwoordelijkheid voor te maken keuzes.
+        - Evalueert effectiviteit van eigen beslissingen.
+      eigenschappen:
+        - Doortastend
+        - Zelfverzekerd
+  Vaardigheden:
+    Schriftelijke Uitdrukkingsvaardigheid:
+      definitie: De mate waarin iemand in staat is informatie en ideeën / opvattingen helder, toegankelijk en in correct Nederlands schriftelijk te verwoorden.
+      gedrag:
+        - Schrijft een samenhangend betoog.
+        - Schrijft in correct Nederlands.
+      eigenschappen:
+        - Verbale capaciteiten
+        - Overtuigend
+    Mondelinge Uitdrukkingsvaardigheid:
+      definitie: De mate waarin iemand in staat is informatie en ideeën / opvattingen helder en in correct Nederlands te verwoorden.
+      gedrag:
+        - Houdt een samenhangend betoog.
+        - Spreekt correct Nederlands.
+        - Houdt de aandacht vast.
+      eigenschappen:
+        - Verbale capaciteiten
+        - Overtuigend
+        - Extravert
+
+CompetentieManagementVragen:
+  Prestatiegericht gedrag:
+    Resultaatgericht:
+      Resultaatgericht:
+        - Welke resultaten heb je het afgelopen jaar bereikt? Wat waren je aanvankelijke doelen? Waarom heb je ze wel of niet gehaald?
+        - Beschrijf een situatie waarin je met tegenslag te maken had. Hoe heb je ervoor gezorgd dat je toch je doel kon bereiken?
+        - Geef een voorbeeld van hoe je prioriteiten stelt in je werk.
+        - Je bent vast wel eens in tijdnood gekomen bij het uivoeren van een opdracht. Wat heb je toen gedaan?
+        - Wat heb je gedaan in een situatie waarin je vond dat er niet de juiste (beleids)keuzes waren gemaakt? Wat heeft dat opgeleverd?
+      Ambitieus:
+        - Wat zijn je plannen voor je loopbaan? Wat wil je over vijf jaar bereikt hebben? Wat over tien jaar? Hoe past de functie waar je nu op solliciteert in deze plannen?
+        - Hoe belangrijk vind je positie en status? Wil je een voorbeeld noemen waaruit dat blijkt?
+        - Welke ideeën had je over je carrière toen je pas van school kwam?
+        - Wat heb je gedaan om je studie succesvol af te ronden?
+        - Wat heb je gedaan om een interne promotie te krijgen bij je vorige werkgever?
+      Doelen stellen:
+        - Beschrijf een situatie waarin je jezelf een moeilijk te behalen doel hebt gesteld. Wat was het doel en welke moeilijkheden had je om het te bereiken?
+        - Is het wel eens voorgekomen dat je je doel niet dreigde te halen omdat je te lang twijfelde over een beslissing? Waarom gebeurde dat?
+        - Wat doe je om een doel te bereiken? Geef een voorbeeld.
+        - Beschrijf een situatie waarin je prioriteiten moest stellen. Welke gevolgen had dat voor doelen die je moest of wilde bereiken?
+        - Wat voor doel heb je jezelf gesteld ten aanzien van je carrière? Hoe ga je dat doel verwezenlijken? Wat heb je daar tot nu toe voor gedaan?
+      Doorzettingsvermogen:
+        - Kun je een situatie beschrijven waarin het moeilijk was het doel te bereiken maar waarbij je toch hebt doorgezet? Wat waren je drijfveren? Welke eisen heb je jezelf gesteld?
+        - Beschrijf eens een situatie waarin je het moeilijk vond door te zetten. Waar lag dat aan?
+        - Wat is in je loopbaan je grootste tegenslag geweest? Hoe heb je ervoor gezorgd om gemotiveerd te blijven?
+        - Wat waren de redenen dat je je opleiding niet hebt afgemaakt? Wat zou je achteraf bezien anders aangepakt hebben?
+        - Heb je wel eens meegemaakt dat er negatief op een idee of plan van je werd gereageerd, terwijl jij vond dat het een goed idee/plan was? Wat heb je toen gedaan?
+      Initiatief:
+        - Ben je initiatiefrijk? Geef een paar voorbeelden waaruit dat blijkt.
+        - Kun je een situatie beschrijven waarin je actie hebt ondernomen terwijl dat eigenlijk een taak was van iemand anders in de organisatie? Wat waren je redenen om dat te doen?
+        - Wat stoort je in je huidige functie het meest? Wat heb je eraan gedaan om daar verandering in te brengen?
+        - Wat heb je gedaan om in je baan promotie te maken?
+        - Heb je binnen of buiten je werk wel eens iets substantieels georganiseerd? Hoe heb je dat aangepakt? Hoe heb je anderen daarbij betrokken? Wat voor problemen kwam je tegen?
+      Innovativiteit:
+        - Geef eens een voorbeeld van een innovatie die het gevolg was van jouw initiatief. Hoe heb je anderen ervan overtuigd dat je innovatie goed was?
+        - Hoe blijf je op de hoogte van ontwikkelingen binnen het vakgebied? Welke ontwikkelingen hebben volgens jou de toekomst?
+        - Heb je wel eens een creatieve oplossing bedacht in een situatie waarin de gangbare oplossingen niet werkten? Hoe was de reactie op je oplossing? Is de implementatie ervan geslaagd?
+        - Wat zie je voor onze organisatie voor mogelijkheden aan nieuwe producten of diensten?
+        - Veranderingen in organisaties gaan meestal niet snel en gemakkelijk. Hoe ga je daarmee om als zich kansen in de markt voordoen die volgens jou gepakt moeten worden?
+      Oplossingsgericht:
+        - Beschrijf hoe je te werk bent gegaan bij de oplossing van een probleem dat je in je werk bent tegengekomen. Wat was het resultaat?
+        - Geef een voorbeeld van een situatie waarin je voor een snelle oplossing voor een probleem hebt gekozen. Wat was je motivatie om het probleem niet eerst tot op de bodem uit te zoeken?
+        - Is het wel eens voorgekomen dat een probleem een andere oorzaak had dan je aanvankelijk dacht? Wat was de reden dat je dat niet eerder wist?
+        - Beschrijf een situatie waarin je een probleem klantgericht hebt opgelost. Wat was de reactie van de klant?
+        - Geef een voorbeeld waarin je achteraf bezien een probleem te grondig of juist niet grondig genoeg hebt aangepakt. Wat waren daarvoor de redenen?
+      Snel kunnen schakelen:
+        - Geef een voorbeeld van een situatie waarin dingen anders liepen dan gepland. Wat deed je? Hoeveel tijd kostte het je om de omslag te maken?
+        - Beschrijf een situatie waarin je alert gehandeld hebt. Wat was de reactie van de omgeving?
+        - Geef een voorbeeld waarin je je koers gewijzigd hebt op grond van nieuwe informatie.
+        - Vertel hoe je prioriteiten stelt in je werk.
+        - Geef een voorbeeld van een situatie waarin je anders moest handelen dan je normaal gesproken het liefst doet. Waarom was dat nodig? Kostte dat moeite?
+    Plannen en organiseren:
+      Voortgang controleren:
+        - Met welke regelmaat heb je overleg met je medewerkers? Hoe controleer je of afspraken zijn nagekomen en planningen zijn gehaald?
+        - Geef een voorbeeld van een situatie waarin planningen niet dreigden te worden gehaald. Wat heb je gedaan? Met welk resultaat?
+        - Hoe zorg je er doorgaans voor dat afspraken met medewerkers controleerbaar zijn?
+        - Wat doe je als de voortgang van een project in gevaar komt?
+        - Geef een voorbeeld van een situatie waarin je de voortgang bewaakte maar ook de motivatie van je medewerkers hoog hebt proberen te houden. Wat was het resultaat?
+      Organisatietalent:
+        - Beschrijf eens een situatie of taak waarin jij 'de spin in het web' was. Hoe verging het je? Wat deed je om het overzicht te bewaren?
+        - Heb je wel eens een evenement georganiseerd? Wat was jouw rol en hoe ging je dat af?
+        - Hoe ben je omgegaan met problemen die zich op het laatste moment voordeden? Geef een paar voorbeelden.
+        - Waaruit blijkt dat jij een echte doener bent en organisatietalent hebt? Beschrijf een concrete situatie.
+        - Geef eens een voorbeeld van hoe je ervoor gezorgd hebt dat je mensen meekreeg voor je plannen.
+    Ondernemingszin:
+      Ondernemend:
+        - Ben je ondernemend? Waar blijkt dat uit? Beschrijf een concrete situatie.
+        - Geef een voorbeeld van een situatie waarin je het initiatief hebt genomen om iets in gang te zetten.
+        - Beschrijf een situatie waarin je succesvol een doel hebt gerealiseerd dat je jezelf had gesteld. Hoe heb je dat aangepakt? Wat heb je ervoor gedaan en wat ervoor gelaten?
+        - Heb je in het verleden kansen gezien voor het bedrijf of de afdeling waar je werkte en ervoor gezorgd dat die werden opgepakt? Hoe heb je dat gedaan? Wat was het resultaat?
+        - Wat heb je in een bepaalde situatie gedaan om je bazen mee te krijgen voor een plan dat je had bedacht?
+      Creatief:
+        - Heb je wel eens een nieuwe werkwijze, een nieuwe dienst of een nieuw product ontwikkeld? Hoe zijn de ideeën daarvoor tot stand gekomen?
+        - Wanneer heb je voor het laatst een creatief idee gehad? Is dat idee bij anderen aangeslagen? Waarom wel/niet?
+        - Heb je te maken gehad met een probleem waarvoor oude oplossingen niet werkten? Wat voor oplossing heb je toen bedacht? Wat was daarvan het resultaat?
+        - Nieuwe oplossingen ontstaan vaak in een groep. Wat is jouw ervaring daarmee? Wat was jouw inbreng in een dergelijke groep?
+        - Kun je een voorbeeld van een situatie geven waarin jij met iets bent gekomen dat heel anders was dan de ideeën van anderen? Hoe ging dat en wat is er van jouw idee geworden?
+    Probleem oriëntatie:
+      Probleemoplossend vermogen:
+        - Beschrijf hoe je te werk bent gegaan bij de oplossing van een probleem dat je in je werk bent tegengekomen. Wat was het resultaat?
+        - Geef een voorbeeld van een situatie waarin je voor een snelle oplossing voor een probleem hebt gekozen. Wat was je motivatie om het probleem niet eerst tot op de bodem uit te zoeken?
+        - Is het wel eens voorgekomen dat een probleem een andere oorzaak had dan je aanvankelijk dacht? Wat was de reden dat je dat niet eerder wist?
+        - Beschrijf een situatie waarin je een probleem klantgericht hebt opgelost. Wat was de reactie van de klant?
+        - Geef een voorbeeld waarin je achteraf bezien een probleem te grondig of juist niet grondig genoeg hebt aangepakt. Wat waren daarvoor de redenen?
+      Luisteren:
+        - Beschrijf een situatie waarin je echt hebt doorgevraagd. Waarom deed je dat? Wat leverde het op?
+        - Hoe laat jij een ander merken dat je goed luistert?
+        - Heb je wel eens feedback gehad dat je goed of slecht luistert? Wat was de aanleiding daartoe?
+        - Kun je een samenvatting geven van wat we de laatste tien minuten hebben besproken?
+        - Beschrijf een situatie waarin je uit de manier waarop iemand iets zei opmaakte dat de realiteit anders was dan wat diegene letterlijk zei. Wat heb je toen gedaan of gezegd?
+      Doorvragen:
+        - Geef een voorbeeld van een situatie waarin je doorgevraagd hebt en daardoor tot een andere conclusie kwam dan aanvankelijk.
+        - Beschrijf een situatie waarin je het gevoel had dat je gesprekspartner iets anders zei dan hij/zij eigenlijk bedoelde. Wat heb je gedaan?
+        - Wat doe je als je een vaag antwoord van iemand krijgt? Geef een voorbeeld van een concreet voorval.
+        - Is het wel eens voorgekomen dat je een ander in verlegenheid hebt gebracht door je vragen? Beschrijf de situatie. Wat zou je in het vervolg anders doen?
+        - Kun je goed luisteren? Waar blijkt dat uit?
+    Kwaliteitsgerichtheid:
+      Accuraat:
+        - Wat doe je om fouten te vermijden in je werk? Geef een voorbeeld.
+        - Beschrijf een situatie waarin de planning uitliep omdat je je werk grondiger wilde controleren. Leidde dat tot problemen? Hoe vaak is dat voorgekomen?
+        - Wanneer heb je voor het laatst een fout gemaakt in je werk? Hoe heb je toen gehandeld?
+        - Wat heb je gedaan toen je een rapport in grote lijnen af had en er grote tijdsdruk was om het naar de klant te sturen?
+        - Welke eisen stel je aan je jezelf en aan het werk dat je doet? Geef daarvan een voorbeeld. Lukt het je om altijd aan die eisen te voldoen? Wat doe je als je dat niet lukt?
+  Relatiegericht gedrag:
+    Inlevingsvermogen:
+      Observeren:
+        - Geef een voorbeeld van een situatie waarin je uit lichaamstaal opmaakte dat een cliënt iets anders bedoelde dan hij of zij verwoordde. Waar maakte je dat precies uit op?
+        - Je hebt in je werk met agressie te maken. Beschrijf hoe je in een recente agressieve situatie handelde. Wat waren de eerste signalen die je oppikte?
+        - In welke situatie geef je de voorkeur aan participerend observeren? Beschrijf een situatie waarin je onlangs een dergelijke observatie hebt uitgevoerd. Waren er opmerkelijke conclusies?
+        - Geef een voorbeeld van een situatie waarin je achteraf bezien te snel bent afgegaan op je eerste indruk. Hoe kwam dat? Wat zou je de volgende keer anders doen?
+        - Kun je goed observeren? Waaruit blijkt dat?
+      sensitiviteit:
+        - Kun je een voorbeeld geven van een situatie waarin je rekening hebt gehouden met de gevoelens van een ander? Wat had dat voor consequenties voor je eigen plan of doel?
+        - Geef eens een beschrijving van hoe je te werk gaat als je iemand slechtnieuws moet brengen. Hoe reageer je als de ander emotioneel reageert? Geef eens een voorbeeld.
+        - Heb je wel eens iets gedaan voor een collega van wie je wist dat die het moeilijk had? Wat precies?
+        - Beschrijf een situatie waarin je een agressieve of lastige klant tot rede moest brengen. Snapte je waarom die klant boos was of lastig gedrag vertoonde?
+        - Heb je wel eens iets gedaan of een beslissing genomen waar je collega's moeite mee hadden? Hoe heb je gehandeld is die situatie om de gemoederen te kalmeren?
+      Empathie:
+        - Heb je wel eens een gesprek gevoerd waarbij je cliënt emotioneel reageerde? Hoe heb je toen gehandeld?
+        - Heb je wel eens een slechtnieuwsgesprek gevoerd? Hoe verliep dat?
+        - Wanneer heb je voor het laatst een medewerker feedback gegeven? Hoe heb je dat aangepakt? Hoe reageerde die persoon?
+        - Beschrijf eens een situatie waarin je te maken had met een gefrustreerde klant. Wat heb je gedaan om deze persoon te kalmeren? Wat was de reden dat deze klant zo boos of gefrustreerd was?
+        - Geef eens een voorbeeld van een situatie waarin je te maken had met een non-verbale boodschap die afweek van de verbale boodschap.
+    Klantgerichtheid:
+      Klantgericht:
+        - Beschrijf een situatie waarin je meer service verleend hebt dan strikt genomen van je gevraagd werd. Waarom deed je dat? Hoe reageerde de klant?
+        - Je hebt vast wel te maken gehad met lastige of onredelijke klanten. Geef een voorbeeld van een situatie die je hebt meegemaakt. Hoe heb je gehandeld? Wat was het resultaat? Wat zou je de volgende keer anders doen?
+        - Met welke klant heb je de beste relatie? Hoe is die relatie tot stand gekomen? Wat was daarbij jouw inbreng?
+        - Wat doe je om op de hoogte te zijn van klantwensen? Heb je wel eens gezorgd voor aanpassingen in het aanbod of de dienstverlening omwille van die klantwensen?
+        - Kun je een situatie beschrijven waarin je een klant hebt geholpen zijn wensen beter te definiëren? Hoe heb je dat aangepakt? Wat vond de klant daarvan?
+      Vragen stellen:
+        - Beschrijf een situatie waarin je het gevoel had dat je gesprekspartner iets anders zei dan hij/zij eigenlijk bedoelde. Wat heb je gedaan?
+        - Wat doe je als je een vaag antwoord van iemand krijgt? Geef een voorbeeld van een concreet voorval.
+        - Is het wel eens voorgekomen dat je aan ander in verlegenheid hebt gebracht door je vragen? Beschrijf de situatie. Wat zou je in het vervolg anders doen?
+        - Geef een voorbeeld van een situatie waarin je doorgevraagd hebt en daardoor tot een andere conclusie kwam dan aanvankelijk.
+        - Kun je goed luisteren? Waar blijkt dat uit?
+    Samenwerken:
+      Samenwerken:
+        - Geef een voorbeeld van een project of opdracht waarin je hebt samengewerkt met anderen. Hoe verliep de samenwerking? Wat was jouw rol?
+        - Is het wel eens voorgekomen dat het belang van een groep waarmee je werkte anders was dan jouw belang? Wat heb je toen gedaan?
+        - Wat doe je als je tegenwerking ervaart binnen een groep of afdeling? Geef een voorbeeld. Welke rol had jij en wat was het resultaat?
+        - Geef een voorbeeld van een situatie waarin je zag dat het werk van collega's zich opstapelde. Wat heb je toen gedaan? Wanneer doe je dit wel en wanneer niet?
+        - Geef een voorbeeld van een situatie waarin je samenwerking heel zinvol vond of juist geheel niet zinvol.
+      Samenwerking verbeteren:
+        - Beschrijf hoe je de sfeer in je team hebt verbeterd de afgelopen periode.
+        - Geef een voorbeeld van hoe je je medewerkers hebt betrokken bij de oplossing van een probleem.
+        - Wat heb je gedaan om de communicatieproblemen tussen de verschillende afdelingen te helpen oplossen?
+        - Beschrijf een situatie waarin je je niet hebt laten meeslepen door emoties in een conflict. Wat was jouw bijdrage aan de oplossing van het conflict?
+        - Beschrijf een probleem in je werk waarvan je denkt dat samenwerking het probleem vormt. Wat heb je tot nu toe gedaan om dat probleem op te lossen?
+      Organisatiesensitiviteit:
+        - Kun je een voorbeeld geven van een situatie waarin je gebruik hebt gemaakt van de informele organisatie om iets gedaan te krijgen? Waarom deed je dat? Wat was het resultaat?
+        - Beschrijf hoe je er bij het nemen van besluiten eens voor gezorgd hebt dat je de organisatie 'mee' kreeg.
+        - Hoe zorg je ervoor dat je op de hoogte bent van wat er speelt in de organisatie? Geef eens een voorbeeld hoe je informatie hebt laten meewegen bij het nemen van een besluit.
+        - In alle organisaties komen communicatieproblemen voor. Kun je er een beschrijven waar jij ervaring mee hebt? Hoe ben je met dat probleem omgegaan? Kun je aangeven waar het werkelijke probleem lag?
+        - Beschrijf een situatie waarin je een strikt formele weg hebt bewandeld. Waarom deed je dat? Wat was het resultaat?
+  Beïnvloedend gedrag:
+    Overtuigingskracht:
+      Overtuigen:
+        - Geef een voorbeeld van een situatie waarin je je verhaal hebt aangepast aan je publiek of je gesprekspartner. Hoe heb je dat gedaan? Wat was het resultaat?
+        - Beschrijf je succesvolste verkoopgesprek ooit.
+        - Geef een voorbeeld van een situatie waarin je iemand succesvol hebt overtuigd van je gelijk, ook al leek dat in eerste instantie lastig. Waarom lukte het?
+        - Heb je wel eens een overtuigend rapport geschreven? Hoe ben je te werk gegaan?
+        - Zijn er argumenten waaraan je een hekel hebt of die je zwak vindt als de ander die gebruikt? Geef een paar voorbeelden.
+      Onderhandelen:
+        - Geef een voorbeeld van een onderhandelingssituatie waarin je tactvol hebt gehandeld. Hoe reageerde de andere partij?
+        - Geef een voorbeeld van een onderhandelingssituatie die je lastig vond. Welke belangen had jij en welke de andere partij? Wat was het resultaat?
+        - Beschrijf een onderhandelingssituatie waarin je tot een creatieve oplossing bent gekomen.
+        - Beschrijf welke rol je hebt gespeeld in een recente onderhandeling die je hebt meegemaakt. Zou je het de volgende keer weer zo doen? Waarom wel/niet?
+        - Wat is het beste compromis dat je ooit hebt bereikt? Hoe verliep het onderhandelingsproces?
+      Draagvlak creëren:
+        - Beschrijf wat je hebt ondernomen om ervoor te zorgen dat je plan daadwerkelijk zou worden uitgevoerd.
+        - Heb je wel eens te maken gehad met weerstand tegen een plan of besluit? Wat heb je gedaan om die weg te nemen?
+        - Je hebt in je vorige baan een voorstel gedaan voor verandering. Welke partijen heb je betrokken bij het voorbereiden van het voorstel?
+        - Is een plan van jou wel eens in een la beland, zonder dat er iets mee gebeurd is? Wat was daarvan de oorzaak? Wat zou je de volgende keer anders doen?
+        - Beschrijf een situatie waarin je moeite hebt gedaan om mensen zich gehoord te laten voelen. Welke gevolgen had dat voor je plan?
+      Beïnvloeden:
+        - Geef eens een voorbeeld van een situatie waarin je je standpunt moest verdedigen en anderen moest zien te overtuigen. Vertel hoe je dat deed. Wat was het resultaat?
+        - Beschrijf een situatie waarin je een ogenschijnlijk tegenstrijdig belang tot een gezamenlijk belang hebt gemaakt. Wat was de reactie?
+        - Pas je wel eens je gedrag aan aan degene die je tegenover je hebt om die ander tot iets te bewegen? Geef een concreet voorbeeld.
+        - Geef een voorbeeld hoe je je mensenkennis hebt gebruikt om iemand te beïnvloeden of te overtuigen.
+        - Wat heb je gedaan om weerstand bij je cliënt te overwinnen? Wat was het resultaat?
+      Argumenteren:
+        - Geef een voorbeeld van een situatie waarin je iemand succesvol hebt overtuigd van je gelijk, ook al leek dat in eerste instantie lastig. Waarom lukte het?
+        - Heb je wel eens een overtuigend rapport geschreven? Hoe ben je te werk gegaan?
+        - Zijn er argumenten waaraan je een hekel hebt of die je zwak vindt als de ander die gebruikt? Geef een paar voorbeelden.
+        - Geef een voorbeeld van een onderhandelingssituatie waaraan je hebt deelgenomen. Welke argumenten heb je gebruikt om je zaak te bepleiten?
+        - Heb je jezelf wel eens betrapt op een foute redenering? Geef een voorbeeld.
+      Omgaan met weerstand:
+        - Geef een voorbeeld van een situatie waarin je weerstand tegen een plan bij je medewerkers ontmoette. Hoe heb je ze toch weten te motiveren voor je plan?
+        - Beschrijf een situatie waarin je andere partijen bij een plan hebt betrokken om weerstand weg te nemen. Welke partijen koos je en waarom? Wat was het resultaat?
+        - Geef een voorbeeld van een situatie waarin je op een succesvolle manier draagvlak hebt gecreëerd. Hoe heb je dat aangepakt?
+        - Wat doe je om een cliënt te overtuigen van het nut van een gedragsverandering? Beschrijf een recente, geslaagde interventie.
+        - Beschrijf twee verschillende technieken die je onlangs gebruikt hebt om weerstand bij anderen weg te nemen. Waarom koos je in de ene situatie voor de ene techniek en in de andere situatie voor de andere?
+    Omgevingsbewustzijn:
+      Omgevingsbewustzijn:
+        - Hoe houd je ontwikkelingen in je vakgebied bij?
+        - Hoe houd je ontwikkelingen in de wereld bij?
+        - Ben je in je werk wel eens geconfronteerd met beslissingen van de politiek (landelijk of lokaal)? Geef een recent voorbeeld. Hoe vond je dat de organisatie in dat geval moest handelen?
+        - Welke belangrijke externe ontwikkelingen zijn er momenteel gaande voor de organisatie waar je werkt? Wat is je visie daarop?
+        - Hoe denk je dat de buitenwereld aankijkt tegen deze organisatie? Zie je punten waarop het imago veranderd moet worden?
+      Aanpassingsvermogen:
+        - In een van je vorige banen heb je vast wel te maken gehad met wijzigingen in het beleid. Hoe ben je daarmee omgegaan?
+        - De organisaties waar je hebt gewerkt kenden vast cultuurverschillen. Heb je naar aanleiding daarvan je opstelling veranderd? Hoe?
+        - Je bent regelmatig van baan veranderd. In welke baan heeft het inwerken je het minste moeite gekost en waarom? In welke baan het meest en waarom?
+        - Kun je een verandering in de organisatie waar je voorheen werkte aangeven waar je in eerste instantie niet achterstond? Op welke manier heb je je toch bij deze verandering neergelegd?
+        - Wat is je reactie als er onverwacht een beroep op je wordt gedaan, bijvoorbeeld voor een spoedklus? Geef eens een voorbeeld van zo'n situatie die zich in het verleden heeft voorgedaan.
+      Mensenkennis:
+        - Geef een voorbeeld hoe je je mensenkennis hebt gebruikt om iemand te beïnvloeden of te overtuigen.
+        - Beschrijf een situatie waarin je het gevoel had dat je cliënt iets anders zei dan hij/zij eigenlijk wilde zeggen. Wat was daarvan de reden? Wat heb je gedaan?
+        - Geef een voorbeeld van een situatie waarin je medeleven met iemand voelde. Waarom was dat? Hoe ben je daarmee omgegaan?
+        - Beschrijf een situatie waarin je te maken had met een lastig persoon. Waarom was die ander lastig volgens jou? Hoe heb je gehandeld?
+        - Geef een voorbeeld hoe je je trainingsprogramma hebt aangepast aan een speciale doelgroep. Wat was het resultaat daarvan?
+      Diversiteit hanteren:
+        - Beschrijf een situatie waarin je te maken had met heel verschillende mensen. Hoe ben je daarmee omgegaan? Wat was jouw rol?
+        - Geef een voorbeeld van een situatie waarin je hebt samengewerkt met iemand met een totaal andere achtergrond dan jij. Hoe verliep de samenwerking? Wat heb je gedaan om de ander ruimte te geven?
+        - Heb je jezelf wel eens betrapt op een vooroordeel over een collega met een andere achtergrond? Wat heb je gedaan om dat vooroordeel weg te nemen?
+        - Ben je wel eens op de bres gesprongen voor mensen die anders in het leven staan dan de meeste mensen? Wat heb je gedaan? Met welk resultaat?
+        - Welke mogelijkheden zie je voor onze organisatie om mensen te benaderen uit andere culturen? Welke ervaring heb je hiermee?
+      Tact:
+        - Geef een voorbeeld van een situatie waarin je tactvol hebt gehandeld. Wat deed je? Wat was het resultaat?
+        - Beschrijf een situatie waarin een conflict dreigde. Wat heb je toen gedaan? Met welk resultaat?
+        - Beschrijf hoe je iemand eens op andere gedachten hebt gebracht zonder hem of haar met alle macht te willen overtuigen.
+        - Heb je wel eens een slechtnieuwsgesprek gevoerd? Hoe heb je je opgesteld? Wat was de reactie van de ander?
+        - Geef een voorbeeld van een gesprek waarin je moeite hebt gedaan om iemand in zijn waarde te laten. Wat deed je? Hoe reageerde de ander?
+    Relatiebeheer:
+      Commercieel inzicht:
+        - Geef een voorbeeld van een situatie waarin je succesvol bent ingegaan op een wens van een klant en daardoor een goede verkoop hebt gerealiseerd.
+        - Beschrijf hoe je omgaat met nieuwe kansen die je signaleert. Geef twee concrete voorbeelden waarin dat tot commercieel succes heeft geleid.
+        - Heb je het wel eens gewonnen van een concurrent? Wat heb je gedaan wat die ander niet deed?
+        - Geef eens een voorbeeld van een situatie waarin de kosten wellicht niet zouden opwegen tegen de kansen die zich voordeden. Wat heb je toen besloten?
+        - Heb je wel eens een gat in de markt ontdekt? Wat heb je toen gedaan?
+      Netwerken:
+        - Op welke manier besteed je aandacht aan het onderhouden van je netwerk? Geef een voorbeeld.
+        - Wanneer heb je voor het laatst nieuwe mensen ontmoet die je beschouwt als deel van je netwerk? Hoe heb je het contact gelegd?
+        - Wat doe je bij een bijeenkomst waar je niemand kent?
+        - Heb je wel eens gebruik gemaakt van iemand uit je netwerk om iets te bereiken? Hoe ging dat?
+        - Heb je wel eens iets betekend voor iemand uit je netwerk? Wat? Hoe verliepen de contacten?
+      Conflict hanteren:
+        - Beschrijf eens een recent zakelijk meningsverschil of een conflict. Hoe ben je daarmee omgegaan? Wat was het resultaat?
+        - Beschrijf eens een situatie waarin je een conflict had met iemand anders. Wat wilde je bereiken? Hoe is het tot een oplossing gekomen? Wat was jouw rol en opstelling daarin?
+        - Kun je een voorbeeld geven van een situatie waarin je tactvol hebt gehandeld in een conflict? Waar bestond dat tactvolle uit?
+        - Zijn er situaties geweest waarin je voet bij stuk hebt gehouden? Welke consequenties heeft dat voor de verhoudingen met de andere partij gehad?
+        - Is het bij een conflict wel eens voorgekomen dat je je hebt laten gaan? Wat ging er mis? Hoe had je het kunnen voorkomen?
+      Verkopen:
+        - Geef een voorbeeld van een situatie waarin je succesvol bent ingegaan op een wens van een klant en daardoor een goede verkoop hebt gerealiseerd.
+        - Beschrijf je succesvolste verkoopgesprek ooit.
+        - Geef een voorbeeld van een situatie waarin je doorgevraagd hebt naar de wensen van een klant waardoor de klant tot een andere productkeuze kwam dan waar hij/zij oorspronkelijk mee kwam.
+        - Beschrijf een situatie waarin het gevraagde product niet voorhanden was en je toch tot een geslaagde verkoop bent gekomen. Wat heb je gezegd?
+        - Beschrijf het lastigste verkoopgesprek dat je ooit gevoerd hebt. Wat zou je in het vervolg anders doen?
+  Sturend gedrag:
+    Leiderschap:
+      Leidinggeven:
+        - Beschrijf een situatie waarin je het lastig vond jezelf als leidinggevende op te stellen. Hoe maakte je de afweging tussen formeel en informeel gedrag?
+        - Geef een voorbeeld van een situatie waarin het gelukt is om bezorgdheid van een groep medewerkers weg te nemen. Hoe heb je dat aangepakt?
+        - Je hebt vast wel eens een beslissing moeten nemen die onaangenaam was voor een medewerker. Hoe heb je gehandeld? Wat was de reactie van de medewerker?
+        - Wat heb je gedaan om je afdeling succesvoller te maken?
+        - Beschrijf een situatie waarin je corrigerend hebt moeten optreden. Wat heb je gedaan? Met welk resultaat?
+      Team samenstellen:
+        - Geef een voorbeeld van een succesvol team dat jij hebt samengesteld. Waar heb je op gelet bij de samenstelling en taakverdeling?
+        - Geef een voorbeeld van een situatie waarin de planning moeilijk rond te krijgen was door de inzetbaarheid van teamleden. Wat heb je toen gedaan? Met welk resultaat?
+        - Wanneer heb je voor het laatst mensen in je team opgenomen ten behoeve van hun persoonlijke ontwikkeling? Waarom deed je dat wel/niet?
+        - Hoe heb je bij het samenstellen van je projectteam de competentie van de potentiële teamleden beoordeeld?
+        - Is het wel eens voorgekomen dat het succes van een team in gevaar kwam omdat er te veel kennis in één hoofd zat en die persoon het team verliet? Wat heb je in het vervolg gedaan om dat te voorkomen?
+      Motiveren:
+        - Beschrijf hoe je recentelijk een motivatieprobleem van een medewerker hebt opgelost.
+        - Geef een voorbeeld van een situatie waarin je weerstand tegen een plan bij je medewerkers ontmoette. Hoe heb je ze toch weten te motiveren voor je plan?
+        - Beschrijf een situatie waarin je een medewerker feedback hebt gegeven om de motivatie op te krikken. Wat heb je gezegd?
+        - Wat heb je het afgelopen jaar gedaan om jezelf gemotiveerd te houden?
+        - Beschrijf wat je hebt gedaan in tijden van grote drukte om je medewerkers zo ver te krijgen dat alle werk toch gedaan werd. Was er sprake van uitval onder medewerkers? Wat zou je de volgende keer anders doen?
+      Delegeren:
+        - Wat heb je de afgelopen tijd aan anderen overgelaten? Hoe reageerden zij daarop? Wat waren je overwegingen?
+        - Noem eens een situatie waarbij je het lastig vond zaken uit handen te geven. Waarom was dat zo?
+        - Hoe zorg je ervoor dat je werk op een overzichtelijke manier overdraagt?
+        - Heb je wel eens moeten ingrijpen bij een taak die je had gedelegeerd? Hoe heb je dat aangepakt? Wat was de reactie van de betrokken medewerker?
+        - Is er wel eens iets fout gegaan bij een taak die je had gedelegeerd? Wat vond je daarvan en wat heb je toen gedaan?
+      Voorzitten:
+        - Heb je wel eens een vergadering voorgezeten? Wat ging er goed en wat niet?
+        - Geef een voorbeeld van een vergadering waarin je als voorzitter vooral moest zorgen voor het bewaken van de orde. Hoe kwam dat? Hoe heb je dat aangepakt?
+        - Beschrijf hoe je vergaderingen die je voorzit voorbereidt.
+        - Geef een voorbeeld van een situatie waarin de vergadering dreigde uit te lopen. Wat heb je toen gedaan?
+        - Beschrijf een situatie waarin de besluitvorming in een vergadering niet goed lukte. Hoe kwam dat? Wat had jij als voorzitter anders kunnen of moeten doen?
+      Vergaderen:
+        - Beschrijf de laatste vergadering waarbij je aanwezig was. Wat was je rol? Wat heb je in die rol bereikt?
+        - Geef een voorbeeld van een vergadersituatie waarin je vond dat de vergaderregels niet goed werden nageleefd. Wat heb je toen gedaan/ gezegd?
+        - Beschrijf hoe je recentelijk een standpunt in een vergadering hebt verdedigd. Hoe heb je ervoor gezorgd dat je medestanders kreeg?
+        - Geef een voorbeeld van een situatie waarin de vergadering een ander besluit nam dan jij had gewild. Hoe was je reactie achteraf?
+        - Heb je wel eens een vergadering voorgezeten? Wat ging er goed en wat niet?
+    Ontwikkelen van anderen:
+      Medewerkers ontwikkelen:
+        - Wat heb je recentelijk gedaan om ervoor te zorgen dat medewerkers konden werken aan hun persoonlijke of professionele ontwikkeling?
+        - Je hebt vast wel eens te maken gehad met een medewerker met motivatieproblemen. Wat heb je toen gedaan? Wat was het resultaat?
+        - Heb je stagiaires of trainees in je team? Wat heb je voor hen gedaan om ervoor te zorgen dat ze zich konden ontwikkelen?
+        - In welke situatie geef je je medewerkers feedback? Beschrijf de recentste situatie waarin je iemand feedback hebt gegeven. Hoe verliep dat?
+        - Waar let je op als je een team samenstelt? Geef een voorbeeld.
+      Werken in een team:
+        - Beschrijf een team waarin je hebt gewerkt. Wat heb je gedaan om het team een succes te laten zijn?
+        - Ben je wel eens geconfronteerd met de situatie dat je eigen doelen anders lagen dan die van het team waartoe je behoorde? Wat heb je toen gedaan?
+        - Welke rol in een team past jou het best? Geef een voorbeeld van een situatie waarin je die rol vervulde. Wat was het resultaat van jouw inspanningen?
+        - Wat vind je niet leuk of moeilijk aan werken in een team? Geef concrete voorbeelden van situaties waarin je dat vond.
+        - Beschrijf een conflict waar je mee te maken hebt gehad binnen een team. Hoe werd dat opgelost? Wat was jouw rol daarin?
+  Denkkracht:
+    Probleemanalyse:
+      Analyseren:
+        - Geef een voorbeeld van een situatie waarin een probleem meerdere oorzaken had. Hoe ben je daar achter gekomen?
+        - Wat zie je als hoofdoorzaak van het probleem dat wij met de toeleveranciers (of iets anders) hebben?
+        - Wanneer heb je voor het laatst een advies opgesteld? Hoe ben je te werk gegaan om het daadwerkelijke probleem te achterhalen?
+        - Geef een voorbeeld van een situatie waarin je iets als te vanzelfsprekend hebt aangenomen. Hoe kwam dat? Wat heb je gedaan om dat in het vervolg te voorkomen?
+        - Geef een voorbeeld van een situatie waarin je grondig te werk bent gegaan. Wat had dat tot gevolg?
+      Kritisch denken:
+        - Geef een voorbeeld van een situatie waarin je je oordeel hebt aangepast nadat je nog eens goed had nagedacht.
+        - Beschrijf een voorval waarbij je de beschikbare informatie niet vertrouwde of onvoldoende vond. Wat heb je gedaan en wat waren je conclusies?
+        - Heb je wel eens een ander standpunt ingenomen dan je leidinggevende omdat jij betere argumenten had? Wat heb je toen gedaan?
+        - Geef een voorbeeld van een situatie waarin je een ander hebt overtuigd om een andere handelwijze te kiezen dan die was voorgenomen. Wat voor argumenten heb je gebruikt?
+        - Geef een voorbeeld van een situatie waarin je alternatieven hebt overwogen maar er uiteindelijk niet voor hebt gekozen. Beschrijf waar het om ging en hoe je tot je conclusie kwam.
+    Visie:
+      Visie ontwikkelen:
+        - Welke ontwikkelingen zie je belangrijk worden in de toekomst? Hoe vind je dat we daarmee om moeten gaan?
+        - Met welke externe ontwikkelingen heb je in je huidige functie te maken? Wat is je visie daarop?
+        - Heb je wel eens een toekomstplan geschreven? Hoe heb je ervoor gezorgd dat het overtuigend was en dat er draagvlak ontstond?
+        - Geef aan wat je in je huidige/vorige baan hebt gedaan om te zorgen dat visie ook werkelijkheid kon worden.
+        - Wat is jouw visie op onderwerp x, y of z? (De selectiecommissie vraagt je bijvoorbeeld naar je visie op onderwijs/het milieuprobleem/de ouderenzorg/zorgleerlingen etc., afhankelijk van de organisatie waar je solliciteert.)
+      Anticiperen:
+        - Welke ontwikkelingen zie je als belangrijk voor de toekomst? Hoe vind je dat we daarmee om moeten gaan?
+        - Geef een voorbeeld waarin je een ontwikkeling op tijd aan hebt zien komen. Wat heb je toen gedaan? Wat was het resultaat?
+        - Beschrijf een situatie waarin je je gedrag hebt aangepast omdat je iets zag aankomen of verwachtte. Wat was het effect?
+        - Ben je wel eens te laat geweest met het signaleren van een ontwikkeling of een trend? Wat heb je daarna gedaan om herhaling te voorkomen?
+        - Geef een voorbeeld van een situatie hoe je kennis over het verleden hebt gebruikt voor het anticiperen op de toekomst. Had het het gewenste effect?
+    Expertise:
+      Adviseren:
+        - Wanneer heb je voor het laatst een advies opgesteld? Hoe ben je te werk gegaan om tot het advies te komen? Wat heeft de opdrachtgever met je advies gedaan?
+        - Is het wel eens voorgekomen dat een probleem een andere oorzaak had dan je aanvankelijk dacht? Hoe ben je daar achter gekomen?
+        - Kun je goed luisteren? Waaruit blijkt dat?
+        - Geef een voorbeeld van een situatie waarin je belang hebt gehecht aan non-verbale signalen van je gesprekspartner. Wat heb je daarmee gedaan?
+        - Wat heb je in het verleden gedaan om ervoor te zorgen dat je advies daadwerkelijk werd uitgevoerd?
+      Vernieuwingsgericht:
+        - Geef eens een voorbeeld van een verandering die het gevolg was van jouw initiatief. Hoe heb je anderen ervan overtuigd dat de door jou voorgestelde verandering goed was?
+        - Hoe blijf je op de hoogte van ontwikkelingen binnen het vakgebied? Welke ontwikkelingen hebben volgens jou de toekomst?
+        - Heb je wel eens een creatieve oplossing bedacht in een situatie waarin de gangbare oplossingen niet werkten? Hoe was de reactie op je oplossing? Is de implementatie ervan geslaagd?
+        - Wat zie je voor onze organisatie voor mogelijkheden aan nieuwe producten of diensten?
+        - Veranderingen in organisaties gaan meestal niet snel en gemakkelijk. Hoe ga je daarmee om als zich kansen in de markt voordoen die volgens jou gepakt moeten worden?
+      Energiek:
+        - Heb je een bepaald moment van de dag waarop je het meest actief bent en de beste prestatie levert?
+        - Hoe werk je na ziekte of vakantie een werkvoorraad weg?
+        - Heb je onlangs nog extra lange werkdagen gemaakt? Wat was daarvoor de reden?
+        - Neem je wel eens werk over van collega's? Beschrijf eens een situatie waarin dat nodig was. Hoe heb je dat gecombineerd met je eigen werkzaamheden?
+        - In welke dingen ben je naast je werk actief? Hoeveel tijd besteed je daar per week aan?
+  Persoonlijke effectiviteit:
+    Zelfreflectie:
+      - Wat zijn je sterke en zwakke punten? Hoe weet je dat?
+      - Wat vind je lastige emoties bij jezelf? Hoe is dat van invloed op je werk?
+      - Hoe houd je je motivatie hoog? Geef een voorbeeld van een situatie waarin je daaraan werkte.
+      - Heb je wel eens gewerkt aan het veranderen van bepaald gedrag van jezelf? Welk gedrag? Wat was het resultaat?
+      - Wat wil je over vijf jaar, in werk, in wat je geleerd wilt hebben of je persoonlijke ontwikkeling?
+    Reflecteren:
+      - Wat zijn de punten waarop je jezelf het komend jaar wilt verbeteren? Hoe ben je tot die conclusie gekomen?
+      - Welke feedback heb je recentelijk gekregen? Wat heb je ermee gedaan?
+      - Beschrijf een situatie waarin je een fout hebt gemaakt. Hoe kwam dat? Wat zou je de volgende keer anders doen?
+      - Beschrijf een situatie in je werk die je emotioneel raakte. Hoe kwam dat? Was je reactie gepast? Zo nee, wat zou je de volgende keer anders doen?
+      - Hoe leer jij het best nieuwe dingen? Geef een voorbeeld van hoe je deze leerstrategie onlangs hebt toegepast. Wat was het resultaat?
+    Feedback geven:
+      - Beschrijf eens een situatie waarin je feedback hebt gegeven over een fout die een ander had gemaakt. Wat hebt je gezegd en wat was de reactie van de ander?
+      - Geef een voorbeeld van een situatie waarin jouw feedback niet het gewenste resultaat had. Wat heb jij gezegd en hoe reageerde de ander? Wat had je anders kunnen doen?
+      - Beschrijf een situatie waarin je geen feedback hebt gegeven terwijl dit wel beter was geweest. Wat hield je tegen?
+      - Wat doe je als je het gevoel hebt dat je gesprekspartner je niet goed begrijpt of in de verdediging schiet? Beschrijf een situatie waarin dat voorgekomen is.
+      - Geef ons eens feedback op de manier waarop wij dit gesprek voeren. Wat vind je er goed aan en wat kan volgens jou beter?
+    Feedback ontvangen:
+      - Beschrijf eens een situatie waarin je feedback hebt gekregen over een fout die je had gemaakt. Hoe heb je gereageerd?
+      - Wat is de laatste feedback die je van je leidinggevende hebt gekregen? En van je collega's? Hoe heb je gereageerd?
+      - Wat was de leukste feedback die je ooit hebt gekregen? Hoe heb je daarop gereageerd?
+      - Geef een voorbeeld van wat je gedaan hebt met feedback die je van een klant hebt ontvangen. Wat heb je die klant daarvan laten weten?
+      - Bereid je voor op de volgende situatie: de sollicitatiecommissie geeft jou feedback op hoe je tot dat moment het gesprek hebt gevoerd. Ze vragen je erop te reageren. Wat ga je zeggen?
+    Zelfbeheersing:
+      Stress hanteren:
+        - Heb je wel een stress ervaren? Wat hebt je toen gedaan? Met welk resultaat?
+        - Geef een voorbeeld van een situatie waarin je kalm bent gebleven ondanks hectiek om te heen.
+        - Hoe zorg je voor voldoende afwisseling en afleiding?
+        - Geef een voorbeeld waarin je achteraf gezien beter je grenzen had moeten stellen. Wat gebeurde er? Wat zou je de volgende keer anders doen?
+        - Beschrijf tegen wat voor situaties je opziet in je werk. Hoe ga je daarmee om?
+      Discipline:
+        - Ben je gedisciplineerd? Waar blijkt dat uit?
+        - Geef een voorbeeld van een situatie waarin je jezelf bepaalde regels hebt opgelegd. Hoe zorgde je ervoor dat je die regels ook naleefde? Wat waren de moeilijkheden daarbij?
+        - Heb je wel eens een doel bereikt door een grote mate van discipline aan de dag te leggen? Wat voor doel was dat en wat heb je moeten doen en laten om dat doel te bereiken?
+        - Geef een voorbeeld van een situatie waarin je te maken kreeg met 'afspraak is afspraak', ook al was die afspraak lastig na te komen. Hoe heb je gehandeld in dat geval?
+        - Ben je wel eens geconfronteerd met opgelegde taken die je moest uitvoeren en die je eigen plannen in de war stuurden? Beschrijf hoe je daarmee bent omgegaan.
+      Omgaan met werkdruk:
+        - Beschrijf een situatie waarin je ondanks zeer hoge werkdruk het hoofd koel hebt weten te houden. Wat deed je om dat te laten lukken?
+        - Geef een voorbeeld van een situatie waarin je je grenzen hebt aangegeven om te voorkomen dat de werkdruk te hoog zou worden. Hoe heb je dat gedaan en wat was de reactie?
+        - Geef een voorbeeld van een situatie waarin je prioriteiten moest stellen omdat de werkdruk te hoog was. Hoe deed je dat?
+        - Wat heb je het afgelopen jaar gedaan om de werkdruk binnen de perken te houden?
+        - Hoe ga je om met spannende situaties? Beschrijf een recent voorval.
+      Afstand bewaren:
+        - Geef een voorbeeld van een situatie waarin je je grenzen actief in de gaten hebt gehouden. Waarom was dat nodig?
+        - Hoe zorg je ervoor dat je de problemen van het werk niet mee naar huis neemt? Geef twee voorbeelden.
+        - Heb je je wel eens laten meeslepen door het verhaal of de problematiek van een cliënt? Heeft dat je advies of handelen rondom die cliënt beïnvloed? Wat heb je in het vervolg anders gedaan?
+        - Welke concrete stappen neem je om de werkdruk binnen de perken te houden?
+        - Heb je wel eens te maken gehad met agressie? Wat heb je gedaan om de situatie te redden?
+    Zelfvertrouwen:
+      Zelfstandig:
+        - Doe je wel eens werk waarin het niet precies duidelijk is wat er moet gebeuren? Hoe pak je dat aan?
+        - Geef een voorbeeld van een situatie waarin je het voortouw hebt genomen, zonder daarvoor eerst uitgebreid goedkeuring te vragen. Wat was de reactie van je leidinggevende hierop?
+        - Wat heb je gedaan om dingen die er in je werk niet bevielen te veranderen?
+        - Werk je aan je persoonlijke ontwikkeling? Zo ja, welke dingen onderneem je?
+        - Geef een voorbeeld van een situatie waarin je overwogen hebt hulp of advies van anderen te vragen. Waarom heb je het wel of niet gedaan?
+      Verantwoordelijk:
+        - Heb je wel eens een misstand aan de kaak gesteld? Hoe ben je te werk gegaan?
+        - Geef een voorbeeld van een situatie waarin je de gang van zaken hebt verbeterd. Waarom deed je dat? Wat was het resultaat?
+        - Ben je wel eens op de bres gesprongen voor een collega? Waarom deed je dat? Wat heb je ondernomen?
+        - Beschrijf een situatie waarin je afdeling plotseling geconfronteerd werd met veel extra werk. Hoe was je reactie?
+        - Geef een voorbeeld van een situatie waarin je je hebt bezig gehouden met een onderwerp dat eigenlijk buiten je werkterrein ligt. Waarom deed je dat?
+      Onafhankelijkheid:
+        - Geef een voorbeeld van een situatie waarin je anders gehandeld hebt dan anderen waarschijnlijk zouden hebben gedaan. Waarom deed je dat?
+        - Ben je wel eens ingegaan tegen regels, normen of tradities die ergens golden? Geef een concreet voorbeeld. Waarom deed je dat? Wat was het effect?
+        - Geef een voorbeeld van een situatie waarin je iets doorgezet hebt waarvan jij overtuigd was. Hoe heb je dat aangepakt? Wat was het resultaat?
+        - Kun je een situatie beschrijven waarin je achteraf bezien een andere, misschien onconventionelere, beslissing had moeten nemen. Waarom heb je dat niet gedaan? Hoe zou je de volgende keer handelen?
+        - Geef een voorbeeld van een situatie waarin je een beslissing hebt genomen die je misschien met een leidinggevende had moeten bespreken. Waarom heb je dat niet gedaan? Hoe heeft deze situatie uitgepakt?
+      Durf:
+        - Geef eens een voorbeeld van een situatie waarin je een risico bent aangegaan. Wat was het risico? Hoe heeft de situatie uitgepakt? Zou je het de volgende keer weer zo doen?
+        - Op welk terrein heb je wel eens een beslissing genomen waarvoor je eigenlijk te weinig informatie of kennis bezat? Wat had er mis kunnen gaan? Waarom heb je die beslissing toch genomen?
+        - Doe je wel eens iets dat anderen niet durven? Geef eens een voorbeeld van een recente situatie waarin dat zo was. Waarom durfde jij wel en zij niet?
+        - Wat zijn je afwegingen geweest bij een recente situatie waarin je een risico hebt genomen?
+        - Kun je een voorbeeld noemen van een situatie waarin je een beslissing hebt genomen die strikt genomen niet onder jouw bevoegdheden viel? Waarom heb je die beslissing genomen en hoe heeft het uitgepakt?
+      Assertief:
+        - Wanneer ben je het voor het laatst oneens geweest met een beslissing die binnen jouw afdeling of organisatie werd genomen? Wat voor acties heb je toen ondernomen?
+        - Heb je wel eens een opdracht uit moeten voeren die je niet zag zitten? Wat heb je toen gedaan?
+        - Ben je in jouw ogen wel eens te direct uit de hoek gekomen? Wat was daarvan het resultaat? Hoe heb je de situatie opgelost?
+        - Kun je een voorbeeld geven van een situatie waarin je werd gekwetst, beschuldigd of neerbuigend werd behandeld of waarin je grenzen werden overschreden. Hoe heb je daarop gereageerd? Wat had je anders kunnen of willen doen?
+        - Je hebt in een van je vorige banen vast wel eens te maken gehad met negatieve feedback. Wat was de inhoud van de feedback en wat was je reactie?
+    Flexibiliteit:
+      Flexibel:
+        - Heb je onlangs werkzaamheden gedaan die buiten je functieprofiel vielen? Waarom deed je dat? Hoe vond je het?
+        - Beschrijf een situatie waarbij je van je plan moest afwijken. Wat voor problemen deden zich daarbij voor?
+        - Werk je wel eens op afwijkende werktijden? Vind je dat vervelend?
+        - Beschrijf een situatie waarin je jezelf hebt opgeworpen om een klus te klaren die op de gewone weg niet af zou komen. Hoe heb je die situatie ervaren?
+        - Pas je je makkelijk aan veranderingen aan? Waaruit blijkt dat?
+    Organisatiecommitment:
+      Loyaal aan organisatie:
+        - Hoe vaak komt het voor dat je ongevraagd extra werk verricht omdat dat goed is voor de organisatie?
+        - Ben je wel eens geconfronteerd met regels of normen in de organisatie waar je moeite mee had? Wat heb je toen gedaan? Wat was het resultaat?
+        - Ben je wel eens geconfronteerd met een collega die iets onwelgevalligs zei over de organisatie tegenover een klant? Wat vond je daarvan? Wat heb je toen gedaan?
+        - Als je een klacht hebt over het reilen en zeilen in de organisatie, wat doe je dan?
+        - Als de kans kreeg een zelfde functie als waar je nu op solliciteert bij je huidige werkgever te krijgen, waar zou je dan voor kiezen? Vertrekken naar de nieuwe werkgever of bij je oude werkgever blijven?
+      Integriteit:
+        - Heb je in je werk wel eens je principes moeten loslaten? Waarom gebeurde dat? Waar ligt voor jou de grens?
+        - Beschrijf een situatie waarin je anderen op hun gedrag hebt aangesproken omdat dat niet strookte met jouw principes. Hoe heb je dat aangepakt en wat was het resultaat?
+        - Is het de afgelopen tijd voorgekomen dat je een afspraak niet na kon komen? Hoe heb je toen gehandeld? Hoe reageerde(n) degene(n) met wie je de afspraak had?
+        - Is het in het verleden voorgekomen dat er beleidsbeslissingen werden genomen waar je je niet mee kon verenigen? Wat heb je toen gedaan?
+        - Vind je dat je verantwoording schuldig bent aan de buitenwereld over het werk dat je doet of de doelstellingen van het bedrijf waar je werkt? Hoe ga je daarmee om?
+    Besluitvaardigheid:
+      Besluitvaardig:
+        - Wat is de afgelopen tijd de meest complexe beslissing geweest die je hebt genomen? Hoe is het besluitvormingsproces verlopen? Hoe goed is die beslissing uitgepakt?
+        - Heb je wel eens een beslissing genomen die je achteraf als onjuist hebt beschouwd? Hoe kwam dat?
+        - Wanneer en bij wie heb je voor het laatst advies ingewonnen toen je een besluit moest nemen? Hoe heeft de mening van anderen je besluit beïnvloed?
+        - Heb je wel eens een impopulaire beslissing moeten nemen? Zou je achteraf gezien anders hebben gehandeld?
+        - Is het wel eens voorgekomen dat je door te lang twijfelen een kans hebt laten lopen?
+  Vaardigheden:
+    Schriftelijke Uitdrukkingsvaardigheid:
+      Schriftelijk communiceren:
+        - Hoe heb je er recentelijk voor gezorgd dat een rapport dat je moest schrijven overtuigend overkwam bij de lezers?
+        - Welke ervaring heb je met het schrijven van brieven, voorstellen, rapporten, verslagen en/of beleidsplannen? Wat wil je nog beter leren en wat vind je lastig?
+        - Geef een voorbeeld waarin je je taalgebruik in een stuk hebt aangepast aan het niveau van de lezer. Hoe heb je dat aangepakt?
+        - Welke hulpmiddelen gebruik je bij het schrijven om er zeker van te zijn dat je teksten foutloos worden?
+        - Geef een voorbeeld van een tekst die je opvallend goed of slecht vond. Wat vond je er goed of slecht aan?
+    Mondelinge Uitdrukkingsvaardigheid:
+      Discussiëren:
+        - Geef een voorbeeld van een situatie waarin je succesvol hebt deelgenomen aan een discussie. Wat was jouw rol en waarom was de discussie voor jou succesvol?
+        - Beschrijf een situatie waarin je moeite moest doen om je in een discussie niet te laten meeslepen door emoties of persoonlijke belangen. Hoe kwam dat? Wat zou je de volgende keer anders doen?
+        - Zijn er argumenten waaraan je een hekel hebt of die je zwak vindt als de ander die in een discussie gebruikt? Geef een paar voorbeelden.
+        - Geef een voorbeeld van een situatie waarin jij een discussie wilde winnen maar inzag dat het standpunt van de ander houdbaarder was. Wat heb je gedaan of gezegd?
+        - Geef een voorbeeld van een formulering die je wel eens gebruikt als je het ergens faliekant mee oneens bent.
+      Mondeling communiceren:
+        - Geef eens een voorbeeld van een situatie waarin je je taalgebruik hebt aangepast aan je toehoorders of gesprekspartner. Was je opzet geslaagd? Hoe heb je dat gemerkt?
+        - Heb je wel eens feedback gekregen op je mondelinge taalvaardigheden? Op welke onderdelen? Wat heb je met de feedback gedaan?
+        - Wanneer heb je voor het laatst een presentatie gegeven? Waar ging die over? Hoe waren de reacties van je publiek?
+        - Heb je wel eens een punt gemaakt in een vergadering waardoor anderen over de streep getrokken werden voor een bepaalde beslissing? Vertel eens hoe dat verliep.
+        - Beschrijf een situatie waarin je bewust je toon hebt aangepast aan je gesprekspartner. Waarom deed je dat? Wat was het effect?
+      Presenteren:
+        - Geef een voorbeeld van een situatie waarin je je verhaal hebt aangepast aan je publiek. Hoe heb je dat gedaan? Wat was het resultaat?
+        - Wat doe je om mensen te enthousiasmeren of tot actie aan te zetten? Geef eens een voorbeeld van een situatie waarin je dat gedaan hebt.
+        - Geef een voorbeeld van een pakkende opening die je in een presentatie hebt gebruikt.
+        - Heb je onlangs een presentatie gegeven? Welke hulpmiddelen heb je daarbij gebruikt? Hoe heb je die ervaren?
+        - Geef een voorbeeld waarin je vond dat je presentatie origineel was. Hoe waren de reacties?
+      Gespreksvaardigheden:
+        - Heb je onlangs diepgaande gesprekken met medewerkers gevoerd? Welke? Hoe heb je die gesprekken voorbereid? Wat verliep er goed in de gesprekken en wat kon beter?
+        - Beschrijf een situatie waarin je iemand negatieve feedback moest geven. Hoe heb je dat aangepakt? Hoe reageerde de ander?
+        - Beschrijf een situatie waarin je iemand positieve feedback moest geven. Wat heb je gezegd? Hoe reageerde de ander?
+        - Vind je dat je goed kunt luisteren? Waar blijkt dat uit?
+        - Hoe vind je dat dit gesprek verloopt? Wat vind je goed en wat zou jij anders doen als jij aan de andere kant van de tafel zat?
+      Didactische vaardigheden:
+        - Wat is het leukste compliment dat je wel eens hebt gehad van een leerling of student?
+        - Geef een voorbeeld van een situatie waarin je een vastgelopen student weer op gang hebt geholpen.
+        - Beschrijf een situatie waarin de ene stijl van didactiek niet werkte en de andere wel. Hoe kwam je daar achter en hoe ging je daarmee om?
+        - Hoe kom je erachter wat een leerling nodig heeft? Geef eens een voorbeeld van een concrete situatie.
+        - Met welke groepen werk je het liefst? Met welke het minst graag? Waarom? Wat zijn in het oog lopende resultaten die je met dergelijke groepen in het verleden hebt bereikt? Hoe heb je dat gedaan?
+
+abbreviations:
+  - afk: AM
+    title: Account Manager
+  - afk: BIS
+    title: Bedrijf Informatie Systeem
+  - afk: BM
+    title: Businessunit Manager
+  - afk: BU
+    title: Businessunit
+  - afk: CTA
+    title: Coördinator Technische Automatisering
+  - afk: CTA
+    title: Hoofd Industriële Automatisering
+  - afk: DDS
+    title: Detail Design Specification
+  - afk: DSDM
+    title: Dynamic System Development Method
+  - afk: DWH
+    title: Data Ware House
+  - afk: EHEDG
+    title: De European Hygienic Engineering & Design Group
+    description: >
+      is een consortium van machinebouwers, voedingsbedrijven, onderzoeksinstituten en overheidsinstanties en is in 1989 opgericht met als doel hygiëne te bevorderen tijdens het bewerken en verpakken van voedselproducten.
+      Het doel van EHEDG is bevorderen van veilig voedsel, door verbeteren van hygiënisch engineeren en ontwerpen in de hele voedselbereiding.
+      EHEDG ondersteunt actief Europese wetgeving, die vereist dat hanteren, voorbereiden, verwerken en verpakken van voedsel hygiënisch dient te gebeuren, met hygiënische apparatuur en in hygiënische omgeving (EC richtlijn 2006/42/EC voor machine, EN 1672-2 en EN ISO 14159 hygiëne-eisen).
+  - afk: FAT
+    title: Factory Acceptance Test
+  - afk: FDS
+    title: Functional Design Specification
+  - afk: GAMP
+    title: Good Automated Manufacturing Practise
+    # description:
+    #   > De The Good Automated Manufacturing Practice (GAMP) Guide for Validation of Automated Systems in Pharmaceutical Manufacture van de ISPE beschrijft een serie principes en procedures die leiden tot een garantie dat farmaceutische producten de vereiste kwaliteit hebben.
+    #   Een van de basisbeginselen van GAMP is dat kwaliteit niet steekproefsgewijs kan worden getest,
+    #   maar dat deze kwaliteitscontrole moet worden uitgevoerd in alle fases van het productieproces.
+    #   Het gevolg hiervan is dat GAMP alle aspecten van de productie beslaat de ruwe materialen, de productiefaciliteit en -appararuur, de training en hygiëne van de medewerkers. Een essentieel middel om op deze manier het einddoel (een kwaliteitsgarantie voor het eindproduct) te bereiken, is het gebruik van Standard Operating Procedures (SOPs).
+  - afk: HACCP
+    title: Hazard Analysis and Critical Control Points
+    description: >
+      is een risico-inventarisatie voor voedingsmiddelen. De Nederlandse vertaling is: Gevarenanalyse en kritische controlepunten.
+
+  - afk: HMI
+    title: Human Machine Interface
+  - afk: HWE
+    title: Hardware Engineer
+  - afk: ICT
+    title: Informatie en Communicatie Technologie
+  - afk: IQ
+    title: Installation Qualification
+  - afk: ISA88
+    title: ANSI/ISA-88 of kortweg ISA-88
+    description: >
+      is een internationale standaard.
+      Het helpt industrieën om flexibel te kunnen produceren.
+      De standaard bestaat uit modellen en termen die het productieproces logisch indelen en de besturing van het machinepark regelen.
+      S88 kan worden toegepast in volledig geautomatiseerde, semigeautomatiseerde en zelfs in volledig handmatige productieprocessen.
+  - afk: ISA95
+    title: ANSI/ISA-95 de internationale standaard voor de integratie van kantoor- en productieautomatiseringssystemen.
+    description: >
+      ISA-95 bestaat uit modellen en terminologie die nauwkeurig in kaart brengen welke informatie moet worden uitgewisseld tussen systemen gericht op verkoop, financiën en logistiek en systemen gericht op productie, onderhoud en kwaliteit. Aan de hand van UML object modellen wordt deze informatie gestructureerd om zodoende gestandaardiseerde interfaces te kunnen ontwikkelen tussen ERP- en MES systemen. De ISA-95 standaard is een goede leidraad om in kaart te brengen welke informatie moet worden uitgewisseld tussen kantoorautomatiseringssystemen en productieautomatiseringssystemen. Bovendien kan ISA-95 worden gebruikt voor het opstellen van User Requirements, voor (MES) leveranciersselecties en als basis voor het ontwikkelen van MES systemen en databases. De ANSI/ISA-95 (ISA-95)is zo'n standaard voor Enterprise-Control System Integration.
+      ISA-95 werd tot ca. 2003 ook wel S95 genoemd.
+  - afk: LE
+    title: Lead Engineer
+  - afk: MoSCoW
+    title: Must, Should, Could and Want to have
+  - afk: MRE
+    title: Meet en Regel Engineer
+  - afk: MTA
+    title: Manager Technische Automatisering
+  - afk: OP
+    title: Operator Panel
+  - afk: OQ
+    title: Operational Qualification
+  - afk: PL
+    title: Project Leider
+  - afk: PLC
+    title: Programmable Logic Controller
+  - afk: PM
+    title: Project Manager
+  - afk: PP
+    title: Projectplan
+  - afk: PVA
+    title: Plan van Aanpak
+  - afk: PVE
+    title: Programma van Eisen
+  - afk: PVfE
+    title: Programma van Functionele Eisen
+  - afk: PVtE
+    title: Programma van Technische Eisen
+  - afk: RFP
+    title: Request For Proposal / Aanvraag aanbieding c.q. offerte
+  - afk: RFQ
+    title: Request For Quotation / Prijsaanvraag
+  - afk: SAT
+    title: Site Acceptance Test
+  - afk: SCADA
+    title: Supervisory Control And Data Acquisition
+  - afk: SDS
+    title: System Design Specification
+  - afk: SE
+    title: Software Engineer
+  - afk: SMART
+    title: Specifiek Meetbaar Acceptabel Realistisch Tijdgebonden
+  - afk: SO
+    title: Systeem Ontwerper
+  - afk: Syntess
+    title: ERP Systeem genaamd Syntess
+  - afk: TA
+    title: Technische Automatisering
+  - afk: TIE
+    title: Technische Informatica Engineer
+  - afk: UQ
+    title: Unit Qualification
+  - afk: WBS
+    title: Work Breakdown Schedule
+
+osb-oud:
+  - name: Marc De Leeuw
+    jobTitle: Managing Director
+    start: 2021-09
+  - name: Mark van der Linden
+    jobTitle: Sr. Project Engineer Hardware
+    start: 2019-03
+    eind: 2023-02
+
+obs:
+  - name: Thomas Kwaks
+    start: 1993-02
+    jobTitle: Managing Director
+    companyName: HYDAC
+    src: https://media.licdn.com/dms/image/C4E03AQGW23UmgPVUrA/profile-displayphoto-shrink_400_400/0/1599763407224?e=1684368000&v=beta&t=P_649QRAYHZ4WXIvyfSLBZAMDwcGlpXqQZ5o0U7apoI
+    linkedin: https://www.linkedin.com/in/thomas-kwaks-9b787916a
+  - name: Dick de Winkel
+    start: 1996-02
+    jobTitle: Managing Director
+    companyName: HYCOM
+  - name: Quentin van Ballegooie
+    jobTitle: Adviseur
+  - name: Herbert Martens
+    start: 2007-03
+    jobTitle: Managing Director
+  - companyName: ELRO
+    departments:
+      - department: General
+        people:
+          - name: Cristian Petrescu
+            mailaddress: cristian.petrescu@elro.ro
+            phone: +40 (0)241 486 450
+            jobTitle: Technical Manager
+          - name: Cristina Constantin
+            mailaddress: cristina.constantin@elro.ro
+            phone: +40 (0)241 486 450
+            jobTitle: Economic Manager
+          - name: Violeta Bucur
+            mailaddress: violeta.bucur@elro.ro
+            phone: +40 (0)241 486 450
+            jobTitle: Commercial Manager
+
+whitepapers:
+  DSDM:
+    Wat is DSDM:
+      Introductie:
+        - De Dynamic Systems Development Method (DSDM) is een methode om succesvol IT-projecten uit te voeren. De methode is volledig onafhankelijk van leveranciers, maar ook van ontwerpmethoden (gestructureerd of object-georiënteerd) en van ontwikkelomgevingen.
+        - Kenmerken van DSDM zijn: intensieve gebruikersparticipatie, evolutionair prototypen, kwaliteit en snelheid. Deze ontwikkelmethode is toe te passen op zowel kleine als grote systemen. DSDM is succesvol toegepast bij organisaties in de publieke-, dienstverlenende- en commerciële sector.
+        - DSDM is gebaseerd op een iteratieve, incrementele opleverstrategie.
+          Deze strategie maakt het mogelijke IT-projecten in kortere tijd op te leveren en daardoor sneller meerwaarde te genereren voor de gebruikersorganisatie. Kenmerkend is dat het ontwikkelproces van de op te leveren functionaliteit continu wordt gestuurd. Hierdoor wordt bewerkstelligd dat díe functionaliteit wordt opgeleverd waaraan de gebruikersorganisatie de meeste behoefte heeft. Met name in situaties waarin de oplevertermijn wel vaststaat, maar de op te leveren functionaliteit nog niet volledig uitgespecificeerd is, is deze methode van ontwikkelen zeer succesvol gebleken. Ook wanneer een waterval-aanpak de enige mogelijke weg is, geven DSDM-technieken voldoende mogelijkheden voor het optimaliseren van het ontwikkelproces.
+      Wanneer is DSDM toepasbaar?:
+        DSDM is goed toe te passen voor de ontwikkeling van alle mogelijke systemen.
+        De meerwaarde van DSDM wordt echter ten volle benut bij de ontwikkeling van systemen met bepaalde kenmerken. Te noemen zijn goed visualiseerbare functionaliteit, via bijvoorbeeld schermen en rapporten. Prototypes kunnen middels deze zichtbare resultaten eenvoudig en goed geëvalueerd worden. Verder is het belangrijk dat de uiteindelijke gebruikersgroepen voor het systeem helder zijn. Dan kunnen de juiste gebruikersvertegenwoordigers worden gekozen om zorg te dragen voor de juiste prioriteiten en voor juiste aansluiting bij de huidige behoeften.
+        Deze vertegenwoordigers, in DSDM ambassadeurs genaamd, zijn de ambassadeurs van het project in de doelorganisatie en de ambassadeurs van de doelorganisatie in het project. Tenslotte, wanneer het de ontwikkeling van een groot en complex systeem betreft, moet dit opdeelbaar zijn in kleinere en goed overzichtelijke delen die door onafhankelijke teams in korte tijd ontwikkeld en getest kunnen worden. Meer eisen staan genoemd in de DSDM suitability filter (DSDM manual versie 3, appendix A).
+# DSDM, wanneer goed toegepast, staat voor het snel opleveren van kwalitatief hoogwaardige systemen. Maar het succesvol toepassen van DSDM vergt wel een flexibele omgang met reeds aanwezige standaarden. DSDM biedt de ruimte omdat het opgezet is als een raamwerk en niet als een strikt voorschrijvende methode. Ontwikkelorganisaties met een verleden in de traditionelere manier van systeemontwikkeling zijn ook georganiseerd naar principes die daarbij horen. Op een radicaal andere manier werken betekent ook dat de zwaartepunten in de aanpak, dus ook de kritieke succesfactoren, op een volslagen ander gebied liggen. Traditioneel ligt bijvoorbeeld de nadruk voor wat betreft kwaliteit vaak op het bouwen volgens specificaties. Bij DSDM ligt de nadruk op het organiseren van de kwaliteit van de gebruikersinbreng om zo kwaliteit te waarborgen.
+# Principes
+# DSDM is gebaseerd op "best practice" ervaringen van organisaties met versnelde systeemontwikkeling. Het extract van al deze ervaringen heeft geleid tot de theorie. De basis wordt gelegd door 9 principes die in de hele theorie terug te vinden zijn
+# 1)	Actieve betrokkenheid van gebruikers is noodzakelijk;
+# 2)	DSDM-teams moeten gemachtigd zijn besluiten te nemen;
+# 3)	De aanpak is gericht op het frequent opleveren van producten;
+# 4)	Geschiktheid voor bedrijfsdoeleinden is het essentiële criterium voor de acceptatie van producten;
+# 5)	Iteratieve en incrementele ontwikkeling is noodzakelijk om te convergeren tot een juiste bedrijfsoplossing;
+# 6)	Alle wijzigingen tijdens de ontwikkeling zijn terug te draaien;
+# 7)	Eisen worden op hoog niveau vastgelegd;
+# 8)	Testen is geïntegreerd in de levenscyclus;
+# 9)	Een samenwerkende en coöperatieve houding van alle belanghebbenden is essentieel
+# DSDM Lifecycle
+# DSDM definieert een generiek, hoog niveau proces (= raamwerk) dat aangepast kan worden voor gebruik in een specifieke organisatie, afhankelijk van de bedrijfs- en technische mogelijkheden en beperkingen. In dit proces worden de volgende vijf fasen onderscheiden:
+#  	haalbaarheidsonderzoek
+#  	bedrijfsanalyse
+#  	functioneel model iteratie
+#  	ontwerp en bouw iteratie
+#  	implementatie
+#
+# Voor elke fase wordt binnen DSDM gedefinieerd welke producten opgeleverd worden. Elk van de producten dient een goed gedefinieerd doel en voor elk product is een set aan kwaliteitscriteria benoemd. Hoe het product geproduceerd wordt en wat de inhoud zal zijn, is niet gedefinieerd. Elk projectteam kan dit afhankelijk van bijvoorbeeld tools en standaarden zelf bepalen. De set aan producten is het minimum dat DSDM voorstelt om het project succesvol en beheersbaar te laten zijn. Organisatie-specifieke producten en -procedures kunnen worden toegevoegd, maar organisaties die besluiten dat bepaalde DSDM producten niet noodzakelijk zijn, lopen het gevaar een stuk beheersing op te geven.
+# Om een beheerste overgang tussen de fasen te verzekeren zijn minimale condities gedefinieerd voor de start van iedere fase.
+# 2	Haalbaarheidsonderzoek
+# Binnen het haalbaarheidsonderzoek wordt onderzocht of de voorwaarden voor een succesvol project kunnen worden ingevuld en of DSDM (met eventuele aanpassingen) de geschikte aanpak is voor dit project. Tevens wordt een eerste schatting gemaakt van benodigde tijd en middelen. Het haalbaarheidonderzoek duurt maximaal enkele weken.
+# 3	Bedrijfsonderzoek
+# Tijdens het bedrijfsonderzoek wordt gedefinieerd welke bedrijfsprocessen en gebruikersgroepen ondersteund gaan worden door het op te leveren systeem. De informatiebehoefte wordt in kaart gebracht, Verder wordt de basis gelegd voor het verdere ontwikkeltraject door het definiëren van de technische basis in de systeemarchitectuur. Ten slotte wordt ook gespecificeerd hoe het verdere project wordt aangepakt, worden de teams ingericht en wordt de incrementele opdeling gedefinieerd. Het bedrijfsonderzoek is een korte fase van maximaal een paar weken, tot een maand (afhankelijk van de complexiteit van het project).
+# 4	Functioneel Model Iteratie (FMI)
+# In de vorige fase is gedefinieerd welke bedrijfsprocessen ondersteund moeten worden. In de FMI wordt bepaald met welke functionaliteit dat zal gaan plaatsvinden. In één woord kan gesteld worden dat "wat" de applicatie moet gaan doen tijdens deze fase wordt bepaald. De functionaliteit wordt iteratief ontwikkeld met behulp van prototypes en functionele modellen. DSDM onderkent hiervoor 3 iteraties, te weten onderzoek, verfijning en consolidatie. Op deze wijze kunnen toekomstige gebruikers voortschrijdend inzicht opnemen in het uiteindelijke eindproduct. Optimale gebruikskwaliteit wordt zo heel dicht benaderd.
+# Facilitated workshops spelen een belangrijke rol in deze fase. Gebruikers en ICT-specialisten komen samen tot de beste oplossing. Niet-functionele aspecten komen tijdens de reviews van prototypes naar voren en worden vastgelegd om voor de volgende fase als input te dienen.
+# 5	Ontwerp en Bouw Iteratie (OBI)
+# Waar in de functionele model iteratie (FMI) de nadruk ligt op het realiseren van WAT, ligt in de ontwerp en bouw iteratie de nadruk op het HOE. Startpunt voor deze fase is een geprioriteerde lijst niet-functionele eisen, samen met een goedgekeurd functioneel prototype. In een aantal iteraties zullen in deze fase minimaal de noodzakelijke niet-functionele eisen worden gerealiseerd. Aan het einde van de OBI is er dus een werkend systeem dat kan worden opgeleverd.
+# Afhankelijk van bijvoorbeeld ontwikkelomgeving of de complexiteit van het te bouwen increment kan worden besloten de OBI te combineren met de FMI. Een belangrijk nadeel daarvan is dat het boven tafel krijgen van de noodzakelijke functionaliteit dan vaak onvoldoende aandacht krijgt.
+# Met DSDM wordt incrementeel ontwikkeld, waardoor de ontwikkeling van de verschillende incrementen zich ook in verschillende fasen kan bevinden. Terwijl op een bepaald moment bepaalde incrementen al geïmplementeerd zijn (dus worden gebruikt), bevindt de ontwikkeling van andere incrementen zich dan nog in de FMI of OBI.
+# 6	Implementatie
+# Tijdens deze fase wordt de applicatie in alle opzichten geïmplementeerd. De tijdens het project ontwikkelde documentatie wordt afgerond, gebruikers worden getraind en de formele acceptatie vindt plaats. De laatste stap van de implementatie is een evaluatie van wat er is bereikt. Het resultaat hiervan dient als input voor de beslissing over het al of niet starten van volgende incrementen. De volgende mogelijkheden worden aangegeven:
+#  	Alles is opgeleverd en er is geen noodzaak voor verdere ontwikkeling, het project wordt beëindigd;
+#  	Nieuwe functionaliteit is geïdentificeerd tijdens de ontwikkeling en er wordt teruggekeerd naar de fase Bedrijfsonderzoek, vanwaar een nieuw increment wordt gestart;
+#  	Een minder essentieel onderdeel van de functionaliteit is tijdens de ontwikkeling achterwege gebleven door de combinatie tijdsdruk en prioriteitstelling. De fase Functioneel Model Iteratie wordt opnieuw gestart om de ontbrekende functionaliteit toe te voegen aan het reeds geïmplementeerde systeem;
+#  	Aan sommige niet-functionele eisen is (nog) niet voldaan. De fase Ontwerp en Bouw Iteratie wordt opnieuw gestart om de ontbrekende niet functionele eisen toe te voegen aan het reeds geïmplementeerde systeem.
+# Timeboxing en prioriteitstelling
+# De techniek om zowel tijdige oplevering te realiseren als voortschrijdend inzicht te kunnen implementeren heet timeboxing. Binnen DSDM projecten is de opleverdatum gefixeerd en de productiecapaciteit is daardoor duidelijk te benoemen (op basis van beschikbare tijd en mensen).
+# Timeboxing betekent effectief dat tijd en geld worden gefixeerd en dat functionaliteit wordt gevarieerd. Het managen van functionaliteit gebeurt door middel van prioriteitstelling. Initieel wordt een lijst met eisen opgesteld, waaraan prioriteiten worden toegekend volgens het MoSCoW principe. Op basis van deze lijst wordt een begroting gemaakt, die vervolgens wordt gefixeerd. Bij optredende verschuivingen wordt niet meteen gegrepen naar het aloude middel van meer tijd/geld. Nee, er wordt middels de prioriteitenlijst bepaald wat dan wel binnen de grenzen blijft horen .
+#
+# MoSCoW (de o's maken het wat gemakkelijker uit te spreken) is een eenvoudig maar krachtig prioriteitstellingprincipe. De eisen aan het systeem worden gecategoriseerd in Must have, Should have, Could have, en Want to have but won't have this time. 'M' eisen moeten worden gerealiseerd en vormen de 'Minimal Usable SubseT'. 'S' eisen moeten ook worden gerealiseerd, maar er is eventueel een work-around realiseerbaar. 'C' eisen moeten worden gerealiseerd wanneer er voldoende tijd is, maar zouden eventueel kunnen vervallen zonder de toepasbaarheid van het systeem aan te tasten. 'W' eisen zijn belangrijke eisen die echter niet horen bij de doelstellingen van het huidige increment.
+# Beheersing
+# Een DSDM project kenmerkt zich door een continue stroom opgeleverde prototypes. Om deze stroom te coördineren is versie management en configuration management van essentieel belang. Immers, een prototype kan een foute weg inslaan en teruggedraaid moeten worden zonder grote problemen. Onder configuration management in een project vallen dus niet alleen software componenten, maar ook specificaties, MoSCoW-lijsten, workshopverslagen, testdata en -resultaten etc.
+# Communicatie en Documentatie
+# DSDM streeft oplevering binnen strakke tijdsplanningen na door de communicatielijnen kort te houden tussen alle bij het project betrokken personen, variërend van uitvoerende in het project tot het management en staforganisaties. De mechanismen om deze lijnen kort te houden verschillen van elkaar. Zo wordt bijvoorbeeld de communicatie tussen ontwikkelaars en gebruikers vereenvoudigd door de inzet van gebruikersambassadeurs als onderdeel van het ontwikkelteam en door het gebruik van prototypes in plaats van lange documenten om de ideeën van de ontwikkelaars te beschrijven. Communicatie tussen lijn en project vindt plaats middels facilitated workshops, een zeer effectieve, efficiënte manier om in korte tijd goede beslissingen te nemen.
+#
+# Omdat binnen DSDM een team verantwoordelijk is voor de volledige ontwikkeling van specificaties, ontwerpen, programmatuur, etc., vindt er tussentijds geen overdracht plaats van bijvoorbeeld ontwerper naar programmeur. De documentatie die normaliter hoort bij deze overdracht en die van zeer hoge kwaliteit moet zijn is in DSDM projecten dus overbodig. Dit levert tijdwinst op en voorkomt interpretatie fouten (werkt dus kwaliteitsverhogend).
+# Andere aspecten van DSDM
+# In het DSDM manual wordt een veelvoud van andere onderwerpen uitvoerig behandeld. Daaronder valt bijvoorbeeld project management, selectie van tools en technieken hoe te testen, wanneer en hoe "facilitated workshops" toe te passen, beheersing van prototyping activiteiten, en teamstructuren , rollen en verantwoordelijkheden voor zowel gebruikers als ontwikkelaars in het project. In de regelmatig uitkomende White Papers worden de nieuwste ontwikkelingen op het gebied van de toepassing van DSDM beschreven.
+# 7	De voordelen
+# DSDM gebruikt een iteratief proces, gebaseerd op prototyping en betrekt de gebruikers gedurende de gehele projectlevenscyclus
+# De voordelen zijn:
+#  	De gebruikers eigenen zich de oplossing sneller toe.
+#  	Het risico dat het verkeerde systeem gebouwd wordt is zeer klein.
+#  	Het uiteindelijke systeem zal beter aansluiten op de werkelijke behoefte van het bedrijf.
+#  	De gebruikers zullen beter getraind zijn aangezien hun vertegenwoordigers zelf de vereiste training definiëren en coördineren.
+#  	De implementatie zal naar verwachting soepeler verlopen door de samenwerking van alle betrokken partijen gedurende het ontwikkelproces.
+# De Business Case
+#  	Oplevertijd kan worden verkort door gebruik van de DSDM aanpak.
+#  	Gebruik van DSDM kan het leervermogen van de organisatie versterken, aangezien er toegang is tot de laatste informatie over de beste praktijktoepassingen van het effectief leveren van bedrijfsoplossingen.
+#  	De continue ontwikkeling van een DSDM community in de organisatie zal het vermogen tot klantgericht werken nog meer bevorderen.
+#  	Gebruik van DSDM kan ook positieve invloed hebben op de ontwikkeling van de staf en het behoud van medewerkers, door het bieden van een omgeving die sterk gericht is op leren en grote kansen biedt voor professionele erkenning.
+# Om de licentie voor het gebruik van het DSDM framework te krijgen, dienen organisaties/ individuen een volledig lidmaatschap met het DSDM Consortium aan te gaan.
+# Communicatie is de sleutel
+# DSDM bewerkstelligt levering op strakke tijdslimieten door het verkorten van communicatielijnen tussen gebruikers en ontwikkelaars, tussen analisten en ontwerpers, tussen en over teamleden en tussen verschillende echelons. De mechanismen waarmee deze communicatielijnen verkort worden, verschillen van elkaar. De communicatie tussen ontwikkelaars en gebruikers bijvoorbeeld, wordt vergemakkelijkt doordat ambassadeurs van de gebruikers deel uitmaken van het ontwikkelteam. Ook door het gebruik van prototypen in plaats van langdradige documenten om de concepten van ontwikkelaars duidelijk te maken, is een beproefd mechanisme.
+# DSDM bepaalt een aanpak voor het vaststellen van de vereiste documentatiesamenstelling voor een bepaald project. Veel van de documentatie van wat traditioneel wordt geproduceerd, is gericht op het overbrengen van ideeën van één ontwikkelaar naar de ander, of van ontwikkelaars naar gebruikers. Door gemengde teams van gebruikers en ontwikkelaars gedurende het ontwikkeltraject constant en beperkt van omvang te houden, maakt DSDM veel van deze documentatie overbodig. Voor de managementdocumentatie zullen lokale procedures gevolgd moeten worden, maar dienen tot een minimum te worden beperkt om onnodige belemmeringen in de voortgang van het traject te voorkomen. Aan de technische kant voorziet DSDM in begeleiding hoe de juiste keuzes ten aanzien van de benodigde documentatie gemaakt worden en waarom.
+# Verschillen met andere methoden
+# In watervalmethoden wordt de nadruk gelegd op het goed en nauwkeurig specificeren van eisen en vervolgens het ontwerpen van een oplossing voordat begonnen kan worden aan bouw en implementatie. De geaccordeerde specificaties vormen telkens een basis voor het vaststellen van de benodigde tijd en resources. Het uitgangspunt van deze methoden is dus dat deze specificaties vooraf eenduidig en foutloos op te stellen zijn. DSDM is meer van toepassing wanneer dat niet mogelijk is. Dat betekent dus dat een uitgangspunt van DSDM (zie principe 6) is dat specificaties aan verandering onderhevig zijn. De specificaties zullen dus van dag tot dag gemanaged moeten worden. Om dat beheersbaar te houden en toch binnen tijd- en geldsgrenzen te blijven zal gebruikt moeten worden gemaakt van Timeboxing en prioriteitsstelling.
+# Specificaties managen kan niet gebeuren door de ontwikkelaars in een project, maar zal moeten gebeuren door de mensen die het systeem willen, de toekomstige gebruikers. Vandaar dat een DSDM team bestaat uit ontwikkelaars én gebruikersvertegenwoordigers die gezamenlijk het systeem realiseren (principes 1 en 2). Klantorganisatie en ontwikkelaars hebben in een DSDM project dan ook meer een samenwerkingsverband dan een opdrachtgever-opdrachtnemer relatie (principe 9).
+# Aan de ontwikkelaars in een DSDM project worden andere eisen gesteld dan in de watervalmethoden. In DSDM wordt alleen gesproken van ontwikkelaars, het onderscheid tussen informatie-analisten, functioneel ontwerpers, systeemontwerpers en bouwers bestaat in DSDM niet. Prototype-matig ontwikkelen, continu contact met gebruikers, voortdurend afwisselen tussen analyseren, ontwerpen en bouwen vergt generalisten die eventueel voor de echte moeilijke zaken worden ondersteund door specialisten. Ook geldt dat niet iedere projectmanager, die gepokt en gemazeld heeft in het managen van watervalprojecten, automatisch ook een goede projectmanager is van DSDM projecten.
+
+# resources:
+#   - name: jan
+#     fc: se
+#     cost: 70
+#   - name: piet
+#     cost: 50
+#     fc: hwe
+
+projects:
+  - name: projecta
+    tasks:
+      - title: VO HW
+        fc: hwe
+        rc: dhou
+        calc: 60
+        done: 30
+        togo: 0
+      - title: DO HW
+        fc: hwe
+        rc: dhou
+        done: 80
+        calc: 200
+        togo: 300
+  - name: projectb
+    tasks:
+      - title: VO HW
+        fc: hwe
+        rc: mlis
+        calc: 100
+      - title: DO HW
+        fc: hwe
+        calc: 20
+        rc: dhou
+  - name: projectc
+    tasks:
+      - title: VO HW
+        fc: swe
+        calc: 100
+      - title: DO HW
+        fc: swe
+        calc: 200

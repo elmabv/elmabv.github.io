@@ -1,0 +1,892 @@
+  - title: Beheer > Hydac? > werkplek beheer (meubels)
+    elma: Elk MMT lid
+    description: nieuw aankoop investeringsaanvraag naar Inkoop (normale routing, na toestemming MDL)
+  - title: Beheer > Hydac? > werkplek aanwijzen/toekennen
+    elma: Elk MMT lid
+  - title: Beheer > Hydac? > inkoop ICT deel werkplek (voor op kantoor plek bij BV)
+    description: 2 weken van te voren aanvragen conform document werkplekbeheer
+    actie: JK > Update vragen bij Jeroen
+  - title: Beheer > Hydac? > Inkoop voor Projecten en klanten
+    elma: Inkoop
+    description: Configuratie dient door Engineering aangeleverd te worden, kan ingekocht worden via Dell-account.
+  - title: Beheer > Hydac? > Werkplek randappratuur klaar zetten
+    description: H-IT maakt complete werkplek gebruiksklaar
+  - title: Beheer > Hydac? > Innemen IT werkplek van werknemers die ELMA verlaten
+    elma: Elk MMT lid
+    description: MMT lid zorgt dat de laptop (etc) over gedragen wordt aan ICT en in kast 4 geplaatst + mail-> ICT
+  - title: Beheer > Hydac? > Kabels netjes wegwerken
+    elma: Anton
+
+    description: Assistentie vanuit productie & Service als er een werkplek moet worden aangepast e.d.
+  - title: Beheer > Hydac? > werkplek voorzien van netwerkaansluiting
+  - title: Beheer > Hydac? > Werkplek voorzien van stekkerblok
+  - title: Beheer > Hydac? > Domein gebruiker aanmaken met email
+  - title: Beheer > Hydac? > Office licenties koppelen
+  - title: Beheer > Hydac? > Welkomstbrief IT aanmaken en afgeven
+    description: Manager vd afdeling plant van te voren 15 min teams meeting met ICT/bespreekt het met Dion
+  - title: Beheer > Hydac? > Mobiele telefoons voorraad/bestellen
+    elma: Inkoop
+    description: Beheer met simpele registratie door Inkoop voor niet-standaard ELMA-telefoons
+    actie: MDL > Gebruikersovereenkomst beoordelen en meenemen in contract/personeelsreglement
+  - title: Beheer > Hydac? > telefoons voorradig houden
+    elma: Inkoop
+  - title: Beheer > Hydac? > headsets vooraad/bestellen
+  - title: Beheer > Hydac? > Webcams vooraad/bestellen
+  - title: Beheer > Hydac? > Vaststellen thuiswerk spullen welke goed zijn
+  - title: Beheer > Hydac? > Thuiswerk spullen bestellen
+    description: Nee, HR stelt wel de vraag of een thuiswerkplek heeft of ander in te leveren materiaal
+  - title: Beheer > Hydac? > Telefoon abonnementen aanvragen/regelen
+  - title: Beheer > Hydac? > contract apparatuur werknemer verzorgen
+    elma: HRM
+    description: Beter onderdeel maken van de algemene arbeidsovereenkomst (bedrijfsreglement) en daarna afvinklijst/excel
+    actie: MDL > Met Ingrid opnemen
+  - title: Beheer > Hydac? > Windows Updates en drivers
+  - title: Beheer > Hydac? > Probleem met MS Teams
+    elma: Edwin/Tymon
+    description: Voicedata
+  - title: Beheer > Hydac? > Vragen over Office applicaties
+  - title: Beheer > Hydac? > VPN software installeren en onderhouden
+  - title: Beheer > Hydac? > Vragen over Eplan/Sollidworks/Inventor
+  - title: Beheer > Hydac? > Updates en functies doorvoeren EXACT/SAP/ISAH
+  - title: Beheer > Hydac? > Vragen over Exact/SAP/ISAH
+    elma: Tymon (JK/Belinda)
+    description: ISAH apllicatie beheer nog te bepalen. Vacature opstellen
+  - title: Beheer > Hydac? > Vragen over software voor magazijn
+    description: Installatie door IT, daarna verantwoording ELMA -> Apllicatie beheer?
+  - title: Beheer > Hydac? > Nordpass
+    description: deze zou kunnen vallen onder de applicatiebeheerder? Florina administrator
+    actie: Roger > instructie maken/geven
+  - title: Beheer > Hydac? > Webhosting
+    elma: Edwin
+    description: Uitbesteden aan Martijn van der Meer
+    actie: Mdl > Tymon informeren dat hij dit niet meer moet doen
+  - title: Beheer > Hydac? > BV specifieke applicaties (Synergy, alles)
+    elma: Tymon
+    description: Nieuwe applicatielandschap beoordelen en per applicatie eigenaar toewijzen
+  - title: Beheer > Hydac? > Printer plaatsen en vervangen
+  - title: Beheer > Hydac? > Printer problemen softwarematig
+  - title: Beheer > Hydac? > Printer hardware verstoring
+    elma: Moktar/Inkoop
+    description: Iedereen doet de simpele dingen zelf. Moktar eventueel naar de kleine storingen. Inkoop sluit onderhouds contract (nu op 3 vd 5 printers)
+  - title: Beheer > Hydac? > Printer inkt en papier bestellen
+    who: Moktar
+    description: Moktar bestelt bij inkoop
+  - title: Beheer > Hydac? > Investeringsnummer regelen
+    elma: Finance
+    description: Aanvraag investering per mail naar MdL, goedkeur naar finance, inkoop krijgt nummer en koopt in
+    actie: MdL > Met Kees bespreken hoe we dit in de toekomst gaan doen
+  - title: Beheer > Hydac? > Facturen uitzoeken
+    elma: Ink/Finance
+    description: naar aanleiding van de eigen bestellingen
+  - title: Beheer > Hydac? > Alarm en sleutel beheer
+    elma: HR
+    description: blijft HR
+  - title: Beheer > Hydac? > Laadpalen auto's
+    elma: Huismeester
+    description: Aanschaf doet maarten v B, dit gaat alleen over operationeel beheer (iemand bellen bij problemen). Anton (huismeester) moet de app downloaden van blue current (hierover contact opnemen met Roger).
+  - title: Beheer > Hydac? > Verwarming gebouw
+    elma: Huismeester
+    description: Anton (huismeester) als formele gebouw coordinator ook richting verhuurder voor technische zaken, voor investeringen en commerciele afspraken Anton
+  - title: Beheer > Hydac? > Functie(namen/wijzigingen) doorsturen naar IT
+    elma: MMT via HR
+  - title: Beheer > Hydac? > Functie(namen) aanpassen
+    description: Dit zou ook iemand van applicatiebeheer kunnen doen
+  - title: Beheer > Hydac? > Rechten instellen voor mappen
+  - title: Beheer > Hydac? > Backups controlleren
+  - title: Beheer > Hydac? > Backups vervangen
+    elma: HR/ Moktar
+  - title: Beheer > Hydac? > Gebruikers account opruimen archiveren
+  - title: Beheer > Hydac? > Gebruikersverzoeken aanmaken/verwijderen
+    elma: HRM
+    description: Voor start nodig voor aanmaken account. Per email? (conform afspraken IT en HR)
+  - title: Beheer > Hydac? > Email account doorzoeken aanzetten
+    description: Handboek 'alleen zqakelijk' opnemen, maar moet ook gevraagd worden, maar ook met de bewuste vraag mogen we mail bewaren voor noodgevallen en na overleg
+  - title: Beheer > Hydac? > Email doorzoeken
+    elma: MMT lid
+  - title: Beheer > Hydac? > Presentatie systemen onderhouden
+    elma: Huismeester
+    description: Presentatie systeem in Paneelbouw en Kabelkrant kantine, maar ook digireceptie en tv in ontvangsthal en tv's in vergaderruimtes
+    actie: MdL > Digireceptie eruit
+  - title: Beheer > Hydac? > VDI omgeving beheren
+    description: centrale omgeving voor E-Plan, solid works, Inventor
+  - title: Beheer > Hydac? > Garantie regelen
+    description: Hardware met problemen
+  - title: Beheer > Hydac? > Garantie laten uitvoeren
+    elma: MMT lid
+    description: ontvangen medewerker die garantie uitvoert op bv PC en evt contact leggen om afspraak te maken
+  - title: Beheer > Hydac? > Telefoons instellen
+    who: medewerker
+    description: vpoip zie regel 58
+  - title: Beheer > Hydac? > Telefoon handleiding sturen voor instellen
+  - title: Beheer > Hydac? > VOIP telefoons configureren
+  - title: Beheer > Hydac? > Netwerk onderhouden
+  - title: Beheer > Hydac? > Gasten wifi code bekend maken
+    elma: MMT	Gaat alleen om aan gasten aangeven. Wifi code blijft het zelfde, is een safe netwerk
+  - title: Beheer > Hydac? > Airco/klimaatsysteem onderhoud
+    elma: Huismeester
+    description: Anton (huismeester) als formele gebouw coordinator ook richting verhuurder voor technische zaken. App downloaden toshiba ac voor de kleine airco's aan de muur. Grote airco's moet de app toshiba ac cloud worden gedownload.
+  - title: Beheer > Hydac? > Alarm systeem en app
+    elma: HR
+    description: Technische back up via van Wakeren
+    actie: MdL > navragen bij Ingrid
+  - title: Beheer > Hydac? > code aanmaken alarm bij verkrijgen sleutel
+    description: Technische back up via van Wakeren
+    actie: MdL > navragen bij Ingrid
+
+  - title: Beheer > Toegang > Het hek van de Centurionbaan
+    description:
+      - Om het bedrijventerrein staat een hek en er is 1 toegangspoort welke op normale werkdagen van 06:00 tot 19:00 uur geopend is. Op feestdagen en in het weekend is deze poort standaard gesloten. Om op het bedrijventerrein te komen of te vertrekken moet je dan naar het telefoonnummer bellen van “De dubbele poort Zeisterspoor” met het nummer +3197020438977.
+      - Echter het zou wel heel makkelijk zijn dat iedereen die naar dit nummer belt de poort zou openen dus je nummer moet vooraf zijn aangemeld bij de beheerders van he bedrijventerrein. Dit is BMO Soest waar Bas de Haas en Henk van Asch werkzaam zijn. Om iemand aan te melden stuur je een email naar bas@bmosoest.nl of henk@bmosoest.nl met daarin de vraag of ze een telefoonnummer willen toevoegen of verwijderen. Dit kan enkel een 06 nummer zijn en je zet er ook bij de volledige naam van de persoon en dat dit om iemand gaat van Elma. Als het goed is krijg je dan spoedig een bericht dat de persoon is toegevoegd of is verwijderd.
+      - Als een medewerker dus bijvoorbeeld ook nog een privé nummer heeft dan moet dit nummer ook worden doorgegeven want het werkt dus enkel met nummers welke zijn doorgegeven
+  - title: Beheer > Toegang > Sleutel van het pand
+    description:
+      - Zodra je toegang hebt tot het bedrijventerrein komt de volgende beveiligmaatregel, je zult een sleutel moeten hebben om naar binnen te kunnen komen. Elma heeft 6 buitendeuren en 4 roldeuren, echter kan je maar bij 3 deuren naar binnen met de sleutel dit zijn de twee achter deuren bij Systems en Services en de voordeur (de hoofdingang). Als je toch binnenkomt via een van de andere deuren dan zal het alarm direct afgaan dus dat is niet verstandig. Dit kan enkel als iemand een deur vergeten op slot te doen is en dan zal er een onderzoekje moeten komen wie dit is geweest om aan te kunnen spreken.
+      - Er zijn op dit moment 27 sleutels verstrekt aan Elma bij de oplevering van het pand, elke sleutel is door ons zelf gegraveerd met nummer 1 t/m 27. De sleutels kunnen niet simpel worden nagemaakt deze moeten speciaal besteld worden en je moet ook altijd het certificaat van de sleutel meebrengen. Waar dit certificaat ligt is op dit moment helaas onduidelijk mogelijk weet Ben Prins (Project manager van de nieuwebouw van ons pand) dit 06 14002491. Als je nieuwe sleutels hebt bij gemaakt moeten deze gegraveerd worden met nummer 28 enz, enz. Het is belangrijk dat de sleutels een uniek nummer krijgen want deze is gekoppeld aan de alarmcode van het alarmsysteem.
+      - Je zult de ontvanger van de sleutel moeten uitleggen bij uitgifte van de sleutel welke 3 deuren hij of zij kan gebruiken om het pand binnen te komen.
+  - title: Beheer > Toegang > Het alarmsysteem
+    description:
+      - Als je binnen bent gekomen in het pand door één van de drie deuren zal je bij die deur direct het alarm moeten deactiveren. Het is niet toegestaan om eerst bijvoorbeeld door te lopen om de koffie automaat aan te zetten of naar de wc te gaan want dan word de alarmmelding omgezet in een inbraakmelding.
+      - Bij de twee achterdeuren van Services en Systems hangt naast de deur een alarm paneel. Om het alarm uit te zetten moet de gebruiker enkel de 4 cijferige unieke pincode invoeren. Als deze correct is ingevoerd zal het alarm uitgeschakeld zijn voor het hele pand.
+      - Als iemand na een aantal keer de code verkeerd heeft ingevoerd zal er alarmmelding komen bij de alarm opvolging als dit overdag is (van maandag tot en met vrijdag van 06:00 tot 23:00) eerst bij Roger Jaspers daarna bij Anton Vervat en dan bij Tymon Fietjé. Als dit tussen 23:00 en 06:00 gebeurd zal JBA security gebeld worden door de SMC alarm centrale dit kost Elma geld. In het weekend komt JBA ook direct al eerste opvolging. Als JBA is langs gekomen krijgen we altijd een rapport wat er is geconstateerd en hoelang het geduurd heeft om de alarm melding op te lossen.
+      - Onze contactpersoon van JBA is Raymond de Valck en zei hebben ook een pincode en een sleutel ze zijn gebruiker 48. Reinstaat de schoonmaakdienst is gebruiker 49.
+      - Bij een vals alarm hebben 7 mensen bij Elma (de 7 managers) een pasje gekregen van SMC om een vals alarm af te kunnen melden. Deze mensen hebben als het goed is eenmalig gebeld met het nummer wat op het pasje staat om een pincode aan de pas te koppelen zodat bij verlies van de pas niet iedereen zomaar ons alarm kan laten afmelden via de telefoon. Als een medewerker dus een vals alarm heeft veroorzaakt moet er dus gebeld worden mijn zijn/haar manager om dit af te laten melden.
+      - Er hoeft geen overwerk aangemeld te worden, er kan dus tot altijd worden gewerkt als het alarm maar is afgezet.
+      - Er zijn een aantal rechtenniveau ’s in het alarm systeem alle gebruikers (welke een gebruikersnummer hebben wat correspondeert met de sleutelnummer) zijn standaard gebruiker dat betekend dat deze mensen het alarm kunnen aan en uitzetten. Gebruiker 1 (Roger Jaspers) en gebruiker 50 (van Wakeren) zijn manager en kunnen mensen toevoegen of verwijderen. Ook kunnen zijn de rechten van bestaande gebruikers aanpassen.
+      - Elk jaar moet het alarm worden gecontroleerd er is nog geen afspraak met het bedrijf welke het systeem voor Hardeman hebben geplaatst (Van Wakeren beveiliging). Dus op dit moment is daar nog geen periodieke controle en of contract voor ingepland.
+  - title: Beheer > Toegang > Afsluiten
+    description:
+      - Je controleert of iedereen het pand verlaten heeft en of alle ramen, deuren en airco’s uitgeschakeld zijn. De lampen in de bedrijfshallen (alle 4) moet je het licht met de hand uitzetten deze gaan niet automatisch uit. In het kantoor gaan deze wel uit na een bepaalde tijd.
+      - Daarna ga je naar 1 van de drie deuren en type je de alarmcode in en druk je op de knop waar onder een zwart vierkantje bij komt te staan om het alarm erop te zetten. Je hebt dan 60 seconden om het naar buiten te gaan. Bij de voordeur moet je de glazendeur op slot draaien en de schuifdeuren op “gesloten” zetten en beide automatische schuifdeuren op slot draaien. Het is verstandig om even te wachten tot de 60 seconden voorbij zijn zodat je hoort en ziet dat het alarm erop gegaan is (het piepende geluid stopt en er gaan geen alarm lampen af). Mocht dit wel zo zijn moet je dit valse alarm afmelden.
+
+  - title: Beheer > Printers
+    description:
+      - We hebben bij ELMA 3 printers geleased via PCI Nederland dat betekend dat deze printers niet in eigendom zijn van Elma en dat wij verplicht zijn om inkt/toner te kopen bij PCI Nederland. Deze manier van printers leasen is niet wenselijk want het kost op termijn een hoop meer geld dan zelf de printers kopen en in beheer houden. Daarom hebben we bij de verhuizing de oude printers niet verlengd en zelf een printer aangeschaft. Tevens willen we bij Elma steeds minder printer en papierloos werken. Echter moeten we elke kwartaal de printerstanden doorgeven aan PCI zodat ze ons kunnen factureren voor het aantal geprinte documenten. Hoe dit in zijn werk gaat staat uitgelegd in dit document.
+  - title: Beheer > Printers > Printerstanden uitlezen
+    description:
+      - We hebben dus 3 printers welke nog onder contract staan van PCI deze zullen eind 2021 contract vrij zijn. Het is de intentie om deze dus niet te verlengen of te vervangen bij PCI maar om zelf printers te kopen en te onderhouden. Tot die tijd moeten we het huidige systeem aanhouden. We krijgen elke email van PCI Nederland met contractnummer 106640 met een link om de Tellerstanden van de printers door te geven.  Dit kan op https://pciportal.bnsolutions.nl Je zult moeten inloggen met een account hoogst waarschijnlijk is dit nog de account van Tymon Fietjé en is het verstandig om hiervoor een nieuwe account te laten aanvragen. Het doorgeven via de e-mail van de Tellerstanden kan ook maar vind PCI Nederland (en ELMA) minder handig. Dat kan naar tellerstanden@pcinederland.nl
+      - De Tellerstanden en de serienummers van de 3 printers kunnen worden gevonden op deze websites:
+          - https://10.10.79.201/hp/device/InternalPages/Index?id=UsagePage
+          - https://10.10.79.202/hp/device/InternalPages/Index?id=UsagePage
+          - https://10.10.79.204/hp/device/InternalPages/Index?id=UsagePage
+  - title: Beheer > Printers > Inkt bestellen
+    description:
+      - Als het goed is word er door Florina Hennipman op tijd inkt besteld. Het vervangen van de inkt doen de mensen van Elma zelf en dit is vrij eenvoudig.
+
+  - title: Beheer > Elektrische laadpalen
+    description:
+      - Bij ELMA hebben we bij de bouw van het pand door TechTron (de elektricien van Hardeman) een meterkast laten installeren en 2 dubbele laadpalen voor elektrische auto’s met 2x 32 Ampère. Er zijn een aantal details welke belangrijk zijn en met dit document ben je op de hoogte van de situatie.
+  - title: Beheer > Elektrische laadpalen > Meterkast
+    description:
+      - We hebben een meterkast welke stroom krijgt van de netbeheerder Stedin. We hebben naar elke paal 1x 32 Ampère liggen, dit is niet voldoende dus is er bij de meterkast een zogenoemde Smart Charger geplaatst van het bedrijf Joulz. Deze Smart Charger module kijkt via de P1 poort op de meterkast continue hoeveel stroom er beschikbaar is. Om dit te kunnen doen moest Elma een slimme meter hebben welke het zogenoemde DSMR 4.0 (of hoger) protocol aankon. Of de meter is vervangen (want de originele meter was dus niet toereikend) is onbekend. De laatste communicatie was hierover op 16 november 2020 met Rinie Druijff van TechTron. Mogelijk heeft Ben Prins (Projectmanager nieuwbouw ELMA) dit voor Elma laten aanpassen.
+      - Deze module krijgt stroom via een USB kabel en heeft internet via het facility netwerk en is uit te lezen met een App van BlueCurrent (het bedrijf van de laadpalen).
+  - title: Beheer > Elektrische laadpalen > De 2 dubbele laadpalen
+    description:
+      - Er lopen dus 2 stroomkabels van ieders 32 Ampère naar de laadpalen. Er is per laadpaal dus maximaal 32 Ampère beschikbaar dus met 2 elektrische auto’s aan 1 laadpaal word dit vermogen gedeeld naar dus ieders 16 Ampère (zo simpel is het niet helemaal want de auto’s en de laadpalen kunnen dit samen afspreken). Echter de meeste elektrische auto’s kunnen veel meer vermogen aan en door dit tekort aan laadvermogen is het bij Elma dus niet mogelijk om snel te laden. Als een medewerker dus een volle accu wilt zal hij/zij dus waarschijnlijk naar een laadpaal moeten van een ander bedrijf om de auto vol te laden.
+      - De laadpalen hebben beide ook een internetverbinding want deze moeten de rekening van het laden kunnen doorsturen naar de gebruiker. Het is dus ook mogelijk dat gasten en vreemde kunnen laden bij Elma en hier dus zelf de rekening voor krijgen.
+      - We kunnen met de Blue Current App zien wat de huidige status is van de laadpalen inclusief de historie.
+  - title: Beheer > Elektrische laadpalen > Toekomst zal dit niet voldoende zijn
+    description:
+      - Met de opkomst van de elektrische auto zijn de 4 laadplekken voor ELMA niet voldoende. Er moeten dan extra kabels worden gelegd en er zullen laadpalen bij gemaakt moeten worden. De palen die we op dit moment hebben zijn speciaal ontworpen door TechTron en kunnen bijgemaakt worden. Er zal ook een netwerkkabel moeten worden aangelegd.
+
+
+
+  - title: Beheer > Klimaatsysteem
+    description:
+      - Bij Elma hebben we een aantal systemen om te zorgen dat de tempratuur, luchtkwaliteit en luchtvochtigheid worden geregeld. Deze systemen moeten regelmatig worden bijgesteld en worden nagekeken om goed te blijven functioneren. Hoe dit in zijn werk gaat lees je in dit document.
+  - title: Beheer > Klimaatsysteem > Vloerverwarming
+    description:
+      - Bij Elma hebben we in het kantoor overal vloerverwarming. Je kan het kantoor met 2 etages verdelen in 4 zones welke alle vier een toevoer hebben van warm of koud water. In de muur zit een witte kast verwerkt waar de leidingen zichtbaar zijn (rood voor warm water en blauw voor koud). Deze kunnen dicht gedraaid worden maar dit is niet de bedoeling want hiermee zal het systeem niet meer zijn werk kunnen doen.
+      - De verwarming van ELMA houdt geen rekening met de binnen tempratuur en kijkt enkel naar de buiten tempratuur met een sensor op het dak. Dat betekend dat dit systeem niet te regelen is met de tempratuur binnen. Omdat een vloerverwarming 2 dagen nodig heeft om op tempratuur te komen of af te koelen kan het dus bij sterk verschil in de tempratuur van de dagen moeilijk zijn om de juiste binnen tempratuur te krijgen. Dit systeem word de stooklijn genoemd en deze zou bij een systeem wat goed is afgesteld op 0 moeten staan. Dat betekend dat het binnen 21 graden is. Als het buiten dan kouder is zal de aanvoertemperatuur van het water in de vloer verwarming omhoog moeten gaan.
+      - Tot op heden is het gebleken dat de tempratuur in het pand moeilijk onder controle komt. Er word gecompenseerd door de mensen zelf door ramen open te zetten als het te warm is of om kachels mee van huis te nemen om bij te verwarmen. Ook zijn er mensen die een jas aantrekken. Als het te warm is kan er boven en in de kantoren gebruik worden gemaakt van de airco’s hiermee kan ook verwarmd worden. Dit is natuurlijk niet heel wenselijk dit kost allemaal extra energie en conform.
+      - Er is afgesproken door de installateur van het systeem Bouman dat wij niet meer aan de stooklijn mogen zitten maar helaas zijn er mensen bij Elma die dit nog wel doen. Op dit moment staat de stooklijn op -6 omdat het erg warm is op kantoor. Het bedrijf Bouman installatiebedrijf is al een aantal keer langs geweest om te kijken naar een oplossing (Wilfred Methorst) maar tot op heden is dat nog niet gelukt.
+      - Op dit moment is boven de vloerverwarming helemaal uitgedraaid en doet dus niks meer en daar word nu gewerkt met de airco’s. Op de beneden etage hebben ze deze luxe niet en hebben er dus ook meer last van.
+      - Met de App NIBE Uplink kan het systeem in de gaten worden gehouden. Bouman kan op afstand via internet ook in het systeem voor beperkte controle en aansturing.
+      - Het bedrijf Bouman moet ook periodiek onderhoud doen op het systeem hier zijn nog geen afspraken mee gemaakt wanneer en hoe vaak dit gedaan moet worden.
+  - title: Beheer > Klimaatsysteem > Vloerverwarming > Bedrijfshallen
+    description:
+      - Er loopt een apart vloerverwarming systeem in de bedrijfshal, deze loopt in een U vorm door het pand 5 meter langs de muur. Dat betekend dat het midden in de hal dus niet warm word. Dit systeem duurt 2 dagen om warm te worden. Er is verder geen airco of verwarming in de hal, dus het komt regelmatig voor dat het erg warm is of als de roldeuren open gaan in de winter je veel warmte verliest die maar langzaam terugkomt. Dit systeem kan bediend worden met een paneel bij Services bij de meterkast aan de muur. Het is de bedoeling dat deze op 20 graden blijft staan, dit systeem kijkt wel naar de tempratuur in de hal zelf (dus niet naar de buiten tempratuur).
+  - title: Beheer > Klimaatsysteem > Airco systeem
+    description:
+      - Er zijn 3 verschillende airco’s geïnstalleerd bij Elma. Op de boven etage in de grote kantoren en in de kantine hangen 6 grote airco’s welke verbonden zijn met het draadloze Facility netwerk. Echter de aansturing van de airco’s is niet stabiel en valt na een paar dagen uit. Daarom zijn de airco’s op dit moment goed te bedienen met de afstandsbediening. Het is niet de bedoeling dat iedereen hier aan zit maar in de praktijk liggen deze wel vrij toegankelijk. Deze airco’s moeten periodiek worden nagekeken om de filters te schoon te maken.
+      - In de kleine kantoren boven en beneden hangen kleinere airco’s in het plafond deze kunnen enkel met de afstandsbediening worden bediend. De wifi ontvanger welke geïnstalleerd is werkt niet. De kan worden bediend met een afstandsbediening welke bij de mensen die in het kantoor zitten. Ook deze airco’s moeten regelmatig worden nagekeken voor onderhoud.
+      - In de kantoren in de werkplaats van Services en Systems maar ook in de serverruimte en in de twee/vier vergaderruimtes hangen systemen aan de muur. Deze werken wel goed met de wifi en kunnen dus bediend worden met een App op de telefoon of met een afstandsbediening. Deze systemen moeten ook regelmatig worden nagekeken en er komen ook software updates voor uit. Deze airco’s zijn voor deze ruimtes ook gelijk de verwarming aangezien er geen vloerverwarming is in die ruimtes dus het is belangrijk dat deze goed blijven functioneren.
+      - De airco’s zorgen er ook voor dat de luchtvochtigheid goed op orde is. Er is een App voor de airco’s genaamd AC Cloud (dat is voor de airo’s in het plafond). En voor de airco’s weke aan de muur hangen gebruik je Toshiba Home AC Control. Als er een probleem is met een van de airco’s of het systeem krijg je hier een melding van in de App.
+      - De airco’s liggen op het grote dak en zijn te bereiken via het dakraam met een ladder bij Systems.
+  - title: Beheer > Klimaatsysteem > Luchtbehandeling
+    description:
+      - Er hangt boven het systeemplafond bij de hoofdingang en in de kantine een luchtbehandelingen installatie welke verse lucht het pand in blaast met een terugwin systeem en een filter. Dit systeem werkt automatisch en zorgt dat in het hele kantoor gedeelte het co2 en zuurstof gehalte op orde blijft. Dit systeem heeft ook onderhoud nodig wanneer en door wie dit gebeurd is onduidelijk.
+
+  - title: Beheer > Back-ups
+    description:
+      - Bij ELMA mogen en kunnen we trots zijn op de manier waarop er back-ups gemaakt worden.
+        De verantwoordelijkheid is duidelijk bij de betrokken medewerkers.
+        De taken en rollen zijn ook goed en evenwichtig verdeeld waardoor de back-ups goed en veilig verlopen.
+  - title: Beheer > Back-ups > Wisselaars
+    description:
+      - We hebben twee groepen van medewerkers die een andere verantwoordelijkheid hebben. Om te beginnen de eenvoudigste taak en verantwoordelijkheid. Elke dag word er een volledige back-up (een kopie dus) gemaakt van de volledige back-ups van de afgelopen 7 dagen van alle servers van alle data. Deze data (4,4TB) word elke nacht van 00:00 tot 11:45 gecopieerd op een specifieke 2,5 inch 5TB interne SATA hardeschijf met 120MB per seconden. Omdat dit een fysieke schijf is moet deze ook fysiek vervangen worden elke werkdag. Daarom word automatisch elke werkdag een email aangemaakt door een PowerShell script waarin 5 mensen de instructies krijgen van die dag. In deze mail staat dat ze die dag de schijf moeten wisselen met welke specifieke schijf. Om het beetje leuk te maken en mensen te motiveren is deze e-mail elke dag anders zodat mensen gemotiveerd worden ook echt goed lezen wat er van ze gevraagd word. Op maandag en op vrijdag is de IT aanwezig bij ELMA en is er afgesproken dat medewerkers op deze afdeling de back-up wisselen rond 13:00. Op dinsdag, woensdag en donderdag worden dit gedaan door de medewerkers en van HR en Finance. Deze mensen hebben allemaal een persoonlijke instructie gehad wat te doen en hoe dit in zijn werk gaat. Het is in feite een simpele maar belangrijke handeling, deze mensen hebben als enige in het bedrijf toegang met een sleutel tot de server ruimte. Eerst gaan ze naar de brandkast welke in een andere afgesloten ruimte staat waar maar een beperkt aantal mensen bij kunnen om vervolgens in deze afgesloten ruimte de afgesloten brandkast/kluis te openen. Daarin liggen de hardeschijven, de persoon pakt de schijf welke in de e-mail staat beschreven (bijvoorbeeld “Oneven – woensdag”).  Vervolgens loopt deze persoon naar de serverruimte, opent deze ruimte met de sleutel die deze persoon toegang voor heeft. In een apart gedeelte van de server ruimte staat een computer waar de schijf van de dag ervoor in zit. Er word gecontroleerd of het lampje niet meer blauw brand op de schijf (dat geeft aan dat de schijf nog bezig is met schrijf acties) en trekt de schijf uit de hotswappable bay. Daarna stop de persoon de schijf welke uit de brandkast is gehaald in dezelfde hotswappable bay het blauwe lampje gaat branden (dat word gecontroleerd) wat aangeeft dat de nieuwe schijf is herkend en de persoon loopt met vervangende hardeschijf terug naar de andere ruimte bij de brandkast en sluit alle deuren met de 3 verschillende sleutels. Dat is dus de verantwoordelijkheid van de backup wisseleraars op dit moment (Robert-Jan Slokker, Lydia van Veenendaal, Monique van der Woude, Angelique van der Horst, Ingrid Kroneman) verder zijn de twee mensen van de IT afdeling op maandag en vrijdag back-up wisselaar met deze verantwoordelijkheid namelijk Roger Jaspers en Stef Bedaux. Dit proces verloopt zonder problemen. Mocht er iemand niet aanwezig zijn worden deze taken zelfstandig verdeeld aan iemand die wel aanwezig is. Mocht er een situatie zijn dat het vergeten is, is dit niet heel erg want tot 19:00 uur kan de schijf worden gewisseld. Mocht het toch vergeten zijn is het nog steeds geen grote ramp want het is een back-up van een back-up van de afgelopen 7 dagen. We hebben dus op 6 andere schijven dezelfde back-ups staan. Dus in het meest ongunstige scenario mag het 6 dagen achter elkaar vergeten worden voordat er een gat valt in de back-ups. Daarboven op komt zelf nog dat de back-up schijf van vrijdag 5 weken bewaard word dus als vrijdag is gelukt met vervangen de back-up van de afgelopen 7 dagen voor minimaal (en soms 6 weken) veilig gesteld.
+  - title: Beheer > Back-ups > Beheerders
+    description:
+      - De andere groep die meer verantwoordelijkheid heeft zijn de back-up beheerders. Dit zijn de mensen op de IT afdeling op dit moment zijn dat twee mensen namelijk Roger Jaspers en Stef Bedaux. Deze medewerkers hebben de back-up ingesteld en onderhouden de hardware om de back- up te kunnen maken. De volgende verantwoordelijkheden worden gedragen
+      - punten:
+          - Windows Server 2022 op ELMA15 handmatig updaten elke maand na Patch Tuesday
+          - Iperius Advanced VM updaten naar meest recente versie
+          - VMware ESXi updaten op de hosts waar back-ups van gemaakt worden
+          - VMware Tools updaten naar meest recente versie op de VMware guests
+          - Schijfopruiming draaien en defragmentatie/optimalisaties van de VMDK’s
+          - Hole Punching uitvoeren op de VMDK’s
+          - CBT (Change Block Tracking) activeren en aanpassen en herstellen
+          - 10Gigabit netwerk drivers up-to-date houden voor het paarse back-up netwerk
+          - Zorgen dat de volume waar back-ups op gemaakt worden onder de 4,5TB blijft zodat de back-up past op de 5TB schijven.
+          - Controleren of de back-ups gedraaid hebben
+          - Herstellen bij eventuele fouten
+          - Mensen toevoegen of verwijderen aan het Backup Wisselen script
+          - Het controleren of back-ups terug gezet kunnen worden
+          - Wekelijkse replicatie naar de verborgen/geheime ELMA-ESX04 voor BCP nakijken en aanzetten.
+      - Veel van deze taken zijn vrij specialistisch en worden dan ook actief gedaan door Roger Jaspers die het hele systeem heeft ontwikkeld.
+        Hij is wel bezig om deze taken overdraagbaar te maken aan Stef want het moet ook kunnen worden onderhouden als hij niet beschikbaar is.
+        Daar word dus bewust werk van gemaakt maar de ervaring en kennis duurt een tijd voordat deze gedelegeerd kan worden.
+      - De organisatie kan ervan uit gaan dat de Backup dus in goede handen is en vertrouwd erop dat de verantwoordelijke hun werk correct uitvoeren.
+        Tevens zijn we bezig met een extra back-up systeem om nog meer veiligheid en continuïteit in te bouwen.
+        Dit systeem vereist geen Back-up wisselaars.
+  - title: Beheer > Back-ups > Procedure
+    description:
+      - Elke dag (maandag tot en met zondag) worden er van alle servers volledige disk back-ups gemaakt naar onze dedicated back-up server ELMA15.
+      - Dat is in totaal ongeveer 4,5 Terabyte aan data elke dag wat via een speciaal back-up los staand netwerk welke fysiek afgesloten is van het Elma netwerk word gekopieerd op verschillende tijden. Daarnaast word elke werkdag (maandag tot en met vrijdag) deze data weer gekopieerd naar een specifieke 5TB hotswappable schijf die extern word bewaard. Dit is zo ingericht dat we ook in het geval van bijvoorbeeld een Ransomware aanval een recente back-up hebben van alle data bij ELMA.
+      - Er zit 1 interne SSD van 8TB in ELMA15 waar elke dag in de avond/nacht alle back-ups van die werkdag op worden gekopieerd. De software welke we daarvoor gebruiken en een betaalde licentie en onderhoudscontract op hebben heet Iperius Advanced VM. Elke week word er van elke virtuele server één full-back-up gemaakt, dat is per werkdag minimaal een andere server om zo de werkdruk evenredig te verdelen anders is de back-up mogelijk niet klaar voor 24:00. De andere zes dagen word er een incrementele back-up gemaakt ten opzichte van de volledige back-up met de wijzigingen. Deze back-ups zijn dus een stuk kleiner. Op een server waar weinig data word gemuteerd is dit soms 1GB per dag ten opzichte van de full-back-up.
+      - Vervolgens word elke nacht om 00:00 uur een Offsite back-up gestart om deze data fysiek extern gebackupped te krijgen naar een specifieke 2,5 inch 5TB SATA schijf welke extern worden opgeslagen in de brandkluis. Er word vaak de vraag gesteld door niet IT-ers waarom dit niet naar de cloud gebackkuped word en het zo “ouderwets” gaat met wisselen van “tapes” (ze zien de 5TB SATA schijven als tapes). Een simpele rekensom laat zien dat dit niet mogelijk is, als je elke nacht 4,5TB moet uploaden met een 200Mbit internetverbinding ben je 69 uur per dag bezig per dag. De tweede is dat in cloud backuppen per gigabyte geld kost 10 cent per maand, dus dat zijn terugkerende kosten van rond de 500 euro per maand. Van dat geld kan je goedkoper schijven kopen. Tevens heb je te maken met de terugzet tijd. Een back-up terug zetten vanuit internet duurt dus ook 69 uur dat betekend dus dat je bijna 3 dagen niet aan het werk kan bij ELMA. Dus vandaar dat dit geen optie is.
+      - We maken bij ELMA dus geen back-ups van specifieke data omdat alle data, instellingen en software voor ons belangrijk is. In geval van en calamiteit kunnen we dan snel weer operationeel zijn.
+
+  - title: Beheer > Back-ups > Hotswappble 2,5 inch schijven
+    description:
+      - We hebben 14 van deze externe hot swappable schijven, we hebben 2 sets van maandag tot en met vrijdag (Even weken en Oneven weken) dat zijn er dus 10, en daarnaast hebben we op vrijdag een maand back-up
+      - schema:
+          - Oneven - 1 - Vrijdag
+          - Even - 2 - Vrijdag
+          - Oneven - 3 - Vrijdag
+          - Even - 4 - Vrijdag
+      - Daarmee zitten we dus in totaal op 12 schijven, en dan hebben we nog 2 schijven in de kluis liggen voor het geval er een schijf kapot gaat.
+      - Omdat we Disk Image back-ups maken heeft dit als voordeel dat je niet te maken hebt met rechten, instellingen en bestanden. Een ander groot voordeel is dat de back-up als VMware VMDK bestand worden opgeslagen en daardoor het "terug zetten" van de back-up als virtuele machine met 10 minuten (op 10 Gigabit) gebeurd is als of er niks is gebeurd.
+      - overzicht:
+          - Server	Back-up grootte	Start tijdstip	Eind tijdstip	Duur volledige back-up
+          - ELMA01	30GB (1,4GB incrm)	16:00	16:04	4 minuten en 7 seconden
+          - ELMA03	100GB (700MB incrm)	16:00	16:18	18 minuten en 23 seconden
+          - ELMA06	857GB (12,9GB incrm)	18:00	21:08	3 uur en 8 minuten
+          - ELMA08	149GB (964MB incrm)	17:00	17:21	21 minuten en 25 seconden
+          - ELMA09	55,3GB (7,6GB incrm)	17:30	17:40	10 minuten en 13 seconden
+          - ELMA12	1040GB (12,4GB incrm)	18:00	20:58	2 uur en 58 minuten
+          - ELMA14	1686GB (9,4GB incrm)	18:00	22:48	4 uur en 47 minuten
+          - ELMA16	44GB (2,3GB incrm)	16:45	16:53	8 minuten en 16 seconden
+
+  - title: Beheer > Back-ups > Instellingen
+    description:
+      - Zoals in C01 en C02 al te lezen is worden er dagelijks (maandag tot met zondag) volledige back-ups gemaakt van alle 8 virtuele Windows 2019 Servers van ELMA. De instellingen van de back-ups staan dus op ELMA15 een bare-metal server met een 8TB SSD die los van het internet staat fysiek gescheiden. Om in te loggen op de server heeft men fysiek toegang nodig tot de server wat niet zomaar kan want die staat in de afgesloten server ruimte (sleutel nodig). En hierna moet je nog met een speciaal Windows wachtwoord inloggen aangezien deze server niet in het ELMA domein zit. En dan vervolgens zit er ook nog een ander wachtwoord op Iperius Advanced VM dus daar kan je dan ook pas na dit wachtwoord in. Als je dus door al deze beveiliging heen bent kan je dus pas de instellingen inzien en aanpassen.
+      - De instellingen zijn voor alle 8 servers en dus de back-ups gelijkwaardig ingesteld. Dat betekent dat de source de specifieke VMware ESXi is en daar weer de specifieke lokale NVME Datastore. Dit is een compleet gescheiden netwerk die via een 10 Gigabit switch op een fysiek andere netwerkkaart is aangesloten. De VMware host waar enkel de verbinding van ELMA15 op wordt toegestaan met enkel de rechten om op de datastore te kunnen komen. Dus de ESXi host en guest weet niet af van het bestaan van het Backup netwerk naar ELMA15 wat voor hackers dus lijkt alsof er geen back-ups in het netwerk zijn of gemaakt worden want alles werkt Agentless want de back-ups worden gemaakt op CBT (Change Block Tracking) niveau. We hebben daarom om die reden ook betaalde VMware ESXi licenties moeten aanschaffen voor alle 3 de ESXi hosts om CBT te kunnen gebruiken. Als we dat niet hadden konden we enkel volledige back-ups maken en dat duurt te lang.
+      - Er word bij het maken een verbinding gemaakt naar de VMware ESXi host en vervolgens word de hele virtuele machine (dus ook de VMX en het virtuele geheugen) geback-upt. Er word een automatische Snapshot gemaakt voor de back-up en na de back-up word deze weer verwijderd zodat ook wijzigingen tijdens de back-up worden mee gebackupped. De destination is dus een specifiek mapje op de D partitie (8TB SSD) waar de back-up van de afgelopen 7 dagen staan opgeslagen. Zoals te lezen in C02 staat ook wanneer en hoe lang deze back-up loopt.
+  - title: Beheer > Back-ups > Logging
+    description:
+      - Alle back-ups worden lokaal opgeslagen in een eigenlog bestand. Het is niet mogelijk om actief te monitoren op afstand of via een e-mail omdat deze ELMA15 dus expres geen internet en netwerkverbinding heeft. Dus er word op maandag en vrijdag door het IT team gecontroleerd of de back-ups goed gaan.
+  - title: Beheer > Back-ups > Scope
+    description:
+      - De scope van de back-up is dus heel eenvoudig. We backuppen elke dag (maandag tot en met zondag) alle 8 servers volledig. Er wordt op geen enkele manier onderscheid gemaakt in bestanden. Het wordt op Disk niveau met snapshots met gebruik van CBT gebackupped. Aangezien we speciale vrijdag schijven hebben kunnen we tot maximaal 60 dagen terug in de tijd van elke dag. Omdat een maand de ene maand 5 weken heeft en de andere maand 4 weken heb je dus om de maand een back-up die niet word overschreven (0 – even – vrijdag of 6 – even vrijdag) dus is er altijd een back-up schijf die 2 maanden terug kan gaan (0 en 6). En daarboven komt nog dat we per server op Windows niveau nog Shadow Copies hebben aanstaan dus we kunnen daar vaak nog 180 terug in de tijd op bestands niveau. We hebben dus op de externe schijven wat dus 20 is 7 back-ups staan met nog eens 7 back-ups van de afgelopen 7 dagen op ELMA15 dus in totaal hebben we ten alle tijden 147 volledige back-ups van alle servers van de afgelopen 60 dagen. Er moet iets totaal misgaan als we niet een back-up kunnen terugzetten.
+      - Tevens hebben we sinds 3 maanden nog een extra back-up namelijk via een 2de 10gigabit verbinding die direct is aangesloten op ELMA15 naar ELMA-ESX04. Daar word elke zaterdag een complete Replicatie gedraait via Iperius Backup Advanced VM naar deze VWware ELMA-ESX04 server. Deze heeft voldoende geheugen, rekenkracht en schijfruimte om alle 8 servers zelfstandig in geval van nood te kunnen draaien, we hebben daar dus enkel wekenlijks een back-up van dus stel dat we doen besluiten om op vrijdag deze nood maatregel te nemen zijn we 6 dagen aan data kwijt.
+  - title: Beheer > Back-ups > Opvolging
+    description:
+      - Omdat het systeem zo dicht getimmerd is krijgen we dus geen e-mail of meldingen binnen bij een gefaalde back-up. Je moet dus fysiek toegang hebben tot de server en de software om te kunnen zien of er back-ups falen. Dit word dus enkel gedaan op maandag en vrijdag door de medewerkers van IT. Gelukkig is er maar heel weinig verstoring en gebeurd dit bijna nooit, soms wijzigt er heel veel waardoor de incrementele back-ups te groot worden. En heel soms is een server geherstart tijdens de back-up waardoor de Snapshot in de war raakt. Maar omdat er op CBT niveau back-ups worden gemaakt is er bijna nooit een probleem.
+  - title: Beheer > Back-ups > Recovery test
+    description:
+      - We zetten elk half jaar op een complete losse ESX server die we dan tijdelijk installeren VMware ESXi en dan zetten we de back-up’s terug en kijken dan of Windows opstart en of we door de data kunnen browsen en openen. Dat zijn steekproeven want we gaan natuurlijk niet elk bestand openen. Omdat het complete back-ups zijn van VMDK’s op CBT niveau is het in feite alles of niets. Als de VMDK goed is dan is de Guest goed en is de data ook goed. Als de back-up niet goed is, is niks goed.
+      - Tevens zetten we om de maand de recovery omgeving aan (staan standaard uit na de zaterdag replicatie) en kijken of die aangaat en of de data beschikbaar is. Echter na het aanzetten zijn de back-ups niet meer geschikt om incrementele replicaties te doen en moet de volgende back-up weer 4,5TB worden gekopieerd naar ELMA-ESX04. Dus dat is een tijdrovende klus. Tot nu toe is dit altijd goed gegaan (dat is nu 3 keer gedaan).
+  - title: Beheer > Back-ups > Calamiteiten
+    description:
+      - We hebben dus een complete omgeving klaar staan waar dus een complete werkende omgeving van alle 8 servers op staan. Wel is dit dus de data van de vorige zaterdag dus als we dit scenario kiezen zijn we mogelijk maximaal 1 week werk kwijt. De back-ups die op ELMA15 staan zijn dus maximaal 1 dag oud en dat is ons eerste startpunt in geval van een calamiteit. Back-ups zullen mogelijk eind dit jaar buiten het pand bewaard worden voor extra bescherming tegen brand en diefstal. Maar dat levert ook gelijk weer een andere risico mee dat alle bedrijfsdata buiten het pand liggen dus dataverlies.
+
+  - title: Beheer > Antivirus > Procedure
+    description:
+      - We hebben het afgelopen jaar een grote wijziging moeten doorvoeren als het gaat om het antivirus beleid. We hadden namelijk 107 werkplekken (laptops, servers en computers) met Symantec Endpoint Security. Echter heeft Symantec begin dit jaar besloten om de hele “klein zakelijke” antivirus divisie te verkopen aan een investeringsmaatschappij en Broadcom. En de producten en abonnementen konden niet worden overgezet dus ze hebben ons in feite daarmee op straat gezet met de virus scanner. Daardoor moesten we vrij snel handelen want zonder een geupdate virusscanner krijgen we snel problemen. We hebben besloten om veel eerder dan gepland over te stappen op de algemene wereldwijde virusscanner van ons Duitse moederbedrijf Hydac. Dus sinds april dit jaar maken we gebruik op alle werkplekken van McAffee ePO, daar zit een virusscanner, firewall en disk encryption inbegrepen. Het voordeel is dat we mee kunnen liften op hun licentie en daardoor de kosten enorm zijn gedaald. Het nadeel is dat we een gedeelte van onze autonomie moesten inleveren. De virusscanners worden nu dus niet meer door ons beheerd (op functioneel niveau) maar door onze Duitse collega die hier hun full-time baan aan hebben (het beheren van McAfee op alle 9000 computers in de wereld). Wij (het IT team) kunnen nog wel via een web-interface inloggen en op die manier zien wat de status is per computer en of er mogelijk problemen zijn. We kunnen doormiddel van Tags bepaalde instellingen of software laten aanpassen. We hebben de afgelopen maanden regelmatig contact gehad om bepaalde software en netwerkpoorten op de witte lijst te laten zetten zodat mensen bij ELMA hun werk kunnen blijven doen met de specifieke software die gebruikt word. Tot op heden zijn we erg tevreden en zijn we op dit punt dus al behoorlijk geïntegreerd bij ELMA als het gaat om Antivirus en de procedures die hierbij horen.
+      - We hebben ingebouwd dat alle werkplekken bekend zijn bij Duitsland, en alle werkplekken moeten een virusscanner hebben. Als dat niet het geval is krijgen we hier elke maandag een e-mail van. Ook word de virusscanner automatische bij ELMA geïnstalleerd als de computer opnieuw word geïnstalleerd via een GPO en een PowerShell script. Daarna meld hij zich bij onze Duitse server die vervolgens alle instellingen en updates terugstuurt.
+      - Mensen kunnen zelf de firewall voor een bepaalde tijd uitschakelen als ze bijvoorbeeld iets moeten benaderen waar de firewall dit tegen houdt. Dit word eigenlijk enkel gedaan door de software programmeurs die hele obscure software moeten gebruiken om hun werk goed te kunnen doen.
+      - Als iemand een virus heeft word deze pc direct en automatisch compleet van het netwerk afgegooid er is helemaal niks meer mogelijk. Vervolgens word er automatisch in Duitsland een ticket gemaakt en word er door iemand van het Antivirus Team in Duitsland bepaald welke actie ondernomen dient te worden. We hebben deze situatie al een aantal keer meegemaakt. In de praktijk is het eindelijk altijd zo dat de SSD/SSD’s uit de computer moet worden gebouwd en met beveiligd pakketpost naar Duitsland (naar het Hydac Hoofdkantoor) toe moeten waar vervolgens het virus word bekeken. Soms krijgen we de SSD’s terug, soms krijgen we ze leeg terug en soms helemaal niet meer. Omdat dit proces/procedure een aantal dagen kan duren en we de getroffen medewerker niet werkloos kunnen laten zitten. Gaat het IT-team vaak direct na het uitbouwen van de geïnfecteerde schijf aan de slag om een splinter nieuwe schijf in te bouwen (die we op alle locaties op voorraad hebben liggen tegenwoordig) zodat een paar uur later de persoon weer gedeeltelijk aan het werk kan. De data die lokaal staat moet als verloren beschouwd worden omdat die dus mogelijk nooit meer terug komt en we deze ook niet van de schijf kunnen halen. Daarom is het dus ook zo belangrijk dat de collega’s bij ELMA weten dat als ze iets lokaals opslaan dit mogelijk kwijt kan raken en ook niet word geback-upt.
+  - title: Beheer > Antivirus > Oplossing
+    description:
+      - We maken dus gebruik van McAffee ePO, ook wel McAfee ePolicy Orchestrator. Dit is een licentie van Hydac International. We hebben de meest uitgebreide versie met alle opties. Dat betekend dat we dus ook een virusscanner, firewall, spamfilter, disk encryption en file encryption hebben.
+      - Omdat we dus McAfee ePO hebben, hebben we wel veel meer eigen keuze en beheers mogelijkheden dan bijvoorbeeld de McAfee ePo on AWS en de McAfee MVISION ePO. Daar staat wel tegenover dat we dus wel veel meer moeten beheren maar dat gebeurd dus niet door het Nederlandse IT-team maar door het Duitse.
+      - Het in feite allemaal terug te lezen op de volgende website wat de oplossingen zijn > https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html
+  - title: Beheer > Antivirus > Classificaties
+    description:
+      - We hebben dus wel specifieke keuzes gemaakt in de producten (Office versies, Windows versies, etc) dat is een behoorlijke lange lijst van ongeveer 200 producten daar hebben we er ongeveer 40 van geselecteerd welke van toepassing zijn binnen ELMA. Dat hebben we gedaan om de belasting van de database met onnodige updates en rapportages te verkleinen. De updates worden niet lokaal gedownload want dan zouden we 5TB aan updates hebben (op dit moment hebben we 183307 updates die zijn goed goedgekeurd). We hebben ook aangezet dat het alleen voor Engelse en Nederlandse Microsoft producten moet gebeuren want dat zijn de enige twee talen die we gebruiken ook om de database en de rapportages wat te ontlasten.
+      - We hebben dus ingesteld dat updates die voldoen aan de classificatie, product en taal automatische goed gekeurd worden en een deadline word gezet van 1 januari 2021. Op die manier worden update bijna direct als ze uitkomen bij Microsoft en dus na het synchroniseren van onze WSUS server met Microsoft gedownload door de werkplek en geïnstalleerd. Gelukkig hebben we nu redelijk goed onder controle (dat was in het verleden helaas een ander verhaal) dat de computers pas gaan herstarten na werktijd (dat is ingesteld van 07:00 tot 18:00) en dat hij dit aangeeft met keuze. Onze computers bij ELMA zijn allemaal uitgerust met een NVMe SSD en hebben een snelle processor dus Windows Updates worden vrij snel geïnstalleerd en de collega’s hebben hier nauwelijks last van. Tevens hebben we ingesteld dat elke werkdag automatisch de computers (dus niet de laptops) om 06:00 uur aangaan en de updates voordat de medewerker op kantoor is al heeft geïnstalleerd, dus vaak weten en merken medewerkers niet eens dat er al updates zijn geïnstalleerd. Heel soms komt het voor dat er een kritieke update is (een Zero Day fix) en dan moeten we overdag terwijl mensen werken afdwingen dat ze de updates installeren en herstarten maar dit doen we echt in grote noodzaak (dat is nu 2 keer gebeurd het afgelopen jaar). Dat levert wel een hoop spanning op dus dat is ook echt niet de bedoeling maar soms is er geen keus.
+      - We hebben tevens een automatisch script draaien voor de servers dat elke woensdag ochtend na de 2de dinsdag van de maand, om 06:00 uur deze updates van de Patch Tuesday download en de server herstart. Dan zijn de back-ups klaar en de mensen zijn nog niet aan het werk. Op deze manier hebben we dus op de servers al vaak 1 dag nadat de update uitkwam de update al geïnstalleerd en toegepast. We lopen dus bij ELMA altijd helemaal bij, bij alle systemen. Tevens draait deze taak ook altijd op elke zaterdag om 07:00 voor de updates die later of eerder uitkomen. Dit systeem hebben we nu sinds 3 maanden ingesteld (ook voor de Hydac servers) en dat loopt goed en het scheelt veel tijd en ergernis.
+      - Op dit moment hebben we 99,1% score als het gaat om toegepaste updates op de 104 systemen die in WSUS staan. We mogen en kunnen daar dus trots op zijn. Nadeel is dat soms een update ook het systeem kan vertragen en onstabiel kan maken omdat we dus early adopters zijn en dus ook met de kinderziektes zitten. Echter hebben we bewust dit besluit genomen want we willen liever helemaal up-to-date zijn en beveiligd, dan langer wachten en 100% stabiel zijn.
+      - Windows 11 staat voor dit jaar op de agenda. Alle computers en laptops en servers hebben UEFI, Secure Boot, GPT en TPM2.0 en de processoren zijn allemaal van de 8ste generatie of nieuwer (dit komt door het nieuwe beleid dat we geen systemen meer willen die ouder zijn dan 5 jaar) dus dit zou zonder problemen de komende tijd geüpdatet kunnen worden. We zullen natuurlijk eerst per afdeling testen of dit met de software goed gaat hoewel we hier geen problemen mee verwachten.
+      - All Classifications (All classifications, including classifications that are added in the future):
+          - Critical Updates: (A broadly released fix for a specific problem, critical bugs)
+          - Definition Updates: (Frequent software updates, additions to defintion database)
+          - Driver Sets: (Software modules to support hardware of specific device)
+          - Drivers: (A software component necessary to control or regulate another device)
+          - Feature Packs: (New product functionality)
+          - Security Updates: (Broadly released fix for a product specific security issue)
+          - Service Packs: (A tested, cumulative set of hotfixes)
+          - Tools: (A utility or feature that aids in accomplishing a task or set of tasks)
+          - Update Rollups: (A rollup generally targets a specific are, security or component)
+          - Updates: (A broadly released fix for a specific problem non-security)
+          - Upgrades: (A new product release bringing a device tot he next version)
+
+  - title: Wat houdt TISAX® in?
+    description:
+      - Het TISAX® label is ontwikkeld om een uniform niveau van informatiebeveiliging in de automotive te bewerkstelligen. Het label stelt de norm voor het delen van informatie en stimuleert een gedegen informatiebeveiligingsbeleid. Het label is gebaseerd op belangrijke aspecten en criteria uit de ISO 27001 norm, maar is gespecificeerd voor de automobielindustrie. Met een TISAX® label toont een organisatie een betrouwbare te zijn partner voor de automotive.
+  - title: Is TISAX® verplicht?
+    description:
+      - Het TISAX® label is ontwikkeld door (en eigendom van) de VDA waar met name de Duitse autofabrikanten en toeleveranciers lid van zijn (denk aan Daimler, VAG en BMW). Zij hechten vanzelfsprekend veel waarde aan dit label en stellen het hebben van dit label in toenemende mate als voorwaarde voor samenwerking. Dit betekent dat vroeg of laat de opdrachtgevers uit de VDA bij u aan zullen kloppen met de verplichting tot het voldoen aan TISAX®. U krijgt dan een bepaald termijn waarin u het label dient te behalen.
+  - title: Hoe behaalt u het TISAX® label?
+    description:
+      - Wanneer u in aanmerking wilt komen voor een TISAX® label, dient u zich eerst te registreren bij ENX. Hiermee gaat het proces van start. De eerste stap in dit proces is het bepalen van de scope en doelen. Binnen TISAX® zijn er acht assessment objectives. Dit zijn acht categorieën die zijn samengesteld naar aanleiding van de scope van uw bedrijf en het benodigde niveau van bescherming van de gegevens (high protection level of very high protection level).
+      - Uw klant/opdrachtgever heeft vaak al een of meerdere audit assessment objectives voorgeschreven. Op basis daarvan gaat u het auditproces in. Dit begint sowieso met een Self Assessment en daarna een eventuele audit (on site) door een TISAX® audit provider, als TÜV. Aan het eind van de rit upload uw audit provider, bijvoorbeeld TÜV, het rapport bij ENX. ENX publiceert het label op de TISAX® portal. U ontvangt dus geen certificaat. Doordat u geregistreerd staat op deze portal, toont u aan een betrouwbare partner te zijn in de automotive.
+  - title: Aan de slag met TISAX
+    description:
+      - U heeft het bericht van uw belangrijke stakeholder gehad of u wilt uit eigen beweging aan de slag met TISAX® om zo uw waarde als betrouwbare partner in de automotive kenbaar te maken. Maar waar begint u? We geven u graag meer inzicht in de benodigde stappen om het TISAX® label te behalen. Download daarom ons TISAX® Stappenplan.
+
+  - title: ISO/IEC 27001
+    description:
+      - ISO 27001 is een ISO standaard voor informatiebeveiliging. De standaard bestaat feitelijk uit Deel 2 van de BS 7799, de standaard waarin wordt beschreven hoe Informatiebeveiliging procesmatig ingericht zou kunnen worden, om de beveiligingsmaatregelen uit ISO/IEC 17799 te effectueren. In Nederland is het vastgesteld als NEN norm NEN-ISO/IEC 27001:2005 en vertaald naar het Nederlands en o.b.v. pas toe of leg uit verplicht gesteld voor Nederlandse overheden door het College standaardisatie.[1] In 2013 is een nieuwe versie uitgekomen en tevens in het Nederlands vertaald. De structuur is volledig gewijzigd en komt nu overeen met de in 2015 geïntroduceerde 'High Level Structure' die binnen o.a. ISO 9001 (kwaliteitszorg) en ISO 14001 (milieuzorg) toegepast wordt.
+      - De nieuwste versie is NEN-EN-ISO/IEC 27001:2017+A11:2020 nl en dateert van februari 2020.
+      - Deze internationale norm is van toepassing op alle typen organisaties (bijvoorbeeld commerciële ondernemingen, overheidsinstanties, non-profitorganisaties). De norm specificeert eisen voor het vaststellen, implementeren, uitvoeren, controleren, beoordelen, bijhouden en verbeteren van een gedocumenteerd Information Security Management System (ISMS) in het kader van de algemene bedrijfsrisico's voor de organisatie.
+      - De norm specificeert eisen voor de implementatie van beveiligingsmaatregelen die zijn aangepast aan de behoeften van afzonderlijke organisaties of delen daarvan. Het ISMS is ontworpen om de keuze van adequate en proportionele beveiligingsmaatregelen die de informatie beschermen en vertrouwen bieden aan belanghebbenden te waarborgen.
+      - De eisen in deze internationale norm zijn algemeen en bedoeld om van toepassing te zijn op alle organisaties, ongeacht type, omvang of aard. Het uitsluiten van een of meer van de eisen van hoofdstukken 4, 5, 6, 7, en 8 is niet aanvaardbaar als een organisatie naleving van deze internationale norm wil claimen.
+
+  - title: Engineering > Afdeling > Werkplekindeling
+    description: Werkt HR Aan
+  - title: Afdeling > Werkplekindeling > Visio > Kantoor maten?
+
+  - title: IT > Unmanaged > TIA > Licenties beheren
+  - title: IT > Unmanaged > TIA > Drives benaderen
+  - title: Project > Mteck > 20235053 Mteck 316E Waste USA 2311
+  - title: Project > Mteck > 20235054 Mteck 2100E Dragline USA 2210
+  - title: Project > Hydac > 20195019 Hydac Afsluitdijk
+  - title: Project > Hydac > CoDeSys ondersteuning
+  - title: Project > Landustrie > Probleem ER3i
+  - title: Project > Wallaby > HPI/IC, Hycom, TT Controller
+  - title: Project > AMT Trailer, Spoor heen en weer
+
+
+  - title: Bezetting > 30% Flex?
+  - title: Functieprofiel > SA
+  - title: Functieprofiel > TPL
+  - title: Functieprofiel > SO
+  - title: Functieprofiel > SSWE
+  - title: Functieprofiel > SWE
+  - title: Functieprofiel > SHWE
+  - title: Functieprofiel > HWE
+
+  - title: Afdeling > Competentie matrix, wie kan wat?
+  - title: Afdeling > Opdelen > Systeem, Software, Hardware?
+  - title: Afdeling > 2e man > Wie vervangt wie
+
+  - title: Standaardisatie > Projectmanager verantwoordelijk voor Tijd, Geld en Scope
+  - title: Standaardisatie > AM (Account verantwoordelijk), PM (Project verantwoordelijk), TPL/LE (Technische verantwoordelijk)
+  - title: Standaardisatie > Design, Build, Maintain
+  - title: Standaardisatie > Projectmanager > Stuur aan Engineering, Inkoop, Productie, Installatie
+  - title: Standaardisatie > Leadengineer > Stuur aan Systeem, Hardware, Software
+  - title: Standaardisatie > MoSCoW (Must Have, Should Have, Could Have, Want to Have)
+  - title: Standaardisatie > SMART, Speciek, Meetbaar, Acceptabel, Realistisch, Tijdgebonden
+  - title: Standaardisatie > Documenten
+  - title: Standaardisatie > FMEAC
+  - title: Standaardisatie > SE
+  - title: Standaardisatie > SE > RBS, FBS, SBS, WBS, OBS
+  - title: Standaardisatie > GAMP
+  - title: Standaardisatie > GAMP > V-Model
+  - title: Standaardisatie > GAMP > V-Model > VO, DO, UO, IQ, OQ, PQ
+  - title: Standaardisatie > UML
+  - title: Standaardisatie > UML > Sequence diagram
+  - title: Standaardisatie > UML > State diagram
+  - title: Standaardisatie > UML > Swimming Lanes
+
+  - title: Processen > Order intake (Joost)
+  - title: Processen > Projectaanpak / Handboek soldaat(Koen)
+  - title: Processen > Uren (Max)
+  - title: Processen > Gate reviews
+
+  - title: Ontwikkeling > Data logging (Marcel/Mteck)
+  - title: Ontwikkeling > Data logging > iba PDA, 500tags, 3500/licentie
+
+  - title: Sales > Tarieven > Koppelen aan functie LE, SA, SE, HWE, SWE
+
+  - title: Procesverbetering > Generatie > Documenten > Offerte
+  - title: Procesverbetering > Generatie > Documenten > Offerte > Condities
+  - title: Procesverbetering > Generatie > Documenten > FDS
+  - title: Procesverbetering > Generatie > Documenten > SDS
+  - title: Procesverbetering > Generatie > Documenten > Testplan
+  - title: Procesverbetering > Generatie > Documenten > Alarmlijst
+  - title: Procesverbetering > Generatie > Code > Alarmen
+  - title: Procesverbetering > Generatie > Code > PLC Functieblokken
+  - title: Procesverbetering > Generatie > Verkoop voorwaarden > Tekst variant
+
+  - title: Applicaties > EPLAN > Licenties regelen (Vlad)
+  - title: Applicaties > EPLAN > Macros inventariseren (Vlad)
+  - title: Applicaties > EPLAN > API functionaliteit uitzoeken
+  - title: Applicaties > EPLAN > Gebruikers > Henri, Ronald, Edward, Mittro, Mathijs ???
+
+  - title: Applicaties > ORBIS Webshop > Martijn van de Meer
+  - title: Applicaties > Frank van de Vliet
+  - title: Applicaties > Fred Wild, Exact, 1d/w
+  - title: Applicaties > MoreApp > Zhen
+  - title: Applicaties > ISAH > Keuze Marc ?
+
+  - title: Applicaties > CRM > Selecteren
+
+  - title: Topklant > Mteck
+  - title: Topklant > Mteck > Gebruikersrechten > Wachtwoorden zijn vrijgegeven
+  - title: Topklant > Mteck Cranes
+  - title: Topklant > Mteck > Martijn
+  - title: Topklant > Mteck > Teunis van Vulpen
+  - title: Topklant > Mteck > Optie promotie film aanpak 316/2100
+  - title: Topklant > Wartsila
+  - title: Topklant > Mennens
+  # - title: Topklant > Demi More > lieren, 2 passief, Motion Comp, Probleem
+
+  - title: Calculatie > Wartsila > Methodiek ontvangst excel formulier
+  - title: Sales > Vacature > Sales Engineer nr 3
+  - title: Sales > 2..3 nieuwe klanten van 5mio
+
+  - title: Extern > Soltegro > Jelmer ter Braake
+  - title: Extern > Level (Frank Foushier)
+
+  - title: IT > Verwijderen automatisch pushen van bureaublad apps? NEE, geld voor SWE, opgelost met unmanaged PC
+
+  - title: IT > Elma > GBIS > Inventariseren ism Tymon
+  - title: IT > NIS2 > Gereed oktober 2024 !!!
+  - title: IT > Onedrive > Gebruikers instrueren (velen kennen dit niet)
+  - title: IT > Security > Wachtwoord gebruik
+  - title: IT > Security > Chrome Browser Google account
+  - title: IT > Onedrive > Overzetten FS (???)
+  - title: IT > Office 32 bit > Waarom ?
+
+  - title: IT > Explorer valt weg bij Sales, wellicht door macro's in Excel
+
+  - title: Rechten > Sales map open voor iedereen
+  - title: Rechten > Max kan niet bij administratie
+
+
+  - title: Applicaties > Vivlo > Inventarisatie
+  - title: Applicaties > Magento > Inventarisatie
+  - title: Applicaties > n..41 > Inventarisatie
+  - title: Applicaties > Exact 2000 > Overleg met Fred Wild
+  - title: Applicaties > WebMonkey > Inventarisatie
+
+  - title: Reputations > Presentatie > Juni
+  - title: Reputations > Kennissessies > Na presentaties
+
+  - title: IT > Dennis > Overleg verdeling taken met Hydac-IT
+
+  - title: ISO 27001
+  - title: ISO 27002
+  - title: ISO 27010
+  - title: VMWare Workstation > Licenties
+  - title: GDPR/AVG > Rapport met 120 punten > Waar is dit?
+
+
+  - title: Security Audit > Rapport Security Audit opvragen bij Jan-Phlip Kloss
+    opm: ca 111 aanbevelingen, Rapport ontvangen voor Hycom and Hydac NL 17 November 2022
+    who: rjas
+
+  - title: Kosten > Zorg dat ELMA de rekening krijgt van de YTD kosten (indien de materialen via Hydac of Hycom zijn gekocht). (Dick)
+  - title: VMWare/Standalone PC > Eigen direct extern IP-adres > netwerkkabel en Ziggo internetverbinding
+    opm: jullie krijgen van ons een eigen direct extern IP-adres en een netwerkkabel vanaf de Ziggo internetverbinding
+  - title: VMWare/Standalone PC > Netwerkpoorten patchen op 48-poort Gigabit Switch
+    opm: alle netwerkpoorten op de afdelingen worden gepatched op een nieuwe 48 poorts Gigabit switch
+
+  - title: IT > VMWare > Demo > Raimomd Bourgoine
+
+  - title: VMWare > Start Implementatie
+    opm:
+      - En nog als laatste punt, deze oplossing (LAPS en VMware Workstation) is de enige oplossing die Hydac IT Duitsland accepteert dus tijd spenderen aan andere oplossingen/vormen heeft geen zin.
+      - IT Security (Alexander Schnur) heeft het laatste woord in alle besluiten.
+      - Het zou mooi zijn als we daar nog beter werkbare (meer werkbaar als via de USB op de office laptop) oplossing voor zouden vinden
+  - title: VMWare > Procedure Opslag images
+    opm:
+      - Netwerkschijf V maken
+      - Roger zal een nieuwe netwerkschijf maken (de V schijf) waar enkel de Software Engineers lees en schrijf rechten op hebben om VMware images met elkaar te delen via het netwerk
+      - VM’s kunnen erg groot worden (50 – 100GB), van en naar netwerk kopieren kost relatief veel tijd en bandbreedte. Wellicht is voor de test delen via een externe snelle SSD eenvoudiger.
+      - Hoe en door wie worden de VM’s gemanaged voor de volledige lifecycle:aanmaken, onderhouden en opschonen. (Wellicht gebruik maken van templating van VM’s.)
+
+  - title: VMWare > Licenties > Workstation regelen
+    who: rjas
+    status:
+      - Roger zal de licenties aanschaffen ($398.00 voor 2 licenties)
+      - De 2 VMware Workstation licenties zijn inmiddels binnen (10401-0C0EN-H80QE-0ACH6-0R67J) https://www.vmware.com/go/getworkstation-win
+  - title: VMWare > Licenties > Beheer
+    opm: Hoe wordt er omgegaan met licenties van het OS van de VM en de software in de VM? (Enterprise versies van Windows?) / Hoe kunnen we borgen dat het gebruik van software legaal blijft.
+  - title: VMWare > Licenties > 2 genoeg ?
+
+  - title: VMWare > Test Workstation > Clean install
+  - title: VMWare > Externe harddisk beheer
+  - title: VMWare > 2TB SSD voor Dennis
+  - title: VMWare > 2TB SSD voor Henri
+    who: rjas
+  - title: VMWare > Hoe is de keuze ontstaan om te kiezen voor een host (bijv. laptop met VMWare) met zeer beperkte rechten waarop VM’s moeten draaien? Wat zijn de overwogen alternatieven. Aan welke eisen willen / moeten we voldoen.
+  - title: VMWare > Data backup
+    opm: Op welke wijze wordt het veilig backuppen van data vanuit de onveilige VM’s mogelijk gemaakt
+    oplossing: Gebruik van OneDrive zorgt voor auto sync met cloud data
+  - title: VMWare > Instructie Netwerkconfiguratie
+    opm: Zorgen dat het bij iedereen duidelijk is hoe de netwerkkaarten ingesteld moeten worden zodat VMware en Elma gescheiden zijn en blijven
+
+  - title: VMWare > Training
+    opm: Dennis en Henri geven de directe collega’s een training over het gebruik van VMware bij Elma
+  - title: VMWare > Er kan op de VMware omgeving door de gebruiker zelf besloten worden om Office te installeren in de image of een virusscanner, alles kan en mag.
+    opm:
+      - Punt van aandacht is dat bij het delen van VM’s dat logins en gegevens uit de VM worden gehaald (wellicht af te dekken met VM templates).
+  - title: VMWare > Op VMWare speciale login accounts
+  - title: VMWare > Misschien zouden de software engineer een NAS moeten aanschaffen en back-up schijven (en een kleine patchkast) om de data in dat netwerk te beheren
+  - title: VMWare > Roger zal de hardware bestellen (StarTech netwerkkaarten, externe SSD, kabels, meer werkgeheugen (als dat nodig is)
+  - title: VMWare > Roger zal een nieuwe netwerkschijf maken (de V schijf) waar enkel de Software Engineers lees en schrijf rechten op hebben om VMware images met elkaar te delen via het netwerk
+  - title: VMWare > Over naar OneDrive scheelt backup
+  - title: VMWare/Standalone PC > Als er data ingevoerd of uitgevoerd moet worden tussen het ELMA netwerk en het Softwarenetwerk moet dit via een USB stick/schijf via een kantoor laptop
+    opm: NIET Acceptabel, Geen USB
+
+  - title: Standalone PC > Rode Kabel Ziggo Eigen Internet
+  - title: Standalone PC > Start Implementatie
+    opm:
+      - Er is als oplossingsrichting ook besproken om de laptops uit het domein te halen en volledige toegang te geven aan de software engineers.
+      - Om bestanden uit te wisselen met de server zou dan evt gebruik gemaakt kunnen worden van een andere laptop of een VDI omgeving.
+      - Als de software engineers standaard in de VMWare omgeving werking, zonder dat er nagedacht is over virusscanners en updates etc. dan is dat een groot beveiligingsrisico
+  - title: Standalone PC > Regelen 10 A-Laptops een netwerkkabel en een IP adres
+    opm:
+      - Iedereen van de software engineers krijgt een nieuwe Dell A laptop voor de ELMA kantoorwerkzaamheden
+      - Dell Latitude 5530 15 inch laptop | Dell Nederland
+    Hoogte voorzijde: 20,77 mm
+    Hoogte achterzijde: 22,15 mm
+    Breedte: 357,90 mm
+    Diepte: 233,3 mm
+    Gewicht: 1,59 kg
+    Cost: Dell A laptops moeten bestellen dat is €972,- excl BTW
+  - title: Standalone PC > De huidige Dell D laptops worden uit het domein gehaald en de profielen worden omgezet in lokale gebruikers.
+  - title: Standalone PC > profielen worden omgezet in lokale gebruikers. Jullie mogen dan zelf alles beheren, toevoegen en installeren
+  - title: Standalone PC > De nieuwe A Dell kantoor laptops maken verbinding via Wifi om bij het Elma netwerk te kunnen komen, en daar wordt de e-mail beantwoord en kan er bij de netwerkschijven van Elma.
+  - title: Standalone PC > Roger zal de hardware bestellen (StarTech netwerkkaarten, externe SSD, kabels, meer werkgeheugen (als dat nodig is).
+  - title: Standalone PC > Test Clean install
+    who: Henri
+
+  - title: Applicatielandschap / ERP (gereed juni 2023), MKAN
+
+  - title: LAPS > Account Documentatie
+    opm: Het LAPS proces uitleggen (zodat incidenteel en tijdelijk er toch gebruik gemaakt kan worden van Lokale administrator rechten)
+  - title: LAPS > Account Implementatie
+  - title: LAPS > Account > 30 dagen geldig
+
+  - title: USB Sticks/HDD > Wordt afgeraden, onveilig
+  - title: VPN > Wordt afgeraden, onveilig
+    opm:
+      - Het eigenlijk hetzelfde als je vraagt of je thuis laptop bij de data kan van Elma zonder VPN (met een VPN is het nog onveiliger).
+      - Dit probleem/wens voorzag ik al en dat maakt het ook behoorlijk lastig om je werk nog te kunnen doen
+
+  - title: IT > Security > Intrekken administrator rechten gebruikers / user accounts
+  - title: IT > Security > Intrekken administrator rechten gebruikers / global accounts
+  - title: ERP > ISAH > Implementatie > On hold tot 1-1-2024
+  - title: ISO 9001
+  - title: VCA
+  - title: AFAS > HR > Implementatie > Loopt i.s.m. Tymon, gereed ?
+  - title: 2)	AFAS > HR > Implementatie > Inzet Tymon 160u (april 2023)
+  - title: Toolbox meetings
+  - title: 4)	Werkplek inspecties
+  - title: Eng > Software versie beheer > Software Version Release Note
+  - title: 6)	Gebruik van GitHub
+  - title: NEN 60601 Medische elektrische toestellen - Deel 1 Algemene eisen voor basisveiligheid en essentiële prestaties
+  - title: Exact > Verwijderen Postbus nummer op briefpapier (12-5)
+
+  - title: Uren > 2e dimensie, 3e dimensie
+  - title: Uren > Type activiteit koppelen aan persoon
+  - title: Uren > Kennisdeling apart nummer
+  - title: Uren > Overlap hardware en software,
+  - title: Uren > test voorbeeld opmaken
+
+  - title: Security > Local admin > Intrekken rechten
+    who: rjas
+    when: 18-5
+
+  - title: Github > Implementatie
+  - title: Github > Beheer
+    opm:
+      - Wie beheerd de GitHub rechten, daar is Alexandru voor naar voren geschoven om hier een leidende rol in te nemen.
+      - Is er binnen de organisatie een Git Server beschikbaar (bijvoorbeeld Microsoft Azure Repos) die kan worden gebruikt? Bij voorkeur gekoppeld aan de bestaande AD gebruiker structuur zodat er niet meerdere gebruikers lijsten moeten worden bijgehouden.
+      - Als er geen oplossing beschikbaar is kunnen we kijken wat de mogelijkheden zijn?
+
+  - title: ISO 27010 > Voldaan aan Principle of least privilege (PoLP)
+  - title: ISO 27010 > Voldaan aan Secure by design
+
+  - title: Elma collega’s naar Apeldoorn komen voor support van Raimond??
+  - title: Demo
+    status: De demo is niet verder gekomen dan het aanzetten van de laptop
+
+  - title: Bezoek Berlijn.
+    status: kan helaas niet doorgaan, Hydac IT en deze software club hebben geen tijd voor ons. Ze zijn te druk!
+
+  - title: Rechtenstructuur > Opstellen PVA
+    toelichting: Wat is de rechtenstructuur van met name software engineers, hebben deze admin rechten?
+
+  - title: ??? > Licenties en hardware bestellen voor de rest van de Software Engineers
+
+  - title: Probleem > Er verschijnt over elkaar heen de Desktop Info schermen rechts in de boven hoek, dat gaat Edgar (Hydac NL IT) uitzoeken hoe dit te voorkomen
+  - title: VDI > Software Engineers kunnen werken op de Kantoor VDI omgeving (thuiswerk server) voor kantoor zaken (thuis of op kantoor).
+
+  - title: Security > Serverruimte > Toegangscontrole
+
+  - title: Alarmsysteem > Beheer > (alarm melding doorsturen en opvolging controleren)
+  - title: Verwarming > Onderhoud procedure (in de gaten houden)
+  - title: Airco > Afstellen procedure
+  - title: Locale Gitserver?
+    opm: Daarnaast zou ik graag een keer overleggen over de mogelijkheden van lokale “eigen” Git server binnen Elma / Hydac
+  - title: Certificering > ISO27001:2022
+  - title: Certificering > EU GDPR
+  - title: Certificering > TISAX
+  - title: Backup concept > voor Hydac Groep NL wordt in 2021 verder uitgewerkt en er komt een voorstel
+  - title: Servers vervangen > Enschede (30k)
+  - title: Servers vervangen > Helmond (30k)
+  - title: Servers vervangen > Elma Schaarsbergen (30k)
+  - title: Kembit > Overdracht naar ELMA
+  - title: Transite naar Vodafone telefonie
+
+  - title: Beveiliging op orde > Beveiliging en rechten MS Office gerelateerde producten, zoals Sharepoint en Teams
+  - title: Beveiliging op orde > Cryptobloker op servers (op PC's en laptops reeds aanwezig)
+  - title: Beveiliging op orde > Migratie Symantec antivirus naar Mc Afee (Hydac IT DE standaard). Licentie kosten moeten nog worden opgenomen in applicatie lijst (ong 102 users x € 3,00 pm/pj?)
+  - title: Beveiliging op orde > 2 way => 4 way authenticatie VPN
+  - title: Beveiliging op orde > weren tegen malware en mailphising
+  - title: Beveiliging op orde > wat te doen met lokale data op laptops en tablets bij onvreemding and crash of drive encryption
+  - title: Beveiliging op orde > rechten op systemen (interne en externe medewerkers)
+  - title: Beveiliging op orde > rechten en rollen in Exact, Synergy en ElvyWeb
+  - title: Beveiliging op orde > toetsen/audit van de beveiliging
+
+  - title: ITIL processen (incident, problem, change, contigency, service en asset management). Registratie en afhandeling nu in Synergy en CAM. Hydac heeft Atlassian Servicedesk
+
+  - title: Datarecovery > Backup > Buiten vestiging brengen
+
+  - title: Applicaties > MS 365 > Beleid gebruik van MS Office producten
+  - title: Applicaties > MS 365 > Cursussen gebruikte software producten (mn MS Office, Synergy, Exact, Real-HRM en Sumatra Rapportage)
+
+  - title: Kennisborging > Systeem opzetten (werkwijze afdeling en gebruikte applicaties), zoals Atlassian Confluence
+
+  - title: Aansluiting instroom/uitstroom medewerkers irt IT zaken (bv toegang tot systemen en beschikking stellen van apparatuur)
+
+  - title: Acceptatie omgevingom wijzigingen/update van applicaties te testen/valideren, voor dat deze naar productie gaan. Tevens te gebruiken als prod omgeving bij crash prod omgeving
+
+  - title: Netwerk aansluiten op Hydac IT DE standaard (mn IP adres en firewall beleid)
+
+  - title: Applicaties > Exact Globe > inventarisatie MS SQL
+  - title: Applicaties > Exact Globe > inventarisatie Werking Exact Systeem
+  - title: Applicaties > Exact Globe > inventarisatie Queries
+  - title: Applicaties > Exact Globe > inventarisatie Backup taken
+
+  - title: Solidcore create a Service Request to let new rules and policies be created for industrial systems in HYDAC Netherlands
+  - title: DLP create a Service Request to let new rules and policies be created for industrial systems in HYDAC Netherlands
+
+  - title: Incident response plan > Brand
+  - title: Incident response plan > Release management
+  - title: Incident response plan > Ransomware
+  - title: Incident response plan > DDOS-aanval
+  - title: Incident response plan > Phishing
+  - title: Incident response plan > Diefstal of verlies
+  - title: Noodplan ICT > Natuurramp/omgeving
+
+  - title: Personeel > Presentaties/trainingen > phishing e-mails, wachtwoorden, identiteitsfraude
+  - title: Personeel > Stuur blijvend cybersecurity nieuwsberichten in de nieuwsbrief van Hydac
+  - title: Personeel > Testssysteem verplichten voor update > uitbreiding of vervanging van software
+  - title: Personeel > Verbeter Release management (betere stand van controle op elkaar zijn)
+  - title: Personeel > Personeel handboek scheiding tussen zakelijk en privé mailboxen
+  - title: Personeel > Takenpakket voor personeelsleden, meer personeel (één applicatiebeheerder)
+  - title: Personeel > Verstrek personeel betere procedures
+
+  - title: Account > Beveiliging > Passwordmanagers
+  - title: Apparatuur > Beveiliging > HP Theft Protection
+  - title: Apparatuur > Beveiliging > IAM
+  - title: Apparatuur > Beveiliging > MDM
+  - title: Apparatuur > Beveiliging > extra apparatuur(laptops) ???
+  - title: System > Recovery > CMDB
+  - title: System > Recovery > Implementatie extra harde schijven + grote wensen ???
+  - title: Servers > Beveiliging > Omgevingsbewakingsysteem
+  - title: Servers > Beveiliging > Digitale toegangsbeleid
+  - title: Servers > Beveiliging > Brand > Aaspiratie detectiesysteem
+  - title: Servers > Beveiliging > Brand > Gasblusinstallatie
+  - title: Servers > Backup > UPS > Implementatie
+  - title: Servers > Ventilatoren > Implementatie
+  - title: Servers > back-up routers > Implementatie
+  - title: Servers > Firewalls > Implementatie
+  - title: System > Recovery > Implementatie Slimme schakelaar voor een overzicht van alle apparaten
+  - title: Servers > Lekbak onder airco unit > Implementatie
+
+  - title: Servers > Backup > UPS > (noodstroom) vervangen (drie/vier jaar)
+  - title: Servers > Backup > UPS > een smart apparaat voor opmerkbaar maken van gepiep van UPS
+  - title: Servers > Backup > UPS > Duidelijkheid over speciale UPS server
+  - title: Servers > Backup > Noodstroom > Controle op noodstroom capaciteit elk halfjaar en automatisch bericht testen voor een stroomuitval
+
+  - title: System > Security > Mcafee Drive Encryption inschakelen
+  - title: System > Recovery > SQL Databases back-up uit het netwerk zetten
+  - title: System > Security > DMZ-server door twee firewalls afschermen
+
+  - title: Beveiliging > Pand > automatisch slot op schuifdeur
+
+  - title: Beveiliging > Aanmelden > Biometrische authenticatie
+  - title: Beveiliging > Aanmelden > Windows Hello
+  - title: Beveiliging > Aanmelden > Time-out op apparatuur
+
+  - title: Backup > Twee internet service providers (failover functie)
+
+  - title: Digitale certificaten voor authenticatie(S/MIME) ICT-Team
+
+  - title: Informatiesysteem > Doornemen systeem van Duitsland
+  - title: Recovery > configuraties bijhouden
+  - title: Recovery > controle elke dag op back-ups process
+  - title: Recovery > herstel bestanden testen
+
+  - title: Beveiliging > Teamviewer > Logging inschakelen
+  - title: Beveiliging > Geflagged account verwijderen
+  - title: Beveiliging > Verantwoordelijke voor rechtensysteem (tot folders) en afsluitprocedure
+  - title: Beveiliging > Limiet op toegang bij rechtensysteem
+  - title: Beveiliging > Geen administrator rechten voor bedrijf exclusief de mensen die hierover gaan
+
+  - title: Beveiliging > DDOS > Geen shared hosting
+  - title: Beveiliging > DDOS > bescherming tegen DDOS-aanvallen
+  - title: Beveiliging > DDOS > Web Application firewall voor de websites en DNSSEC op domeinnaam (website zonder Domain Name System Security Extensions (DNSSEC) is gevoelig voor aanvallen)
+  - title: Beveiliging > DDOS > servercapaciteit testen
+
+  - title: Configuration managementdatabase (CMD) uitbreiden (bv database met datum aanschaffing van hardware)
+
+  - title: GDPR > Privacy Officer (PO) privacybeleid ontwikkelen en bewaken op alle vestigingen
+  - title: GDPR > Vastlegging aanvullende maatregelen voor afdelingen HR en Finance om te voldoen aan de Autoriteit Persoons Gegegvens. Zorgen dat de informatie die daar staat extra goed beveiligd is.
+  - title: GDPR > Een tweejaarlijkse toetsing (dus elk 6 maanden) op de handhaving van de maatregelen met betrekking tot de vertrouwelijkheid op de afdelingen HR, Finance ICT en de Directie.
+
+  - title: Beveiliging > Wachtwoordbeleid > Blijvend updaten & strenger (met mate) wachtwoordbeleid
+  - title: Beveiliging > Wachtwoordbeleid > Blijvend wachtwoord wijzigen
+
+  - title: Beter beleid bij beveiligingsteam
+  - title: Beveiliging > Pand > Digitale toegangsbeleid bij ingang
+  - title: Backup > Tapes/schijven buiten de panden bewaren
+
+  - title: Beveiliging > Printer > Aparte facility VLAN > TLS verbinding
+  - title: Beveiliging > Printer > Uitschakelen toegang van externe bedrijven
+  - title: Beveiliging > Printer > Aparte pincode voor printers
+
+  - title: ISO 17799 > Een baseline voor informatiebeveiliging geldend voor alle afdelingen, die voldoet aan ISO 17799 en waardoor het nu adequate beveiligingsniveau eenvoudig bewaakt kan worden.
+  - title: ISO 17799 > norm heeft 10 hoofdstukken, 37 doelstellingen en 134 maatregelen. Dat is een hoop werk en misschien moet het doel ook niet zijn om volledig gecerticeerd te zijn. Dat word ook niet van onze klanten en leveranciers gevraagd maar we doen het uiteindelijk voor ELMA zelf.
+
+  - title: ??? > Een tweejaarlijkse toetsing (dus elk 6 maanden) op de handhaving van de maatregelen met betrekking tot de vertrouwelijkheid op de afdelingen HR, Finance ICT en de Directie.
+  - title: Data > Opslag > USB > Het onder beheer brengen van de laptops en USB-sticks van de binnen en buitendienst. Dit betreft zowel de apparatuur als de data. Encryptie van deze bedrijfsmiddelen zodat data niet op straat komt.
+  - title: Functiescheiding op de IT afdeling
+    opm: met betrekking tot ontwikkelen en onderhouden van applicaties. Zorgen dat er borging is op de continuiteit als iemand uitvalt dat het werk en de aplicaties door kunnen blijven draaien. Het beleid één persoon is geen persoon (kennisdeling, misbaarheid van mensen en delegeren).
+  - title: Auditing van testresultaten binnen IT (applicatiebeheer) ontwikkelde of gewijzigde programmatuur.
+    opm: Dit geldt met name voor applicaties, die buiten de afdeling Automatisering ontwikkeld of onderhouden worden. Dat zijn er bij ELMA een aantal.
+  - title: GDPR > Heldere communicatie over de rol van IT maar ook de rest van de organisatie naar klanten, zodat het niet onterecht slachtoffer wordt van incidenten, die buiten zijn invloedssfeer liggen. Natuurlijk moet er niet weg gelopen worden of worden gewezen naar externe factoren en moeten we proberen om altijd lessen te trekken wat ELMA beter had kunnen doen om het risico en de impact te verkleinen.
+  - title: BCP/Uitwijkplan > Het uitwijkplan (BCP) dient tweejaarlijks (dus elk half jaar) getest te worden. Dit moet nog worden uitgewerkt maar elk half jaar een ander scenario. Het BCP dient voltooid te worden inclusief bijlagen (communicatieplan).
+  - title: BCP/Uitwijkplan > Jaarlijks moet beoordeeld worden of het uitwijkplan en het BCP aanpassingen behoeven vanwege investerings- of wijzigingsvoorstellen. De wereld van de ICT wijzigd snel en de verwachting en de afhankelijkheid van IT groeit ook in onze organisatie. Die verwachting willen we graag waar kunnen maken en de afhankelijkheid moet worden erkend. Daar moeten dus maatregelen voor genomen worden die onderstreept worden door alle afdelingen in de organisatie.
+
+  - title: Acceptatie van de genoemde risico’s in deze analyse door de directie.
+  - title: IT > Carl Heins Jacubick, Hoofd ICT
+  - title: IT > Axel Oswald Manager
+  - title: IC Tarief
+  - title: Coaching > Tom Tauber
+  - title: Kwartaal sessie > 1 juni
+  - title: ISO/VCA > Interne Audit > 27..29/6
+  - title: ISO/VCA > Interne Audit > Engineering > 27/6, 13:00-16:30 (OGSM)
+  - title: ISO/VCA > Machine Veiligheid > ??
+  - title: Sales > Components > Spoon alternatief
+  - title: Bereikbaarheid
+  - title: Bereikbaarheid > Configuratie telefooncentrale
+  - title: EMail > Handtekening > Verwijderen afbeeldingen. Ongewenst, wordt gezien als bijlagen. Kost veel data.
+  - title: EMail > Handtekening > Afbeeldingen met link naar webfile. Huidig ongewenst, wordt gezien als bijlagen. Kost veel data.
+  - title: Organisatie > Opties > Indeling business units Systems/TA, Components, PB, Wikkelen
+  - title: Strategie > Pyramide > Positie Elma ligt rechts onder in de hoek
+  - title: Strategie > 2028 > Vol op AI > Specifiek maken
+  - title: Strategie > 2028 > Vol op AI > 4 uur presentatie, Wat is AI, data, Modellen, Leeft dit bij klanten (Quentin)
+  - title: PKI > Financieel > ?
+  - title: PKI > Management > ?
+  - title: PKI > Werkvloer > ?
+  - title: Beleid > Intern ipv Extern
+
+  - title: ELRO > Nieuwbouw 2x zo groot
+  - title: ELRO > Sales > Vacature 100%
+  - title: ELRO > Bezoek > Jordi Monique > 9 mei
+  - title: ELRO > Itsby global
+  - title: ELRO > Warchila en van riet 90% Omzet
+  - title: ELRO > 5mio > 350k winst
+
+
+  - title: 1)	8 projecten Timon
+  - title: a)	Brand veiligheid
+  - title: i)	Offerte 40k, aanpassen brandveiligheid, niet goedgekeurd, owner was Roger
+  - title: ii)	Luchtbehandeling niet toereikend
+  - title: iii)	Alarm installatie niet, afgekoppeld, alarm centrale komt niet meer langs.
+  - title: iv)	Huisman, eigenaar
+  - title: v)	Vloerverwarming, Bouwman
+  - title: vi)	Afzuiging, Bouwman
+  - title: vii)	Verwarming, Bouwman
+  - title: viii)	Airco’s, Bouwman
+  - title: ix)	Energie tekort, Opgelost, Zonnepanelen, Maarten van Bommel. Hoe omgaan in winter. Geen grotere aansluiting. Beschikbaar 2025.
+  - title: x)	6 Laadpalen, Willen we verdrievoudigen (Mark->Kees), 6 naar 10 naar 20
+  - title: xi)	Noodhok, Aggregaat, Mogen we niet gebruiken, Teveel CO2 uitstoot, Milieudienst
+  - title: xii)	Gasinstallatie, Aparte gasleiding, niet aangemeld, milieudienst, niet in gebruik, Oven
+  - title: xiii)	Tymon, doet, 9001
+  - title: (1)	2x/jr, incrementele check, 1 volledige check. Vorig jaar, uitstel, samen met belinda, jaap rook (oud directeur), dennis extern ingehuurd
+  - title: (2)	Arbo, stoelen, verlichting, brandblussers
+  - title: (3)	Systeem, Vivlo (Gold), Mindmaps, Processen, Wie verantwoordelijk waarvoor, 4000/jr, aparte server. Hycom gebruikt dit. Christiaan Brouwer. Bij Hycom 4d/wk ISO9001.
+  - title: (4)	September, increment check
+  - title: (5)	Verbeter plan, Belinda en Tymon en Jordi
+  - title: (6)	Veel dingen in ISAH opgelost
+  - title: (7)	ISAH is uitgesteld
+  - title: b)	Joan Knecht, 2 weken, 800 uur, 4 documenten, Tymon 96 documenten. Audit,  Goedkeuren jaarrekening. 4 mensen van IT, 117 vragen. Beargumenteren. Hieruit volgen Vaststellingen, Constateringen, Verbeterpunten. Traject 1 maand. HyCom gaat naar HYDAC. Elma Zelf.
+  - title: c)	Rechten niveau’s, IT gerelateerd, Joan Knecht. 4 Ogen Princiepe. Als Monique debiteur aanpast, geen betalingen.
+  - title: d)	Overdrachts document, moest Ingrid overdragen.
+  - title: 2)	Tymon
+  - title: a)	Kwaliteit
+  - title: b)	GBIS
+  - title: i)	2x probeer webbased applicatie
+  - title: ii)	Poging applicatie beheerder, 80 icters, gaat niet lukken
+  - title: 3)	IT werd facility management
+  - title: 4)	VDI licenties verlopen over mid juli 2023, kan nog 60 dagen worden gebruikt
+  - title: 5)	EPlan, licentie, verloopt. Dan ligt alles stil. Maand onbruikbaar. Eind dit jaar.
+  - title: 6)	Server park vernieuwen. 6 jaar oud
+  - title: 7)	Dells, geen garantie.
+  - title: 8)	Investeringsstop, begin 2022.
+  - title: 9)	ARBO Team
+  - title: 10)	Jeroen, offerte aan Alex, Eplan, Performance valt tegen. VDI servers op budget. Uitbreiden.
+  - title: 11)	Veel software geen updates, geen support, omdat we naar ISAH gaan
+  - title: 12)	ISAH
+  - title: a)	Jordy, server beschikbaar. Zelf beheren, 3 server elma 19,20,21. Staat in doc Joan Knecht
+  - title: b)	Ophalen doc Joan Knecht!!! Actie Max
+  - title: 13)	Isah
+  - title: a)	3 servers
+  - title: i)	Applicatie server 19
+  - title: ii)	Webserver 20
+  - title: iii)	Windows 10, Batch Server, 21, Draait Taken, Geupdate
+  - title: b)	Virus scanner, traag, opgelost,
+  - title: c)	Elma locale admin, enz.
+  - title: 14)	12 servers, VM’s, backup, Mocta,
+  - title: 15)	Elma 1, Buiten network, eigen internet, webserver, inlezen bedragen, VBA
+  - title: 16)	Elma 3, WDS Deploiment server, MSI
+  - title: 17)	Elma 6, Domain Controller (geen file server meer)
+  - title: 18)	Elma 8, Geen idee, wel belangrijk, exact, elfyweb
+  - title: 19)	Elma 9, belangrijk, maar wat? Tymon
+  - title: 20)	Elma 12, database server, exact,
+  - title: 21)	Elma 14, EPLAN Server, alleen database (was file server)
+  - title: 22)	Elma 16, Tymon, ?
+  - title: 23)	Elma 17 (niet meer)
+  - title: 24)	Elma 15, buiten netwerk backup server
+  - title: 25)	Elma 18, VDI
+  - title: 26)	Elma 22, Horizon connection server
+  - title: 27)	Server NL-SOS-FS
+  - title: 28)	Vivlo op Elma 16
+  - title: 29)	VDI Hosts Machines EPlan Te zwaar belast
+  - title: 30)	Machine thuiswerk server, 2 servers low balancing, 10GB netwerk
+  - title: 31)	Jeroen 800k project duitsland
+  - title: 32)	Duitsland, Elma Hycom, Goedkeuren, VDI,
+  - title: 33)	Tymon telefonie Duitsland Interresant, Roger kartrekker, als Elma Ja, Hycom Ook. Werkt Niet altijd.
+  - title: 34)	Tymon belt dan met Voicedata
+  - title: 35)	Projecten Elma Hycom, effect rest wereld
+  - title: 36)	Edgar, CMDB, Change Management gestudeerd. Virtuele desktops, chef procedures.
+  - title: 37)	Roger 365
+  - title: 38)	Jeroen
+  - title: 39)	OTRS, Ticket Systeem. Topdesk, all-in-one. 90/p/maand. Assets, Processen, Kennis
+  - title: 40)	Account Max en Dennis!
+  - title: 41)	Jeroen, LAPS, API, Topdesk, Inloggen LAPS wachtwoord.
+  - title: 42)	Jens, contract, Enico, beheer issues
+  - title: 43)	Taakverdeling
+  - title: a)	Operationeel Beheer
+  - title: b)	Technisch Beheer
+  - title: c)	Functioneel Beheer
+  - title: 44)	Anton is huismeester, moet facilitair regelen
