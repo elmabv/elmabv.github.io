@@ -28,23 +28,39 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     e.stopPropagation();
     $('.pagemenu').el.style.display = 'none';
     setTimeout(() => $('.pagemenu').el.style.display = '');
-    function par(chapter) {
+    function par(chapter, level) {
       return $('div').class('row').append(
         $('div').class('mw row').append(
-          $('div').append(
+          $('div').class('col').append(
             $('h1').append(
               $('a').text(chapter.title).on('click', menuclick.bind(chapter)),
             ),
             $('p').html((chapter.description||'').split('\n').join('\n\n').render()),
+            $('div').class('row').append(
+              level && chapter.contacts ? $('div').append(
+                $('div').text('Voor meer informatie kunt u contact opnemen met:'),
+                $('div').class('row contacts').append( 
+                  chapter.contacts.map(contact => $('div').class('row').append(
+                    $('img').src(contact.img),
+                    $('div').append(
+                      $('div').text(contact.name),
+                      $('div').text(contact.jobTitle).style('font-size:0.8em;'),
+                      $('a').href('mailto:'+contact.mailto).text('Stuur mail'),
+                      $('a').href('tel:'+contact.tel).text(String(contact.tel).replace(/31/, '+31 (0)')),
+                    ),
+                  ))
+                ),
+              ) : null,
+            ),
           ),
           $('div').append(
             !chapter.image ? null : $('img').src(chapter.image),
             !chapter.youtube ? null : $('iframe').src('https://www.youtube.com/embed/'+chapter.youtube+'?autoplay=0&controls=0&mute=1&autoplay=1&loop=1&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3&enablejsapi=1&wmode=opaque').attr('allowfullscreen','').attr('allow','autoplay;fullscreen'),
             !chapter.mp4 ? null : $('video').attr('controls', '').append(
               $('source').type('video/mp4').src(chapter.mp4),
-            )
+            ),
           ),
-        )
+        ),
       )
     }
     if (this.properties) {
@@ -56,7 +72,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     } else {
       $('main.row').clear().append(
         $('div').class('col chapters').append(
-          par(this),
+          par(this, 1),
           (this.children||[]).map(par),
         ),
       );
