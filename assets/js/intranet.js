@@ -1,6 +1,10 @@
 const serviceRoot = 'https://aliconnect.nl/v1';
 const socketRoot = 'wss://aliconnect.nl:444';
-Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init().then(async (abis) => {
+Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
+  nav: {
+    search: true,
+  },
+}).then(async (abis) => {
   $(document.documentElement).class('app',1);
   [
     '.icn-navigation',
@@ -19,6 +23,35 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init().then(as
   const {num} = Format;
   await Aim.fetch('https://aliconnect.nl/elmabv/api/elma').get().then(config);
   const {filenames,definitions} = config;
+
+
+  async function companyprofile(search){
+    const {companies,contacts,projects} = await Aim.fetch('http://10.10.60.31/api/company/profile').get({search}); 
+    function propertiesElement(item){
+      return $('table').append(
+        Object.entries(item).filter(entry => entry[1] && !String(entry[1]).match(/^-/)).map(entry => $('tr').append([
+          $('th').text(entry[0].displayName()).style('width:30%;'),
+          $('td').text(entry[1]).style('width:70%;'),
+        ])),
+      )
+    }
+    $('div').append(
+      $('link').rel('stylesheet').href('https://aliconnect.nl/sdk-1.0.0/lib/aim/css/print.css'),
+      companies.map(company => [
+        $('h1').text('Company',company.companyName),
+        propertiesElement(company),
+        contacts.filter(contact => contact.companyId == company.companyId).map(contact => [
+          $('h2').text('Contact',contact.fullName),
+          propertiesElement(contact),
+        ]),
+        projects.filter(project => project.debName.trim() == company.companyName.trim()).map(project => [
+          $('h2').text('Project',project.description),
+          propertiesElement(project),
+        ]),
+      ]),
+    ).print();
+    console.log(30,{companies,contacts,projects});
+  }
 
   function excelDateToJSDate(serial) {
      var utc_days  = Math.floor(serial - 25569);
@@ -681,6 +714,9 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init().then(as
             });
           },
         },
+        Allseas: {onclick: () => companyprofile('allseas')},
+        MHS: {onclick: () => companyprofile('material handling systems')},
+
 
         // Uren1: {
         //   onclick() {
