@@ -1,0 +1,135 @@
+html {
+  --red: rgb(255,0,0);
+  --green: rgb(0,255,0);
+  --blue: rgb(0,0,255);
+  --yellow: rgb(255,255,0);
+  --orange: rgb(255,128,0);
+  --lightblue: rgb(0,255,255);
+  --magentha: rgb(255,0,255);
+  --darkgreen: rgb(0,128,0);
+  --black: rgb(0,0,0);
+  --darkgray: rgb(51,51,51);
+  --gray: rgb(100,100,100);
+  --lightgray: rgb(128,128,128);
+  --silvergray: rgb(192,192,192);
+  --white: rgb(255,255,255);
+
+  --alarm-background-color: rgb(150,150,150);
+  --alarm-alternative-background-color: rgb(192,192,192);
+  --alarm-color: rgb(0,0,0);
+  --alarm-selection-color: rgb(255,255,153);
+  --alarm-selection-background-color: rgb(255,0,0);
+
+  --display-background-color: rgb(150,150,150);
+  --display-button-focus-background-color: rgb(51,102,255);
+  --display-header-background-color: rgb(128,128,128);
+  --display-header-color: rgb(0,0,0);
+  --display-grid-line-color: rgb(150,150,150);
+
+}
+html {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: Arial;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fields {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+.field {
+  display: flex;
+  color: rgb(192,192,192);
+}
+label {
+  flex: 1 0 auto;
+
+}
+input {
+  background-color: rgb(128,128,128);
+  color: rgb(0,0,0);
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  min-width: 80px;
+}
+input[type="number"] {
+  text-align: right;
+}
+input:focus {
+  background-color: rgb(51,102,255);
+}
+input+span {
+  flex: 0 0 30px;
+}
+input+span:not(:empty)::before {
+  content: '[';
+}
+input+span:not(:empty)::after {
+  content: ']';
+}
+input:read-only {
+  background-color: transparent;
+  color: rgb(192,192,192);
+}
+footer {
+  margin-top: auto;
+  padding: 2px;
+}
+main {
+  flex: 1 0 auto;
+  display: flex;
+}
+main>div {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  background-color: var(--darkgray);
+  flex: 1 0 0;
+  gap: 2px;
+}
+main>nav {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 120px;
+  padding: 10px 2px;
+}
+main>nav>:first-child {
+  margin-top: auto;
+}
+header {
+  /* height: 80px; */
+  background-color: var(--display-header-background-color);
+  color: black;
+  display: flex;
+}
+header>div {
+  padding: 2px;
+}
+header>div:last-child {
+  margin-left: auto;
+  text-align: right;
+}
+
+nav button {
+  font-family: Arial;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  /* box-shadow: inset 0px 0px 5px 5px rgba(128,128,128,0.8); */
+  box-shadow: inset 0px 8px 6px -6px rgba(255,255,255,0.8), inset 0px -8px 6px -6px rgba(255,255,255,0.8);
+  min-width: 120px;
+  min-height: 36px;
+  cursor: pointer;
+}
