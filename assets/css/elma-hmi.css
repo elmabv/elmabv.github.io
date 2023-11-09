@@ -106,6 +106,7 @@ main>nav {
   flex-direction: column;
   flex: 0 1 120px;
   padding: 10px 2px;
+  gap: 2px;
 }
 main>nav>:first-child {
   margin-top: auto;
@@ -124,6 +125,10 @@ header>div:last-child {
   text-align: right;
 }
 
+nav {
+  gap: 2px;
+  display: flex;
+}
 nav button {
   font-family: Arial;
   border: solid 1px #ccc;
