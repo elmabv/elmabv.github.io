@@ -26,7 +26,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
 
 
   async function companyprofile(search){
-    const {companies,contacts,projects} = await Aim.fetch('http://10.10.60.31/api/company/profile').get({search}); 
+    const {companies,contacts,projects} = await Aim.fetch('http://10.10.60.31/api/company/profile').get({search});
     function propertiesElement(item){
       return $('table').append(
         Object.entries(item).filter(entry => entry[1] && !String(entry[1]).match(/^-/)).map(entry => $('tr').append([
@@ -716,6 +716,8 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
         },
         Allseas: {onclick: () => companyprofile('allseas')},
         MHS: {onclick: () => companyprofile('material handling systems')},
+        Shell: {onclick: () => companyprofile('shell')},
+        Saipem: {onclick: () => companyprofile('saipem')},
 
 
         // Uren1: {
