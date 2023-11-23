@@ -20,6 +20,9 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   },
   tasks: false,
   messages: false,
+  pages: {
+    // footer: 'footer.md',
+  },
 }).then(async (abis) => {
   const {Client,Prompt,Pdf,Treeview,Listview,Statusbar,XLSBook,authClient,abisClient,socketClient,tags,treeview,listview,account,Aliconnect,getAccessToken} = abis;
   const {num} = Format;
@@ -36,10 +39,11 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
               $('a').text(chapter.title).on('click', menuclick.bind(chapter)),
             ),
             $('p').html((chapter.description||'').split('\n').join('\n\n').render()),
+            $('p').html((chapter.details||'').split('\n').join('\n\n').render()),
             $('div').class('row').append(
               level && chapter.contacts ? $('div').append(
                 $('div').text('Voor meer informatie kunt u contact opnemen met:'),
-                $('div').class('row contacts').append( 
+                $('div').class('row contacts').append(
                   chapter.contacts.map(contact => $('div').class('row').append(
                     $('img').src(contact.img),
                     $('div').append(
@@ -105,6 +109,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   // Aim.fetch('https://aliconnect.nl/elmabv/api/elma-site').get().then(config);
   console.log(config.site);
   return;
+
   await Aim.fetch('https://elma.aliconnect.nl/elma/elma.github.io/assets/yaml/elma').get().then(config);
   // console.log(config.jobDescriptions);
 

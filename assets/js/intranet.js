@@ -1,29 +1,100 @@
 const serviceRoot = 'https://aliconnect.nl/v1';
 const socketRoot = 'wss://aliconnect.nl:444';
 Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
+  configfiles: [
+    'https://aliconnect.nl/elmabv/api/elma',
+    'https://aliconnect.nl/elmabv/api/elma-site',
+    // 'https://aliconnect.nl/elmabv/api/elma-site-local',
+  ],
   nav: {
     search: true,
   },
 }).then(async (abis) => {
-  $(document.documentElement).class('app',1);
-  [
-    '.icn-navigation',
-    '.icn-local_language',
-    '.icn-settings',
-    '.icn-question',
-    '.icn-cart',
-    '.icn-chat_multiple',
-    '.icn-person',
-  ].forEach(tag => $(tag).remove());
+  // $(document.documentElement).class('app',1);
+  // [
+  //   '.icn-navigation',
+  //   '.icn-local_language',
+  //   '.icn-settings',
+  //   '.icn-question',
+  //   '.icn-cart',
+  //   '.icn-chat_multiple',
+  //   '.icn-person',
+  // ].forEach(tag => $(tag).remove());
 
-  $('input').parent('nav>.mw').value(window.localStorage.getItem('username')).on('change', event => window.localStorage.setItem('username', event.target.value.trim()));
+  // $('input').parent('nav>.mw').value(window.localStorage.getItem('username')).on('change', event => window.localStorage.setItem('username', event.target.value.trim()));
 
   const {searchParams} = new URL(document.location.href);
   const {config,Client,Prompt,Pdf,Treeview,Listview,Statusbar,XLSBook,authClient,abisClient,socketClient,tags,treeview,listview,account,Aliconnect,getAccessToken} = abis;
   const {num} = Format;
-  await Aim.fetch('https://aliconnect.nl/elmabv/api/elma').get().then(config);
-  const {filenames,definitions} = config;
-
+  // await Aim.fetch('https://aliconnect.nl/elmabv/api/elma').get().then(config);
+  // await Aim.fetch('https://aliconnect.nl/elmabv/api/elma-site').get().then(config);
+  const {filenames,definitions,sitetree} = config;
+  // console.log(JSON.stringify(definitions.person));
+  function menuclick(e){
+    e.stopPropagation();
+    $('.pagemenu').el.style.display = 'none';
+    setTimeout(() => $('.pagemenu').el.style.display = '');
+    function par([title,chapter], level) {
+      return $('div').class('row').append(
+        $('div').class('mw').append(
+          $('div').class('').append(
+            !chapter.image ? null : $('img').class('sideimage').src(chapter.image),
+            !chapter.youtube ? null : $('iframe').class('sideimage').src('https://www.youtube.com/embed/'+chapter.youtube+'?autoplay=0&controls=0&mute=1&autoplay=1&loop=1&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3&enablejsapi=1&wmode=opaque').attr('allowfullscreen','').attr('allow','autoplay;fullscreen'),
+            !chapter.mp4 ? null : $('video').class('sideimage').attr('controls', '').append(
+              $('source').type('video/mp4').src(chapter.mp4),
+            ),
+            $('h1').append(
+              $('a').text(chapter.title || title).on('click', menuclick.bind(chapter)),
+            ),
+            $('p').html((chapter.description||'').split('\n').join('\n\n').render()),
+            level !== 1 ? null : $('p').html((chapter.details||'').split('\n').join('\n\n').render()),
+            $('div').class('row').append(
+              level && chapter.contacts ? $('div').append(
+                $('div').text('Voor meer informatie kunt u contact opnemen met:'),
+                $('div').class('row contacts').append(
+                  chapter.contacts.map(contact => $('div').class('row').append(
+                    $('img').src(contact.img),
+                    $('div').append(
+                      $('div').text(contact.name),
+                      $('div').text(contact.jobTitle).style('font-size:0.8em;'),
+                      $('a').href('mailto:'+contact.mailto).text('Stuur mail'),
+                      $('a').href('tel:'+contact.tel).text(String(contact.tel).replace(/31/, '+31 (0)')),
+                    ),
+                  ))
+                ),
+              ) : null,
+            ),
+            level && chapter.docs ? $('div').append(
+              chapter.docs.map(doc => $('div').append(
+                $('a').text(doc.href.split('/').pop().split('.').shift()).href(doc.href).target('doc'),
+              ))
+            ) : null
+          ),
+          // $('div').append(
+          //   !chapter.image ? null : $('img').src(chapter.image),
+          //   !chapter.youtube ? null : $('iframe').src('https://www.youtube.com/embed/'+chapter.youtube+'?autoplay=0&controls=0&mute=1&autoplay=1&loop=1&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3&enablejsapi=1&wmode=opaque').attr('allowfullscreen','').attr('allow','autoplay;fullscreen'),
+          //   !chapter.mp4 ? null : $('video').attr('controls', '').append(
+          //     $('source').type('video/mp4').src(chapter.mp4),
+          //   ),
+          // ),
+        ),
+      )
+    }
+    if (this.properties) {
+      $('main.row').clear().append(
+        $('div').class('col mw page').append(
+          $('form').properties(this, true),
+        ),
+      );
+    } else {
+      $('main.row').clear().append(
+        $('div').class('col chapters').append(
+          par([null,this], 1),
+          Object.entries(this.children||{}).map(par),
+        ),
+      );
+    }
+  }
 
   async function companyprofile(search){
     const {companies,contacts,projects} = await Aim.fetch('http://10.10.60.31/api/company/profile').get({search});
@@ -66,6 +137,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
      return new Date(date_info.getFullYear(), date_info.getMonth(), date_info.getDate(), hours, minutes, seconds);
   }
   function loaddata(data) {
+    // console.log(123, data);
     Object.keys(data).filter(schemaName => definitions[schemaName]).forEach(schemaName => {
       Object.assign(definitions[schemaName].prototype = definitions[schemaName].prototype || {},{select});
       data[schemaName].forEach((item,id) => new Item({schemaName,id:[schemaName,item.id||id].join('_')},item));
@@ -73,15 +145,15 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   }
   function loadExcelData(src) {
     return new Promise((succes,fail)=>{
-      console.log(src);
+      // console.log(src);
       const data = {};
       fetch(src, {cache: "no-cache"}).then((response) => response.blob()).then(blob => {
         const reader = new FileReader();
         reader.readAsBinaryString(blob);
         reader.onload = (event) => {
           const workbook = XLSX.read(event.target.result, {type:'binary'});
-          workbook.SheetNames.forEach(name => {
-            const wbsheet = workbook.Sheets[name];
+          workbook.SheetNames.forEach(schemaName => {
+            const wbsheet = workbook.Sheets[schemaName];
             if (!wbsheet['!ref']) return;
             // console.log(name,wbsheet['!ref']);
             const [start,end] = wbsheet['!ref'].split(':');
@@ -97,6 +169,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
               }
             }
             for (var r=1;r<rowcount;r++) {
+              // const row = {schemaName};
               const row = {};
               for (var c=0;c<=col_index;c++) {
                 var cell = wbsheet[XLSX.utils.encode_cell({c,r})];
@@ -108,7 +181,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
               rows.push(row);
               // console.log(excelDateToJSDate(row.date));
             }
-            data[name] = rows;
+            data[schemaName] = rows;
             //
             // for (var c=0;c<=col_index;c++) {
             //   var cellstr = XLSX.utils.encode_cell({c:c,r:0});
@@ -217,8 +290,59 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     Object.assign(definitions[schemaName].prototype = definitions[schemaName].prototype || {},{select});
     config[schemaName].forEach((item,id) => new Item({schemaName,id:[schemaName,item.id||id].join('_')},item));
   });
+
   for (const filename of filenames) {
     await loadExcelData(filename);
+  }
+
+  // console.log(Item.person);
+  const indienst = Item.person.filter(item => item.status === 'indienst');
+  const jobtitles = Item.jobTitle;//.filter(item => indienst.some(person => person.jobTitle === item.jobTitle));
+  console.log(jobtitles);
+  if (sitetree) {
+    sitetree.Organisatie.children.Elma = {
+      children: indienst.map(item => item.department).unique().sort().map(department => Object({
+        title: department,
+        children: indienst.filter(item => item.department === department).map(item => item.jobTitle).unique().sort().map(jobTitle => Object({
+          title: jobTitle,
+          children: indienst.filter(item => item.department === department && item.jobTitle === jobTitle).map(item => Object({
+            title: item.id,
+          }))
+        })),
+      }))
+    }
+    sitetree.Organisatie.children.JobTitles = {
+      children: jobtitles.map(item => item.department).unique().sort().map(department => Object({
+        title: department,
+        children: jobtitles.filter(item => item.department === department).map(jobTitle => Object({
+          title: jobTitle.jobTitle,
+          description: jobTitle.department,
+        })),
+      }))
+    }
+    $('.pagemenu').append(
+      $('ul').append(
+        Object.entries(sitetree).map(([title,l1]) => $('li').append(
+          $('a').text((l1||{}).title || title).on('click', menuclick.bind(l1)),
+          $('ul').append(
+            Object.entries((l1||{}).children||[]).map(([title,l2]) => $('li').append(
+              $('a').text((l2||{}).title || title).on('click', menuclick.bind(l2)),
+              $('ul').append(
+                Object.entries((l2||{}).children||[]).map(([title,l3]) => $('li').append(
+                  $('a').text((l3||{}).title || title).on('click', menuclick.bind(l3)),
+                  $('ul').append(
+                    Object.entries((l3||{}).children||[]).map(([title,l4]) => $('li').append(
+                      $('a').text((l4||{}).title || title).on('click', menuclick.bind(l4)),
+                    ))
+                  )
+                  // $('a').text(l3.title).on('click', menuclick.bind(l3)),
+                ))
+              )
+            ))
+          )
+        ))
+      )
+    )
   }
 
 
@@ -278,7 +402,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
       weken:[],
       tasks:[],
     }));
-    console.log(resources);
+    // console.log(resources);
 
     projecten.forEach(project => project.notes = []);
     projecten.filter(project => !project.projectmanager).forEach(project => project.notes.push('Projectmanager niet ingevuld, wie is de Projectmanager?'));
@@ -392,7 +516,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     plantaken.filter(task => !task.begin && task.eind).forEach(plantaak);
     plantaken.filter(task => !task.begin && !task.eind).forEach(plantaak);
 
-    console.log(resources);
+    // console.log(resources);
     function sorttasks(a,b) {
       return String(a.ordernr||'').localeCompare(b.ordernr||'') || String(a.orderdeel||'').localeCompare(b.orderdeel||'') || String(a.deel||'').localeCompare(b.deel||'') || String(a.activiteit||'').localeCompare(b.activiteit||'');
     }
@@ -682,6 +806,13 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     },
     Test: {
       children: {
+        AnalyseEngineering: {
+          onclick() {
+            loadExcelData('http://10.10.60.31/engineering/Projects/Demo/966204.xlsx').then(async data => {
+              console.log('a', data);
+            });
+          },
+        },
         Calc1: {
           onclick() {
             loadExcelData('http://10.10.60.31/engineering/Projects/Demo/966204.xlsx').then(async data => {
