@@ -179,12 +179,12 @@ details>details {
 
 .chapters>div>.mw>div>.sideimage {
   object-fit: contain;
+  width: 100%;
   max-width: calc(50% - 25px);
   float: right;
   margin: 0 0px 10px 50px;
-  /* height: 100%; */
-  /* max-height: 400px; */
   background-color:  white;
+  border: none;
 }
 
 .chapters>div:nth-child(2n)>.mw>:first-child>.sideimage {
@@ -194,23 +194,9 @@ details>details {
   /* padding: 0 0 0 50px; */
 }
 
-
+.chapters video,
 .chapters iframe {
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
-  width: 100%;
-  /* height: 100%; */
   min-height: 300px;
-  border: none;
-}
-.chapters video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
 }
 .pagemenu a {
   cursor: pointer;

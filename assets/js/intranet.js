@@ -30,11 +30,16 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   // await Aim.fetch('https://aliconnect.nl/elmabv/api/elma-site').get().then(config);
   const {filenames,definitions,sitetree} = config;
   // console.log(JSON.stringify(definitions.person));
-  function menuclick(e){
+  function menuclick(e, items, parent){
     e.stopPropagation();
     $('.pagemenu').el.style.display = 'none';
     setTimeout(() => $('.pagemenu').el.style.display = '');
-    function par([title,chapter], level) {
+    const index = items.findIndex(([title,item]) => item === this);
+    // console.log(111, this, index);
+    const prev = items[index-1];
+    const next = items[index+1];
+    console.log(parent, items,this,index,prev,next);
+    function par([title,chapter], level, items, parent) {
       return $('div').class('row').append(
         $('div').class('mw').append(
           $('div').class('').append(
@@ -44,31 +49,37 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
               $('source').type('video/mp4').src(chapter.mp4),
             ),
             $('h1').append(
-              $('a').text(chapter.title || title).on('click', menuclick.bind(chapter)),
+              $('a').text(chapter.title || title).on('click', e => menuclick.call(chapter, e, items)),
             ),
             $('p').html((chapter.description||'').split('\n').join('\n\n').render()),
-            level !== 1 ? null : $('p').html((chapter.details||'').split('\n').join('\n\n').render()),
+            level ? null : $('p').html((chapter.details||'').split('\n').join('\n\n').render()),
             $('div').class('row').append(
               level && chapter.contacts ? $('div').append(
                 $('div').text('Voor meer informatie kunt u contact opnemen met:'),
                 $('div').class('row contacts').append(
-                  chapter.contacts.map(contact => $('div').class('row').append(
+                  chapter.contacts.map(contact => Item.person.find(person => person.displayName === contact.displayName) || contact).map(contact => $('div').class('row').append(
                     $('img').src(contact.img),
                     $('div').append(
-                      $('div').text(contact.name),
-                      $('div').text(contact.jobTitle).style('font-size:0.8em;'),
-                      $('a').href('mailto:'+contact.mailto).text('Stuur mail'),
-                      $('a').href('tel:'+contact.tel).text(String(contact.tel).replace(/31/, '+31 (0)')),
+                      $('div').text(contact.displayName || contact.name),
+                      contact.jobTitle ? $('div').text(contact.jobTitle).style('font-size:0.8em;') : null,
+                      contact.mailaddress ? $('a').href('mailto:'+contact.mailaddress).text('Stuur mail') : null,
+                      contact.mobile || contact.phone ? $('a').href('tel:'+(contact.mobile || contact.phone)).text(String(contact.mobile || contact.phone)) : null,
                     ),
                   ))
                 ),
               ) : null,
             ),
+            level && chapter.attributes ? $('table').append(
+              Object.entries(chapter.attributes).map(([key,value]) => $('tr').append(
+                $('th').text(key),
+                $('td').text(value),
+              ))
+            ) : null,
             level && chapter.docs ? $('div').append(
               chapter.docs.map(doc => $('div').append(
-                $('a').text(doc.href.split('/').pop().split('.').shift()).href(doc.href).target('doc'),
+                $('a').text((doc.href||'').split('/').pop().split('.').shift()).href(doc.href).target('doc'),
               ))
-            ) : null
+            ) : null,
           ),
           // $('div').append(
           //   !chapter.image ? null : $('img').src(chapter.image),
@@ -89,8 +100,15 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     } else {
       $('main.row').clear().append(
         $('div').class('col chapters').append(
-          par([null,this], 1),
-          Object.entries(this.children||{}).map(par),
+          $('nav').class('row').append(
+            $('div').class('row mw').append(
+              prev ? $('a').text(prev[0]).on('click', e => menuclick.call(prev[1], e, items)) : null,
+              parent ? $('a').text('Omhoog').style('margin-left:auto;margin-right:auto;').on('click', e => menuclick.call(parent, e, items)) : null,
+              next ? $('a').text(next[0]).style('margin-left:auto;').on('click', e => menuclick.call(next[1], e, items)) : null,
+            ),
+          ),
+          par([null,this], true, items),
+          Object.entries(this.children||{}).map((item,i,items) => par(item, false, items)),
         ),
       );
     }
@@ -291,15 +309,39 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     config[schemaName].forEach((item,id) => new Item({schemaName,id:[schemaName,item.id||id].join('_')},item));
   });
 
-  for (const filename of filenames) {
-    await loadExcelData(filename);
-  }
+  const {engiro} = await loadExcelData('http://10.10.60.31/docs/data.xlsx');
+  console.log({engiro});
+  sitetree.Technology.children.Motors.children.Engiro.children = engiro.map(item => item.cool).unique().map(title => Object({
+    title,
+    children: engiro.filter(item => item.cool === title).map(({type,image,href,length,weight,w,kw,rpm,nm,v}) => Object({
+      title: type,
+      image,
+      docs: [{href}],
+      attributes: {length,weight,w,type,kw,rpm,nm,v},
+    }))
+  }));
+  // engiro.forEach(item => {
+  //   sitetree.Technology.children.Motors.children.Engiro.children.push({
+  //     title: item.type,
+  //   });
+  // })
+  await loadExcelData('http://10.10.60.31/docs/it.xlsx');
 
-  // console.log(Item.person);
   const indienst = Item.person.filter(item => item.status === 'indienst');
   const jobtitles = Item.jobTitle;//.filter(item => indienst.some(person => person.jobTitle === item.jobTitle));
-  console.log(jobtitles);
+  // console.log(jobtitles);
   if (sitetree) {
+    console.log(Item.competence);
+    const competentie = sitetree.Technology.children.Competentie = {children:[]};
+    Item.competence.forEach(competence => {
+      competentie.children[competence.brand] = competentie.children[competence.brand] || {
+        title: competence.brand,
+        children: [],
+      };
+      competentie.children[competence.brand].children[competence.name] = competence;
+    })
+  
+
     sitetree.Organisatie.children.Elma = {
       children: indienst.map(item => item.department).unique().sort().map(department => Object({
         title: department,
@@ -322,17 +364,17 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     }
     $('.pagemenu').append(
       $('ul').append(
-        Object.entries(sitetree).map(([title,l1]) => $('li').append(
-          $('a').text((l1||{}).title || title).on('click', menuclick.bind(l1)),
+        Object.entries(sitetree).map(([title,l1],i,items) => $('li').append(
+          $('a').text((l1||{}).title || title).on('click', e => menuclick.call(l1, e, items)),
           $('ul').append(
-            Object.entries((l1||{}).children||[]).map(([title,l2]) => $('li').append(
-              $('a').text((l2||{}).title || title).on('click', menuclick.bind(l2)),
+            Object.entries((l1||{}).children||[]).map(([title,l2],i,items) => $('li').append(
+              $('a').text((l2||{}).title || title).on('click', e => menuclick.call(l2, e, items, l1)),
               $('ul').append(
-                Object.entries((l2||{}).children||[]).map(([title,l3]) => $('li').append(
-                  $('a').text((l3||{}).title || title).on('click', menuclick.bind(l3)),
+                Object.entries((l2||{}).children||[]).map(([title,l3],i,items) => $('li').append(
+                  $('a').text((l3||{}).title || title).on('click', e => menuclick.call(l3, e, items, l2)),
                   $('ul').append(
-                    Object.entries((l3||{}).children||[]).map(([title,l4]) => $('li').append(
-                      $('a').text((l4||{}).title || title).on('click', menuclick.bind(l4)),
+                    Object.entries((l3||{}).children||[]).map(([title,l4],i,items) => $('li').append(
+                      $('a').text((l4||{}).title || title).on('click', e => menuclick.call(l4, e, items, l3)),
                     ))
                   )
                   // $('a').text(l3.title).on('click', menuclick.bind(l3)),
@@ -345,10 +387,10 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     )
   }
 
-
   loaddata(await Aim.fetch('http://10.10.60.31/api/exact/project').get());
   loaddata(await Aim.fetch('http://10.10.60.31/api/exactdata').get());
   loaddata(await Aim.fetch('http://10.10.60.31/api/exactdata_uren').get());
+
   loadExcelData('http://10.10.60.31/engineering/Projects/Planning/Planning Systems.xlsx').then(async data => {
     const {project,productionorder} = Item;
     const taken = Item.task2;
