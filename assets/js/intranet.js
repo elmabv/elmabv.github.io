@@ -38,7 +38,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     // console.log(111, this, index);
     const prev = items[index-1];
     const next = items[index+1];
-    console.log(parent, items,this,index,prev,next);
+    // console.log(parent, items,this,index,prev,next);
     function par([title,chapter], level, items, parent) {
       return $('div').class('row').append(
         $('div').class('mw').append(
@@ -390,6 +390,35 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   loaddata(await Aim.fetch('http://10.10.60.31/api/exact/project').get());
   loaddata(await Aim.fetch('http://10.10.60.31/api/exactdata').get());
   loaddata(await Aim.fetch('http://10.10.60.31/api/exactdata_uren').get());
+
+
+  parser = new DOMParser();
+  xmlDoc = parser.parseFromString(await Aim.fetch('http://10.10.60.31/engineering/Projects/Planning/planning-engineering.xml').get(),"text/xml");
+
+  console.log(xmlDoc);
+  const taskElements = xmlDoc.getElementsByTagName("Task");//[0].childNodes[0].nodeValue;
+  console.log(taskElements, JSON.stringify(taskElements));
+
+
+  const systems = await loadExcelData('http://10.10.60.31/engineering/Projects/systems.xlsx');
+  console.log({systems});
+
+  async function systemspecs(system) {
+    // const mteck = await Aim.fetch('https://aliconnect.nl/elmabv/api/mteck').get();
+    // console.log({mteck});
+    Object.assign(system, await Aim.fetch('https://aliconnect.nl/elmabv/api/mteck').get());
+    Object.assign(system, await loadExcelData('http://10.10.60.31/engineering/Engineering/Engineering/MTECK/mteck-systems-tcd.xlsx'));
+    Object.assign(system, await loadExcelData('http://10.10.60.31/engineering/Projects/'+system.src));
+    console.log({system});
+    $('.pages').clear().append(
+      $('div').append(
+        $('h1').text(system.title),
+      )
+    )
+
+    // const mteck2100e = await loadExcelData('http://10.10.60.31/engineering/Projects/2023/20235054 Mteck 2100E Dragline USA 2210/08-Software/20235054-system-design.xlsx');
+    // console.log({mteck2100e});
+  }
 
   loadExcelData('http://10.10.60.31/engineering/Projects/Planning/Planning Systems.xlsx').then(async data => {
     const {project,productionorder} = Item;
@@ -905,6 +934,13 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
         //   },
         // },
       },
+    },
+    Systems: {
+      children: Object.fromEntries(systems.systems.map(system => [system.title,{
+        onclick() {
+          systemspecs(system);
+        },
+      }])),
     },
   });
   // Web.search();
