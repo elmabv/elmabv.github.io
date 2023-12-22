@@ -403,7 +403,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   console.log({wartsila});
 
 
-  const systems = await loadExcelData('http://10.10.60.31/engineering/Projects/systems.xlsx');
+  const systems = await loadExcelData('http://10.10.60.31/engineering/Projects/elma-systems.xlsx');
     console.log({systems});
 
   async function systemspecs(system) {
