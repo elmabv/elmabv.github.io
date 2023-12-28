@@ -391,6 +391,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   loaddata(await Aim.fetch('http://10.10.60.31/api/exactdata').get());
   loaddata(await Aim.fetch('http://10.10.60.31/api/exactdata_uren').get());
 
+
   parser = new DOMParser();
   xmlDoc = parser.parseFromString(await Aim.fetch('http://10.10.60.31/engineering/Projects/Planning/planning-engineering.xml').get(),"text/xml");
 
@@ -401,157 +402,388 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   const wartsila = await loadExcelData('http://10.10.60.31/engineering/Projects/Klantspecifiek/Wartsila/Order List Overview 2023.xlsx');
   console.log({wartsila});
 
+
   const systems = await loadExcelData('http://10.10.60.31/engineering/Projects/elma-systems.xlsx');
-  console.log({systems});
-
-  function contactlist(contactlist){
-    return $('table').class('grid').style('width:100%;').append(
-      $('thead').append(
-        $('th').text('Company'),
-        $('th').text('Job title / Role'),
-        $('th').text('Name'),
-        $('th').text('Initials'),
-        $('th').text('Mail address'),
-        $('th').text('Mobile'),
-      ),
-      $('tbody').append(
-        contactlist.map(item => $('tr').append(
-          $('td').text(item.Company),
-          $('td').text(item.Role || item.JobTitle),
-          $('td').text(item.Name),
-          $('td').text(item.Init),
-          $('td').append($('a').text(item.Mailaddress).href('mailto:'+item.Mailaddress)),
-          $('td').append($('a').text(item.Mobile).href('tel:'+item.Mobile)),
-        ))
-      )
-    )
-
-  }
-
-  async function handboek(systems) {
-    $('.listview').clear().append(
-      $('div').class('col').style('width:0;').append(
-        $('div').class('col').style('overflow:auto;flex:1 0 0;').append(
-          $('h1').text('Contactlist'),
-          contactlist(systems.contactlist),
-          $('h1').text('Checklist'),
-          systems.checklist.map(item => $('details').append(
-            $('summary').text(item.Onderwerp),
-            $('p').text(item.Toelichting),
-          ))
-        )
-      )
-    );
-  }
-
+    console.log({systems});
 
   async function systemspecs(system) {
     // const mteck = await Aim.fetch('https://aliconnect.nl/elmabv/api/mteck').get();
+    // console.log({mteck});
     Object.assign(system, await Aim.fetch('https://aliconnect.nl/elmabv/api/mteck').get());
     Object.assign(system, await loadExcelData('http://10.10.60.31/engineering/Engineering/Engineering/MTECK/mteck-systems-tcd.xlsx'));
-    Object.assign(system, await loadExcelData('http://10.10.60.31/engineering/Projects/'+system.infofile));
-
-    system.contactlist.forEach(item => Object.assign(item, systems.contactlist.find(row => row.Name === item.Name)))
-    system.checklist.forEach(item => Object.assign(item, systems.checklist.find(row => row.Onderwerp === item.Onderwerp)))
-
+    Object.assign(system, await loadExcelData('http://10.10.60.31/engineering/Projects/'+system.src));
     console.log({system});
-
-    $('.listview').clear().append(
-      $('div').class('col').style('width:0;').append(
-        $('div').class('col').style('overflow:auto;flex:1 0 0;').append(
-          $('h1').text(system.title),
-          $('details').append(
-            $('summary').text('Project eigenschappen'),
-            $('table').class('grid').style('width:100%;').append(
-              $('tbody').append(
-                system.info.map(item => $('tr').append(
-                  $('th').text(item.property),
-                  $('td').text(item.value),
-                ))
-              )
-            ),
-          ),
-          $('details').append(
-            $('summary').text('Revisie overzicht'),
-            $('table').class('grid').style('width:100%;').append(
-              $('thead').append(
-                $('th').text('Versie'),
-                $('th').text('Datum'),
-                $('th').text('Auteur'),
-                $('th').text('Omschrijving'),
-              ),
-              $('tbody').append(
-                system.revisions.map(item => $('tr').append(
-                  $('td').text(item.revision),
-                  $('td').text(item.date),
-                  $('td').text(item.author),
-                  $('td').text(item.description),
-                ))
-              )
-            ),
-          ),
-
-          $('details').append(
-            $('summary').text('Contact overzicht'),
-            contactlist(system.contactlist),
-          ),
-          $('details').append(
-            $('summary').text('Documenten overzicht'),
-            $('table').class('grid').style('width:100%;').append(
-              $('thead').append(
-                $('th').text('Name'),
-                $('th').text('Pdf'),
-                $('th').text('Versie'),
-                $('th').text('Datum'),
-              ),
-              $('tbody').append(
-                system.documenten.map(item => $('tr').append(
-                  $('td').text(item.Name),
-                  $('td').append($('a').target('document').text('PDF').href('http://10.10.60.31/engineering/Projects/' + system.projectfolder + '/' + item.pdf)),
-                  $('td').text(item.Version),
-                  $('td').text(item.Date),
-                ))
-              )
-            ),
-          ),
-          $('details').append(
-            $('summary').text('Check lijst'),
-            system.checklist.map(item => $('details').append(
-              $('summary').text(item.Onderwerp),
-              $('p').text(item.Toelichting),
-            )),
-          ),
-          $('details').append(
-            $('summary').text('IO lijst'),
-            system.iolist.map(item => item.Location).unique().map(name => $('details').append(
-              $('summary').text(name),
-              $('table').class('grid').style('width:100%;').append(
-                $('thead').append(
-                  $('th').text('Location'),
-                  $('th').text('Component'),
-                  $('th').text('Description'),
-                  $('th').text('Type'),
-                  $('th').text('Pin'),
-                ),
-                $('tbody').append(
-                  system.iolist.filter(item => item.Location === name).map(item => $('tr').append(
-                    $('td').text(item.Location),
-                    $('td').text(item.Component),
-                    $('td').text(item.Description),
-                    $('td').text(item.Type),
-                    $('td').text(item.Pin),
-                  ))
-                )
-              ),
-            )),
-          )
-        )
+    $('.pages').clear().append(
+      $('div').append(
+        $('h1').text(system.title),
       )
     )
 
     // const mteck2100e = await loadExcelData('http://10.10.60.31/engineering/Projects/2023/20235054 Mteck 2100E Dragline USA 2210/08-Software/20235054-system-design.xlsx');
     // console.log({mteck2100e});
   }
+
+  // loadExcelData('http://10.10.60.31/engineering/Projects/Planning/Planning Systems.xlsx').then(async data => {
+  //   const {project,productionorder} = Item;
+  //   const taken = Item.task2;
+  //   project.forEach(project => {
+  //     project.title = [project.opdrachtgever,project.eindklant,project.name,project.location].filter(Boolean).join(' > ');
+  //     project.budget = 0;
+  //     project.besteed = 0;
+  //     project.tegaan = 0;
+  //     project.resultaat = 0;
+  //   })
+  //   project.sort((a,b) => a.title.localeCompare(b.title));
+  //   const projecten = project.filter(project => ['active'].includes(project.status));
+  //   const {weburen_totaal} = await Aim.fetch('http://10.10.60.31/api/weburen_totaal').body({nrs:taken.map(task => task.ordernr).unique().filter(Boolean).join(',')}).post();
+  //   taken.forEach(task => {
+  //     task.budget = task.budget || 0;
+  //     task.tegaan = task.tegaan || 0;
+  //     task.besteed = task.besteed || 0;
+  //   });
+  //   weburen_totaal.forEach(uren => {
+  //     const task = taken.find(task =>
+  //       task.ordernr == uren.ordernr &&
+  //       task.orderdeel == uren.orderdeel &&
+  //       task.activiteit == uren.activiteit &&
+  //       task.deel == uren.deel
+  //     );
+  //     if (task) {
+  //       Object.assign(task,uren);
+  //     } else {
+  //       uren.nietinplanning = true;
+  //       taken.push(uren);
+  //     }
+  //   });
+  //   taken.forEach(task => {
+  //     task.notes = [];
+  //     task.weken = [];
+  //     task.resultaat = (task.budget || 0) - (task.besteed || 0) - (task.tegaan || 0);
+  //     if (!task.besteed && task.tegaan) {
+  //       task.status = 'nieuw';
+  //     } else if (task.besteed && task.tegaan) {
+  //       task.status = 'actief';
+  //     } else if (task.besteed) {
+  //       task.status = 'gereed';
+  //     }
+  //   })
+  //   taken.filter(task => task.nietinplanning).forEach(task => task.notes.push(`Taak komt niet voor in planning! Geen budget! Uren geboekt ${num(task.besteed,1)}.`));
+  //   taken.filter(task => task.resources && !task.budget && task.tegaan).forEach(task => task.notes.push(`Geen budget ingevoerd! Wel nog ${task.tegaan} uren te besteden door ${task.resources}`));
+  //   taken.filter(task => task.resources && task.tegaan == 0.1).forEach(task => task.notes.push(`Uren te gaan onbekend. Graag uren opgeven voor deze taak voor ${task.resources}`));
+
+  //   const resources = taken.filter(task => task.resources).map(task => task.resources.split(';')).flat().unique().sort().map(fullname => Object.assign(Item.person.find(person => person.id == fullname) || {},{
+  //     fullname,
+  //     weken:[],
+  //     tasks:[],
+  //   }));
+  //   // console.log(resources);
+
+  //   projecten.forEach(project => project.notes = []);
+  //   projecten.filter(project => !project.projectmanager).forEach(project => project.notes.push('Projectmanager niet ingevuld, wie is de Projectmanager?'));
+  //   projecten.filter(project => !project.opdrachtgever).forEach(project => project.notes.push('Opdrachtgever niet ingevuld, wie is de Opdrachtgever?'));
+  //   projecten.filter(project => !project.eindklant).forEach(project => project.notes.push('Eindklant niet ingevuld, wie is de Eindklant?'));
+  //   // Maak planning
+  //   function weekindex(date){
+  //     const index = Math.round((date - new Date()) / 7 / 24 / 1000 / 3600);
+  //     return date.getWeekday() == 6 ? index + 1 : index;
+  //   }
+  //   function weekyear(date){
+  //     return (date.getFullYear()-2000) * 100 + date.getWeek();
+  //   }
+
+  //   const currentWeek = weekyear(new Date());
+  //   const maxuren = 40;
+  //   const planweken = 40;
+  //   const weken = [];
+  //   var date = new Date();
+  //   for (let i=0;i<=planweken;i++) {
+  //     weken.push(date.getWeek());
+  //     date.addDays(7);
+  //     resources.forEach(resource => resource.weken[i] = 0)
+  //     taken.forEach(item => item.weken[i] = 0);
+  //   }
+  //   function getWorkDays(startDate,endDate){
+  //     var days = 0;
+  //     for (let date = new Date(startDate); date <= endDate;date.addDays(1)) {
+  //       if ([1,2,3,4,5].includes(date.getDay())) {
+  //         days++;
+  //       }
+  //     }
+  //     return days;
+  //   }
+
+  //   const plantaken = taken.filter(task => task.resources && task.tegaan > 0.1);
+  //   function plantaak(task) {
+  //     const taskresources = task.resources.split(';').map(fullname => resources.find(resource => resource.fullname == fullname));
+  //     const resourceTasks = [];
+  //     taskresources.forEach(resource => {
+  //       const resourcetask = Object.create(task);
+  //       resourcetask.weken = [];
+  //       weken.forEach((wk,i) => resourcetask.weken[i] = 0);
+  //       resource.tasks.push(resourcetask);
+  //       resourceTasks.push(resourcetask);
+  //     });
+  //     var tegaan = task.tegaan = task.tegaan || 0;
+  //     task.budget = task.budget || 0;
+  //     if (task.begin && task.eind) {
+  //       var startDate = excelDateToJSDate(task.begin);
+  //       startDate = new Date(Math.max(startDate, new Date()));
+  //       const endDate = excelDateToJSDate(task.eind);
+  //       var days = getWorkDays(startDate,endDate);
+  //       const uren = tegaan / days / taskresources.length;
+  //       // console.log(task.omschrijving,{tegaan,days,uren},taskresources.length);
+  //       for (let date = new Date(startDate); date <= endDate; date.addDays(1)) {
+  //         if ([1,2,3,4,5].includes(date.getDay())) {
+  //           const i = weekindex(date);
+  //           taskresources.forEach((resource,r) => {
+  //             task.weken[i] += uren;
+  //             resource.weken[i] += uren;
+  //             resourceTasks[r].weken[i] += uren;
+  //           });
+  //         }
+  //       }
+  //     } else if (task.begin) {
+  //       var startDate = excelDateToJSDate(task.begin);
+  //       startDate = new Date(Math.max(startDate, new Date()));
+  //       const startWeek = weekyear(startDate) - currentWeek;
+  //       for (let i=startWeek;i<=planweken;i++) {
+  //         taskresources.forEach((resource,r) => {
+  //           const beschikbaar = Math.max(0,maxuren-resource.weken[i]);
+  //           let uren = Math.min(beschikbaar,tegaan);
+  //           tegaan -= uren;
+  //           task.weken[i] += uren;
+  //           resource.weken[i] += uren;
+  //           resourceTasks[r].weken[i] += uren;
+  //         });
+  //       }
+  //       // console.log(startWeek, item.weken, resource.weken);
+  //     } else if (task.eind) {
+  //       for (let date = excelDateToJSDate(task.eind); tegaan; date.addDays(-1)) {
+  //         if ([1,2,3,4,5].includes(date.getDay())) {
+  //           const i = weekindex(date);
+  //           taskresources.forEach((resource,r) => {
+  //             const beschikbaar = Math.max(0,maxuren-resource.weken[i]);
+  //             let uren = Math.min(beschikbaar,tegaan);
+  //             tegaan -= uren;
+  //             task.weken[i] += uren;
+  //             resource.weken[i] += uren;
+  //             resourceTasks[r].weken[i] += uren;
+  //           });
+  //         }
+  //       }
+  //     } else {
+  //       for (let i=0;i<planweken;i++) {
+  //         taskresources.forEach((resource,r) => {
+  //           const beschikbaar = Math.max(0,maxuren-resource.weken[i]);
+  //           let uren = Math.min(beschikbaar,tegaan);
+  //           tegaan -= uren;
+  //           task.weken[i] += uren;
+  //           resource.weken[i] += uren;
+  //           resourceTasks[r].weken[i] += uren;
+  //         });
+  //       }
+  //     }
+  //   }
+
+  //   plantaken.filter(task => task.begin && task.eind).forEach(plantaak);
+  //   plantaken.filter(task => task.begin && !task.eind).forEach(plantaak);
+  //   plantaken.filter(task => !task.begin && task.eind).forEach(plantaak);
+  //   plantaken.filter(task => !task.begin && !task.eind).forEach(plantaak);
+
+  //   // console.log(resources);
+  //   function sorttasks(a,b) {
+  //     return String(a.ordernr||'').localeCompare(b.ordernr||'') || String(a.orderdeel||'').localeCompare(b.orderdeel||'') || String(a.deel||'').localeCompare(b.deel||'') || String(a.activiteit||'').localeCompare(b.activiteit||'');
+  //   }
+  //   function tasktable(items) {
+  //     items = (items||[]).flat(9);
+  //     const totals = {budget:0,besteed:0,tegaan:0,resultaat:0};
+  //     // console.log(items);
+
+  //     return $('table').class('grid nowrap').append(
+  //       $('thead').append(
+  //         $('tr').append(
+  //           'Order,Project,Activiteit,Omschrijving,Begin,Eind,Bud.,Bes.,ToGo,Res.,VG,Status,Resources'.split(',').map(title => $('th').text(title)),
+  //           weken.map(nr => $('th').text(nr)),
+  //         ),
+  //       ),
+  //       $('tbody').append(
+  //         items.sort(sorttasks).map(item => $('tr').append(
+  //           $('td').text([item.ordernr,item.orderdeel].filter(Boolean).join('.')).style('font-family:consolas;'),
+  //           $('td').text([item.klant,item.projectnaam].filter(Boolean).join(' > ')),
+  //           $('td').text(item.activiteit),
+  //           $('td').text(item.deel,item.omschrijving),
+  //           $('td').text(item.begin ? excelDateToJSDate(item.begin).toLocaleDateString('nl-NL', {year: 'numeric', month: '2-digit', day: '2-digit'}) : '').style('font-family:consolas;'),
+  //           $('td').text(item.eind ? excelDateToJSDate(item.eind).toLocaleDateString('nl-NL', {year: 'numeric', month: '2-digit', day: '2-digit'}) : '').style('font-family:consolas;'),
+  //           $('td').text(item.budget ? num(item.budget,0,totals.budget += item.budget) : '').style('text-align:right;'),
+  //           $('td').text(item.besteed ? num(item.besteed,0,totals.besteed += item.besteed) : '').style('text-align:right;'),
+  //           $('td').text(item.tegaan ? num(item.tegaan,0,totals.tegaan += item.tegaan) : '').style('text-align:right;'),
+  //           $('td').text(item.resultaat ? num(item.resultaat,0,totals.resultaat += item.resultaat) : '').style('text-align:right;' + (item.resultaat < 0 ? 'color:red;' : '')),
+  //           $('td').text(num(item.besteed / (item.besteed + (item.tegaan || 0)) * 100,0)+'%').style('text-align:right;'),
+  //           $('td').text(item.status).class(item.status),
+  //           $('td').text((item.resources||'').split(';').map(name => name.split(' ')[0]).join('/')),
+  //           (item.weken||[]).map(aantal => $('td').text(aantal ? num(aantal,0) : '').style(aantal ? 'background:lightblue;color:black;padding:0;text-align:center;font-size:0.8em;Vertical-align:middle;' : '')),
+  //         ).style(!item.tegaan ? 'opacity:0.6;' : '')),
+  //         $('tr').append(
+  //           $('td'),
+  //           $('td'),
+  //           $('td'),
+  //           $('td'),
+  //           $('td'),
+  //           $('td'),
+  //           $('td').text(num(totals.budget,0)).style('text-align:right;'),
+  //           $('td').text(num(totals.besteed,0)).style('text-align:right;'),
+  //           $('td').text(num(totals.tegaan,0)).style('text-align:right;'),
+  //           $('td').text(num(totals.resultaat,0)).style('text-align:right;'),
+  //           $('td'),
+  //           $('td'),
+  //           $('td'),
+  //           weken.map((nr,i) => $('td').text(num(items.map(item => (item.weken||[])[i]).reduce((s,v) => s+(v||0), 0),0))),
+  //         ),
+  //       ),
+  //     );
+  //   }
+  //   Web.treeview.append({
+  //     Planning: {
+  //       children: {
+  //         Systems: {
+  //           onclick() {
+  //             $('.listview').clear().append(
+  //               $('div').class('col').style('width:0;').append(
+  //                 $('div').class('col').style('overflow:auto;flex:1 0 0;').append(
+  //                   $('div').class('col').append(
+  //                     $('details').append(
+  //                       $('summary').text('Projecten'),
+  //                       projecten.map(project => $('details').append(
+  //                         $('summary').text(project.title).append($('sub').text(project.projectnr).style('margin-left:10px;')),
+  //                         tasktable(productionorder.filter(order => order.projectnr == project.projectnr).map(order => taken.filter(uren => uren.ordernr == order.ordernr))),
+  //                       )),
+  //                     ),
+  //                     $('details').append(
+  //                       $('summary').text('Resources'),
+  //                       resources.map(resource => $('details').append(
+  //                         $('summary').text(resource.fullname).style('margin-left:10px;'),
+  //                         tasktable(resource.tasks),
+  //                       )),
+  //                     ),
+  //                     $('details').append(
+  //                       $('summary').text('Analyse'),
+  //                       $('details').style('background-color:white;color:black;').append(
+  //                         $('summary').text('Projecten'),
+  //                         $('ol').style('list-style-type:decimal;').append(
+  //                           projecten.map(project => project.projectmanager).map(projectmanager => $('li').text(projectmanager).append(
+  //                             $('ol').style('list-style-type:decimal;').append(
+  //                               projecten.filter(project => project.projectmanager === projectmanager && project.projectnr && project.notes.length).map(project => $('li').text('Project',project.projectnr).append(
+  //                                 $('ol').style('list-style-type:decimal;').append(
+  //                                   project.notes.map(note => $('li').text(note)),
+  //                                   Item.productionorder.filter(order => order.projectnr === project.projectnr && taken.filter(task => task.ordernr == order.ordernr && task.notes.length).length).map(order => $('li').text('Order',order.ordernr).append(
+  //                                     $('ol').style('list-style-type:decimal;').append(
+  //                                       taken.filter(task => task.ordernr == order.ordernr && task.notes.length)
+  //                                       .sort(sorttasks)
+  //                                       .map(task => $('li').text([task.orderdeel,task.deel,task.activiteit,task.omschrijving]).append(
+  //                                         $('ol').style('list-style-type:decimal;').append(
+  //                                           task.notes.map(note => $('li').text(note)),
+  //                                         ),
+  //                                       )),
+  //                                     )
+  //                                   )),
+  //                                 ),
+  //                               )),
+  //                             ),
+  //                           )),
+  //                         ),
+  //                       ),
+  //                     ),
+  //                   ),
+  //                 ),
+  //               ),
+  //             );
+  //           },
+  //         },
+  //         Weburen1: {
+  //           onclick() {
+  //             Aim.fetch('http://10.10.60.31/api/weburen_totaal').body({nrs:Item.task2.map(task => task.ordernr).filter(Boolean).join(',')}).post().then(body => {
+  //               const {weburen_totaal} = body;
+  //               console.log(weburen_totaal);
+  //               weburen_totaal.forEach(uren => {
+  //                 [Item.task2, Item.weburen].forEach(items => {
+  //                   items.filter(item =>
+  //                     item.ordernr == uren.ordernr &&
+  //                     item.orderdeel == uren.orderdeel &&
+  //                     item.activiteit == uren.activiteit &&
+  //                     item.deel == uren.deel
+  //                   ).forEach(item => item.besteed = uren.besteed);
+  //                 })
+  //               })
+  //               Item.weburen.forEach(uren => {
+  //                 [Item.task2].forEach(items => {
+  //                   items.filter(item =>
+  //                     item.ordernr == uren.ordernr &&
+  //                     item.orderdeel == uren.orderdeel &&
+  //                     item.activiteit == uren.activiteit &&
+  //                     item.deel == uren.deel
+  //                   ).forEach(item => {
+  //                     uren.budget = item.budget;
+  //                     uren.tegaan = item.tegaan;
+  //                   });
+  //                 })
+  //               })
+
+  //               // console.log(Item.task2.map(task => task.ordernr).filter(Boolean).join(','));
+  //               Item.weburen.forEach(item => {
+  //                 item.status = 'Niet in planning';
+  //                 item.style = 'color:orange;'
+  //               });
+
+  //               Item.weburen.filter(item => Item.task2.find(task => task.ordernr == item.ordernr && task.orderdeel == item.orderdeel && task.activiteit == item.activiteit && task.deel == item.deel)).forEach(item => {
+  //                 item.status = '';
+  //                 item.style = '';
+  //               })
+
+  //               $('.listview').clear().append(
+  //                 $('div').append(
+  //                   $('table').append(
+  //                     $('thead').append(
+  //                       $('tr').append(
+  //                         $('td').text('ordernr'),
+  //                         $('td').text('orderdeel'),
+  //                         $('td').text('deel'),
+  //                         $('td').text('activiteit'),
+  //                         $('td').text('fullname'),
+  //                         $('td').text('budget'),
+  //                         $('td').text('besteed'),
+  //                         $('td').text('tegaan'),
+  //                         $('td').text('uren'),
+  //                         $('td').text('omschrijving'),
+  //                         $('td').text('datum'),
+  //                         $('td').text('status'),
+  //                       ),
+  //                     ),
+  //                     $('tbody').append(
+  //                       Item.weburen.map(item => $('tr').append(
+  //                         $('td').text(item.ordernr),
+  //                         $('td').text(item.orderdeel),
+  //                         $('td').text(item.deel),
+  //                         $('td').text(item.activiteit),
+  //                         $('td').text(item.fullname),
+  //                         $('td').text(item.budget),
+  //                         $('td').text(item.besteed),
+  //                         $('td').text(item.tegaan),
+  //                         $('td').text(item.uren),
+  //                         $('td').text(item.omschrijving),
+  //                         $('td').text(new Date(item.datum.date).toLocaleDateString()),
+  //                         $('td').text(item.status),
+  //                       ).style(item.style)),
+  //                     ),
+  //                   ),
+  //                 ),
+  //               );
+  //             });
+  //           },
+  //         },
+  //       },
+  //     },
+  //   });
+  // }).finally(Web.search);
   Web.treeview.append({
     Exact: {
       children: {
@@ -707,15 +939,6 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
       },
     },
     Systems: {
-      children: {
-        Handboek: {
-          onclick() {
-            handboek(systems);
-          },
-        }
-      }
-    },
-    Projecten: {
       children: Object.fromEntries(systems.systems.map(system => [system.title,{
         onclick() {
           systemspecs(system);
@@ -723,6 +946,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
       }])),
     },
   });
+  // Web.search();
 }, err => {
   console.error(err);
   $(document.body).append(
