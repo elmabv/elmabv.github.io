@@ -1,5 +1,15 @@
 const serviceRoot = 'https://aliconnect.nl/v1';
 const socketRoot = 'wss://aliconnect.nl:444';
+
+Object.assign(String.prototype, {
+  camelCase(){
+    const camelCase = this.replace(/([A-Z]+)/g,(s,p1) => p1.toLowerCase() ).replace(/\(.*\)/g,'').replace(/\[.*\]/g,'').replace(/\s\s/g,' ').replace(/(_|\s)([a-z])/g, (s,p1,p2) => p2.toUpperCase() ).replace(/^([A-Z])/, (s,p1) => p1.toLowerCase() ).trim();
+    // console.log(camelCase);
+    return camelCase;
+  },
+})
+
+
 Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   configfiles: [
     'https://aliconnect.nl/elmabv/api/elma',
@@ -160,6 +170,46 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
       Object.assign(definitions[schemaName].prototype = definitions[schemaName].prototype || {},{select});
       data[schemaName].forEach((item,id) => new Item({schemaName,id:[schemaName,item.id||id].join('_')},item));
     })
+  }
+  function loadExcelSheet(src) {
+    return new Promise((succes,fail)=>{
+      const data = {};
+      fetch(src, {cache: "no-cache"}).then((response) => response.blob()).then(blob => {
+        const reader = new FileReader();
+        reader.readAsBinaryString(blob);
+        reader.onload = (event) => {
+          const workbook = XLSX.read(event.target.result, {type:'binary'});
+          workbook.SheetNames.forEach(schemaName => {
+            const wbsheet = workbook.Sheets[schemaName];
+            if (!wbsheet['!ref']) return;
+            const [start,end] = wbsheet['!ref'].split(':');
+            const [end_colstr] = end.match(/[A-Z]+/);
+            const [rowcount] = end.match(/\d+$/);
+            const col_index = XLSX.utils.decode_col(end_colstr);
+            const colnames = [];
+            const rows = [];
+            for (var c=0; c<=col_index; c++) {
+              var cell = wbsheet[XLSX.utils.encode_cell({c,r:0})];
+              if (cell) {
+                colnames[c] = String(cell.v);
+              }
+            }
+            for (var r=1;r<rowcount;r++) {
+              const row = {};
+              for (var c=0; c<=col_index; c++) {
+                var cell = wbsheet[XLSX.utils.encode_cell({c,r})];
+                if (cell) {
+                  row[String(colnames[c]).camelCase()] = row[colnames[c]] = cell.v;
+                }
+              }
+              rows.push(row);
+            }
+            data[schemaName] = rows;
+          })
+          succes(data);
+        }
+      })
+    }).catch(console.error);
   }
   function loadExcelData(src) {
     return new Promise((succes,fail)=>{
@@ -454,11 +504,75 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     system.contactlist.forEach(item => Object.assign(item, systems.contactlist.find(row => row.Name === item.Name)))
     system.checklist.forEach(item => Object.assign(item, systems.checklist.find(row => row.Onderwerp === item.Onderwerp)))
 
+    system.alarmGroups = [];
+    system.alarmen = [];
+    for (let bron of system.documenten.filter(item => item.Name === 'Alarm Lijst' && item.Bron).map(item => item.Bron)) {
+      const sheet = await loadExcelSheet('http://10.10.60.31/engineering/Projects/' + system.projectfolder + '/' + bron);
+      system.alarm = sheet.Alarm;
+      system.alarmGroups = sheet.AlarmGroups;
+    }
+
+    system.iolist = [];
+    for (let bron of system.documenten.filter(item => item.Name === 'Software IO Lijst' && item.Bron).map(item => item.Bron)) {
+      const sheet = await loadExcelSheet('http://10.10.60.31/engineering/Projects/' + system.projectfolder + '/' + bron);
+      system.iolist = sheet['IO lijst'];
+      system.iolist.forEach(item => {
+        item.cabinet = item.group;
+        item.description = (item.description||'').trim();
+        if (item.type === 'DQ') item.address = 'Q'+item.adres;
+        if (item.type === 'DI') item.address = 'I'+item.adres;
+        if (item.type === 'PIW') item.address = 'PIW'+item.adres;
+        if (item.type === 'PQW') item.address = 'PQW'+item.adres;
+        item.id = [item.cabinet,item.address].join('.').toUpperCase();
+        item.connectionName = [item.type,item.nr].join(' ');
+      })
+    }
+
+    system.eplaniolist = [];
+    for (let bron of system.documenten.filter(item => item.Name === 'Eplan IO Lijst' && item.Bron).map(item => item.Bron)) {
+      const sheet = await loadExcelSheet('http://10.10.60.31/engineering/Projects/' + system.projectfolder + '/' + bron);
+      system.eplaniolist = sheet['EplSheet'];
+      // console.log(system.eplaniolist);
+      system.eplaniolist.forEach((item,i) => item.i = i);
+      system.eplaniolist.filter(item => item.plcAddress && item.pageName).forEach(item => {
+        item.cabinet = item.pageName.split('/')[0];
+        item.address = item.plcAddress;
+        if (item.connectionPointDescriptions.match(/^di/i) && !item.address.match(/^i/i)) item.address = 'I'+item.address;
+        if (item.connectionPointDescriptions.match(/^dq/i) && !item.address.match(/^q/i)) item.address = 'Q'+item.address;
+        if (item.connectionPointDescriptions.match(/^i/i) && !item.address.match(/^i/i)) item.address = 'I'+item.address;
+        if (item.connectionPointDescriptions.match(/^q/i) && !item.address.match(/^q/i)) item.address = 'Q'+item.address;
+        item.id = [item.cabinet,item.address].join('.').toUpperCase();
+      })
+    }
+
+    system.plctags = [];
+    for (let bron of system.documenten.filter(item => item.Name === 'PLC Tags' && item.Bron).map(item => item.Bron)) {
+      const sheet = await loadExcelSheet('http://10.10.60.31/engineering/Projects/' + system.projectfolder + '/' + bron);
+      system.plctags = sheet['PLC Tags'];
+      system.plctags.forEach(item => {
+        item.cabinet = item.path.split(',')[0];
+        item.address = item.logicalAddress.replace('%','');
+        item.id = [item.cabinet,item.address].join('.').toUpperCase();
+      })
+    }
+
+    system.eplaniolist.forEach(item => {
+      item.connectionName = item.connectionPointDescriptions;
+      item.description = item.functionTextEnUs = (item.functionTextEnUs||'').replace(/\n/g,' ');
+      system.iolist.filter(row => row.id === item.id).forEach(iolist => {
+        item.iolistItem = iolist;
+        item.connectionName = iolist.connectionName;
+        item.description = iolist.description;
+      })
+    })
+
+    console.log(system.iolist,system.eplaniolist);
+
     console.log({system});
 
     $('.listview').clear().append(
       $('div').class('col').style('width:0;').append(
-        $('div').class('col').style('overflow:auto;flex:1 0 0;').append(
+        $('div').class('col dcounter').style('overflow:auto;flex:1 0 0;').append(
           $('h1').text(system.title),
           $('details').append(
             $('summary').text('Project eigenschappen'),
@@ -522,29 +636,90 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
             )),
           ),
           $('details').append(
+            $('summary').text('Eplan IO lijst'),
+            $('table').class('grid').style('width:100%;font-family:consolas;').append(
+              $('thead').append(
+                // $('th').text('#'),
+                // $('th').text('ID'),
+                $('th').text('Kast'),
+                $('th').text('DT'),
+                $('th').text('Name'),
+                $('th').text('Name1'),
+                $('th').text('Pin'),
+                $('th').text('Address'),
+                $('th').text('Description'),
+                $('th').text('Current Description'),
+              ),
+              $('tbody').append(
+                system.eplaniolist.filter(item => item.id).map((item,i) => $('tr').append(
+                  // $('td').text(item.i),
+                  // $('td').text(item.id),
+                  $('td').text(item.cabinet),
+                  $('td').text(item.dt),
+                  $('td').text(item.connectionName).style(item.connectionName !== item.connectionPointDescriptions ? 'color:red;' : null),
+                  $('td').text(item.connectionName !== item.connectionPointDescriptions ? item.connectionPointDescriptions : null),
+                  $('td').text(item.connectionPointDesignations),
+                  $('td').text(item.address).style(item.address !== item.plcAddress ? 'color:red;' : null),
+                  $('td').text(item.description).style(item.description != item.functionTextEnUs ? 'color:red;' : null),
+                  $('td').text(item.description != item.functionTextEnUs ? item.functionTextEnUs : null),
+                ))
+              ),
+            ),
+          ),
+          $('details').append(
             $('summary').text('IO lijst'),
-            system.iolist.map(item => item.Location).unique().map(name => $('details').append(
+            system.iolist.map(item => item.Location+' - '+item.Group).unique().map(name => $('details').append(
               $('summary').text(name),
-              $('table').class('grid').style('width:100%;').append(
+              $('table').class('grid').style('width:100%;font-family:consolas;').append(
                 $('thead').append(
-                  $('th').text('Location'),
-                  $('th').text('Component'),
+                  // $('th').text('Location'),
+                  $('th').text('ID'),
+                  $('th').text('ODC'),
                   $('th').text('Description'),
-                  $('th').text('Type'),
-                  $('th').text('Pin'),
+                  $('th').text('Name'),
+                  $('th').text('Klem'),
+                  // $('th').text('Pin'),
+                  $('th').text('Component'),
+                  $('th').text('Software'),
                 ),
                 $('tbody').append(
-                  system.iolist.filter(item => item.Location === name).map(item => $('tr').append(
-                    $('td').text(item.Location),
-                    $('td').text(item.Component),
+                  system.iolist.filter(item => item.Location+' - '+item.Group === name).map(item => $('tr').append(
+                    // $('td').text(item.Location),
+                    $('td').text(item.id),
+                    $('td').text(item.ODC),
                     $('td').text(item.Description),
-                    $('td').text(item.Type),
-                    $('td').text(item.Pin),
+                    $('td').text(item.Type+item.Pin),
+                    $('td').text(item.adres),
+                    // $('td').text(String(item.Pin).padStart(2,'0')),
+                    $('td').text(item.Component),
+                    $('td').text(item.iolistItem ? item.iolistItem.description : 'Not found'),
                   ))
                 )
               ),
             )),
-          )
+          ),
+          $('details').append(
+            $('summary').text('Alarm lijst'),
+            system.alarmGroups.map(group => $('details').append(
+              $('summary').text(group.Name),
+              $('table').class('grid').style('width:100%;').append(
+                $('thead').append(
+                  $('th').text('Nr'),
+                  // $('th').text('Tag'),
+                  $('th').text('Description'),
+                  $('th').text('Component'),
+                ),
+                $('tbody').append(
+                  system.alarm.filter(item => item[group.Name] === 'x').map(item => $('tr').append(
+                    $('td').text(item.Nr),
+                    // $('td').text(item.Tag),
+                    $('td').text(item.Description),
+                    $('td').text(item.Component),
+                  ))
+                )
+              ),
+            )),
+          ),
         )
       )
     )
