@@ -272,63 +272,10 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
       })
     }).catch(console.error);
   }
-
   function select() {
     document.querySelectorAll('.pages>div').forEach(el => el.remove());
     $('.pages').clear();
     this.pageElem();
-  }
-
-
-  function elmaletter(){
-    const tbody = $('td');//.style('width:100%;background:red;');
-    const div = $('div').append(
-      $('link').rel('stylesheet').href('https://aliconnect.nl/sdk-1.0.0/lib/aim/css/print.css'),
-      $('link').rel('stylesheet').href('https://aliconnect.nl/sdk-1.0.0/lib/aim/css/doc.css'),
-      $('table').style('width:100%;').append(
-        $('thead').append(
-          $('tr').append(
-            $('td').append(
-              $('table').style('width:100%;').append(
-                $('tr').append(
-                  $('td').style('width:80mm;').append(
-                    $('img').src('https://elma.aliconnect.nl/assets/image/elma-logo.png'),
-                  ),
-                  $('td').append(
-                    $('div').text('Elma B.V.'),
-                    $('div').text('Centurionbaan 150'),
-                    $('div').text('3769 AV Soesterberg'),
-                    $('div').text('The Netherlands'),
-                  ),
-                  $('td').append(
-                    $('div').text(''),
-                    $('div').text('t +31(0)346 35 60 60'),
-                    $('div').text('e elma@elmabv.nl'),
-                    $('div').text('i www.elmatechnology.com'),
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ),
-        $('tbody').append(
-          $('tr').append(
-            tbody,
-          ),
-        ),
-        $('tfoot').style('position:fixed;bottom:0;width:100%;').append(
-          $('tr').append(
-            $('td').style('width:80mm;').append(
-              'Printed '+new Date().toLocaleDateString(),
-            ),
-          ),
-        ),
-      ),
-    );
-    tbody.print = function() {
-      div.print();
-    }
-    return tbody;
   }
 
   config({
@@ -407,7 +354,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
         },
       },
     },
-  });
+  })
 
   Object.keys(config).filter(schemaName => definitions[schemaName]).forEach(schemaName => {
     Object.assign(definitions[schemaName].prototype = definitions[schemaName].prototype || {},{select});
@@ -476,6 +423,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
         });
       });
     });
+    // console.log(elma.site);
     $('.pagemenu').append(
       $('ul').append(
         elma.site.children.map((item,i,items) => $('li').append(
@@ -491,6 +439,188 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
                       $('a').text(item.kop4).on('click', e => menuclick.call(item, e, items)),
                     ))
                   )
+                  // $('a').text(l3.title).on('click', menuclick.bind(l3)),
+                ))
+              )
+            ))
+          )
+        ))
+      )
+    )
+
+    // elma.site.filter(item => !item.kop2).forEach(item => item.children = elma.site.filter(row => row.kop3row.parent === item.title));
+    // function writetree(items,level = 0){
+    //   if (items.length) return $('ul').append(
+    //     items.map(item => $('li').append(
+    //       $('a').text(item.title).on('click', e => menuclick.call(item, e, items)),
+    //       writetree(item.children),
+    //       // level > 2 ? null : writetree(elma.site.filter(row => row.parent === item.title), level + 1),
+    //     )),
+    //   )
+    // }
+    // $('.pagemenu').append(writetree(elma.site.filter(item => !item.kop2)));
+    //   $('ul').append(
+    //     Object.entries(sitetree).map(([title,l1],i,items) => $('li').append(
+    //       $('a').text((l1||{}).title || title).on('click', e => menuclick.call(l1, e, items)),
+    //       $('ul').append(
+    //         Object.entries((l1||{}).children||[]).map(([title,l2],i,items) => $('li').append(
+    //           $('a').text((l2||{}).title || title).on('click', e => menuclick.call(l2, e, items, l1)),
+    //           $('ul').append(
+    //             Object.entries((l2||{}).children||[]).map(([title,l3],i,items) => $('li').append(
+    //               $('a').text((l3||{}).title || title).on('click', e => menuclick.call(l3, e, items, l2)),
+    //               $('ul').append(
+    //                 Object.entries((l3||{}).children||[]).map(([title,l4],i,items) => $('li').append(
+    //                   $('a').text((l4||{}).title || title).on('click', e => menuclick.call(l4, e, items, l3)),
+    //                 ))
+    //               )
+    //               // $('a').text(l3.title).on('click', menuclick.bind(l3)),
+    //             ))
+    //           )
+    //         ))
+    //       )
+    //     ))
+    //   )
+    // )
+  }
+
+  if (0 && sitetree) {
+    // console.log(Item.competence);
+    // const competentie = sitetree.Technology.children.Competentie = {children:[]};
+    // Item.competence.forEach(competence => {
+    //   competentie.children[competence.brand] = competentie.children[competence.brand] || {
+    //     title: competence.brand,
+    //     children: [],
+    //   };
+    //   competentie.children[competence.brand].children[competence.name] = competence;
+    // })
+
+
+    // sitetree.Organisatie.children.Elma = {
+    //   children: indienst.map(item => item.department).unique().sort().map(department => Object({
+    //     title: department,
+    //     children: indienst.filter(item => item.department === department).map(item => item.jobTitle).unique().sort().map(jobTitle => Object({
+    //       title: jobTitle,
+    //       children: indienst.filter(item => item.department === department && item.jobTitle === jobTitle).map(item => Object({
+    //         title: item.id,
+    //       }))
+    //     })),
+    //   }))
+    // }
+    // sitetree.Organisatie.children.JobTitles = {
+    //   children: jobtitles.map(item => item.department).unique().sort().map(department => Object({
+    //     title: department,
+    //     children: jobtitles.filter(item => item.department === department).map(jobTitle => Object({
+    //       title: jobTitle.jobTitle,
+    //       description: jobTitle.department,
+    //     })),
+    //   }))
+    // }
+
+    const el = $('table').class('grid').parent(docpage());
+    // function addrow([title,item],i,items){
+    //   if (item) {
+    //     el.append($('tr').append(
+    //       $('td').text(item.parent),
+    //       $('td').text(title = item.title || title),
+    //       $('td').text(item.header),
+    //       // $('td').text(item.title),
+    //       $('td').text((item.description||'').replace(/\n/g, '<br>')),
+    //       // $('td').text(item.description),
+    //       $('td').text(item.image),
+    //       $('td').text(item.youtube),
+    //       $('td').text(item.price),
+    //     ))
+    //     if (item.children) {
+    //       Object.entries(item.children).filter(([p1,item]) => item).forEach(([p1,item]) => item.parent = title);
+    //       Object.entries(item.children).filter(([p1,item]) => item).forEach(addrow);
+    //     }
+    //   }
+    // }
+    // Object.entries(sitetree).forEach(addrow);
+
+    Object.entries(sitetree).filter(([p,item])=>item).forEach(([title1,item],i,items) => {
+      el.append($('tr').append(
+        // $('td').text(title1 = item.title || title1),
+        $('td').text(title1 = item.title || title1),
+        $('td'),
+        $('td'),
+        $('td'),
+        $('td').text(item.header),
+        // $('td').text(item.title),
+        $('td').text((item.description||'').replace(/\n/g, '<br>')),
+        // $('td').text(item.description),
+        $('td').text(item.image),
+        $('td').text(item.youtube),
+        $('td').text(item.price),
+      ))
+      Object.entries((item||{}).children||[]).filter(([p,item])=>item).forEach(([title2,item],i,items) => {
+        el.append($('tr').append(
+          $('td').text(title1),
+          $('td').text(title2 = item.title || title2),
+          $('td'),
+          $('td'),
+          // $('td').text(title1 = item.title || title1),
+          $('td').text(item.header),
+          // $('td').text(item.title),
+          $('td').text((item.description||'').replace(/\n/g, '<br>')),
+          // $('td').text(item.description),
+          $('td').text(item.image),
+          $('td').text(item.youtube),
+          $('td').text(item.price),
+        ))
+        Object.entries((item||{}).children||[]).filter(([p,item])=>item).forEach(([title3,item],i,items) => {
+          el.append($('tr').append(
+            $('td').text(title1),
+            $('td').text(title2),
+            // $('td').text(title3 = item.title || title3),
+            $('td').text(title3 = item.title || title3),
+            $('td'),
+            $('td').text(item.header),
+            // $('td').text(item.title),
+            $('td').text((item.description||'').replace(/\n/g, '<br>')),
+            // $('td').text(item.description),
+            $('td').text(item.image),
+            $('td').text(item.youtube),
+            $('td').text(item.price),
+          ))
+          Object.entries((item||{}).children||[]).filter(([p,item])=>item).forEach(([title4,item],i,items) => {
+            el.append($('tr').append(
+              $('td').text(title1),
+              $('td').text(title2),
+              $('td').text(title3),
+              // $('td').text(),
+              $('td').text(title4 = item.title || title4),
+              $('td').text(item.header),
+              // $('td').text(item.title),
+              $('td').text((item.description||'').replace(/\n/g, '<br>')),
+              // $('td').text(item.description),
+              $('td').text(item.image),
+              $('td').text(item.youtube),
+              $('td').text(item.price),
+            ))
+          })
+        })
+      })
+    })
+
+
+
+    $('.pagemenu').append(
+      $('ul').append(
+        Object.entries(sitetree).map(([title,l1],i,items) => $('li').append(
+          $('a').text((l1||{}).title || title).on('click', e => menuclick.call(l1, e, items)),
+          $('ul').append(
+            Object.entries((l1||{}).children||[]).map(([title,l2],i,items) => $('li').append(
+              $('a').text((l2||{}).title || title).on('click', e => menuclick.call(l2, e, items, l1)),
+              $('ul').append(
+                Object.entries((l2||{}).children||[]).map(([title,l3],i,items) => $('li').append(
+                  $('a').text((l3||{}).title || title).on('click', e => menuclick.call(l3, e, items, l2)),
+                  $('ul').append(
+                    Object.entries((l3||{}).children||[]).map(([title,l4],i,items) => $('li').append(
+                      $('a').text((l4||{}).title || title).on('click', e => menuclick.call(l4, e, items, l3)),
+                    ))
+                  )
+                  // $('a').text(l3.title).on('click', menuclick.bind(l3)),
                 ))
               )
             ))
@@ -604,10 +734,6 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     )
   }
 
-  engineering.competence.forEach(item => {
-    item.owners = engineering.competenceOwner.filter(row => row.competence === item.competence);
-  })
-
   async function handboek(projects) {
     docpage().append(
       $('h1').text('Handboek'),
@@ -682,7 +808,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
               $('th').text('Type'),
             ),
             $('tbody').append(
-              project.info.map(item => $('tr').append(
+              project.projectinfo.map(item => $('tr').append(
                 $('th').text(item.property),
                 $('td').text(item.toelichting),
                 $('td').text(item.faseNr),
@@ -748,12 +874,6 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
           )),
         ),
       ),
-      details('Competenties').append(
-        engineering.competence.map(item => details(`${item.competence} (${item.owners.length})`).append(
-          $('div').text(item.owners.map(item => `${item.resource} (${item.level})`).join('; ')),
-          $('p').text(item.description),
-        )),
-      ),
     )
   }
   async function systemspecs(system) {
@@ -764,7 +884,7 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
 
     Object.assign(system, await loadExcelSheet('http://10.10.60.31/engineering/Projects/'+system.cmdb));
 
-    project.info.forEach(item => {
+    project.projectinfo.forEach(item => {
       if (system.info.find(row => row.property === item.property)) {
         system.info.filter(row => row.property === item.property).forEach(row => Object.setPrototypeOf(row,item));
       } else {
@@ -1109,155 +1229,6 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     // console.log({mteck2100e});
   }
 
-  function Autec() {
-    const data = {};
-    async function init() {
-      Object.assign(data, await loadExcelSheet('http://10.10.60.31/data/SALES/Autec/sales-autec-cmdb.xlsx'));
-      Object.assign(data, await loadExcelSheet('http://10.10.60.31/data/SALES/EPLAN/696-Numbers/autec-systems-cmdb.xlsx'));
-      Object.assign(data, await loadExcelSheet('http://10.10.60.31/data/SALES/EPLAN/696-Numbers/autec-projects-cmdb.xlsx'));
-      Object.assign(data, await loadExcelSheet('http://10.10.60.31/data/SALES/EPLAN/696-Numbers/autec-system-cmdb.xlsx'));
-      console.log(data);
-    }
-    return {
-      async overzicht(){
-        await init();
-        function value(item, system) {
-          if (String(item.value).match(/\.pdf$/)) {
-            return $('a').text(item.value).href('http://10.10.60.31/data/SALES/EPLAN/696-Numbers/' + system.folder + '/' + item.value).target('doc');
-          }
-          if (String(item.value).match(/\.jpg/)) {
-            return $('img').src(item.value).style('max-width:5cm;max-height:5cm;');
-          }
-          return item.value;
-        }
-        function cbox(text,on){
-          return [
-            $('input').type('checkbox').checked(on),
-            $('label').text(text),
-          ];
-          return $('span').text(text).class('cbox'+(on?' on':''));
-        }
-        function options(title,value,options){
-          return $('tr').append(
-            $('td').style('border:solid 1px var(--fg);white-space:nowrap;').text(title),
-            $('td').style('border:solid 1px var(--fg);').append(
-              $('table').style('width:100%;table-layout:fixed;').append(
-                $('tr').append(
-                  options.map(option => $('td').style('width:100%;').append(
-                    $('input').id(title.camelCase()+option).name(title.camelCase()).value(option).type('radio').checked(String(option).toLowerCase() == String(value).toLowerCase()),
-                    $('label').text(option).for(title.camelCase()+option),
-                    // cbox(option, String(option).toLowerCase() == String(value).toLowerCase())
-                  )),
-                ),
-              ),
-            ),
-          )
-        }
-        function spec1(system){
-          return $('div').append(
-            $('h1').text('Unit', system.omschrijving),
-            $('h2').text('Properties'),
-            table().append(
-              $('thead').append(
-                $('th').text('Product'),
-                $('th').text('Eigenschap'),
-                $('th').text('Waarde'),
-              ),
-              $('tbody').append(
-                system.properties.map(item => $('tr').append(
-                  $('td').text(item.product),
-                  $('td').text(item.eigenschap),
-                  $('td').append(value(item, system)),
-                )),
-              ),
-            ),
-            $('h2').text('Partslist'),
-            table().append(
-              $('thead').append(
-                $('th').text('Onderdeelcode'),
-                $('th').text('Aantal'),
-                $('th').text('Unit'),
-                $('th').text('Code'),
-                $('th').text('Leverancier'),
-                $('th').text('Artikel'),
-                $('th').text('Bestelnr'),
-              ),
-              $('tbody').append(
-                system.partslist.map(item => $('tr').append(
-                  $('td').text(item.onderdeelcode),
-                  $('td').text(item.aantal),
-                  $('td').text(item.unit),
-                  $('td').text(item.code),
-                  $('td').text(item.leverancier),
-                  $('td').text(item.artikelnummer),
-                  $('td').text(item.bestelnummer),
-                )),
-              ),
-            ),
-            $('h2').text('Factory settings'),
-            $('table').class('checklist').style('border-collapse:collapse;width:100%;').append(
-              $('tbody').append(
-                options('Key ID','Internal',['0-1','Internal']),
-                options('Pin Start UP',"DISABLE",["ENABLE","DISABLE"]),
-                options('Switch Off','Off',['Off',"2'","5'","10'"]),
-                options('RF Power','MAX',["LOW","NORM.","HIGH","MAX"]),
-                options('Receiver antenna',"ENABLE",["ENABLE","DISABLE"]),
-                options('Bank Group',0,[0,1,2,3,4,5,6,7]),
-                options('Button delay',"OFF",['OFF','0.5S','1S','1.5S']),
-                options('All latched relay',"DISABLE",["ENABLE","DISABLE"]),
-                options('Output',"ENABLE",["ENABLE","DISABLE"]),
-              ),
-            ),
-          )
-        }
-        docpage().append(
-          $('h1').text('Autec overzicht'),
-          details('Productie orders').open(true).append(
-            table().append(
-              $('thead').append(
-                $('th').text('Klant'),
-                $('th').text('Productie order'),
-                $('th').text('Systemen'),
-              ),
-              $('tbody').append(
-                data.productie.map(item => $('tr').append(
-                  $('td').text(item.customer),
-                  $('td').text(item.productionOrder),
-                  $('td').append(
-                    data.products.filter(row => row.productionOrder === item.productionOrder).map(item => $('li').append(
-                      $('a').text(item.systemNr).on('click', async () => {
-                        const systems = await loadExcelSheet('http://10.10.60.31/data/SALES/EPLAN/696-Numbers/autec-systems-cmdb.xlsx');
-                        const system = systems.systemen.find(row => row.systemNr === item.systemNr);
-                        Object.assign(system, await loadExcelSheet('http://10.10.60.31/data/SALES/EPLAN/696-Numbers/' + system.cmdb));
-                        console.log(system);
-                        docpage().append(
-                          spec1(system),
-                          $('nav').append(
-                            $('button').class('icn').text('Spec').on('click', () => {
-                              elmaletter().append(
-                                spec1(system),
-                              ).print();
-                            })
-                          ),
-                        );
-                      }),
-                    )),
-                  ),
-                ))
-              )
-            ),
-          ),
-        );
-      },
-      async handboek(){
-        await init();
-      },
-      async projecten(){
-        await init();
-      },
-    }
-  }
-
   Web.treeview.append({
     Exact: {
       children: {
@@ -1473,23 +1444,6 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
         //   },
         // },
       },
-    },
-    Components: {
-      children: {
-        Autec: {
-          children: {
-            Overzicht: {
-              onclick() { Autec().overzicht() },
-            },
-            Handboek: {
-              onclick() { Autec().handboek() },
-            },
-            Projecten: {
-              onclick() { Autec().projecten() },
-            },
-          },
-        },
-      }
     },
     Engineering: {
       children: {
