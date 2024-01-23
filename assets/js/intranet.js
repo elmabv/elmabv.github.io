@@ -438,6 +438,8 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   const projects = await loadExcelSheet('http://10.10.60.31/engineering/Projects/projects.xlsx');
   const project = await loadExcelSheet('http://10.10.60.31/engineering/Projects/project-cmdb.xlsx');
 
+
+
   const indienst = elma.person.filter(item => !item.uitdienst && item.companyName === 'Elma BV');
   const jobtitles = elma.jobTitle;//.filter(item => indienst.some(person => person.jobTitle === item.jobTitle));
 
@@ -609,6 +611,9 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
   })
 
   async function handboek(projects) {
+
+
+
     docpage().append(
       $('h1').text('Handboek'),
       details('Afkortingen').append(
@@ -754,7 +759,27 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
           $('p').text(item.description),
         )),
       ),
-    )
+      details('Activiteiten').append(
+        table().append(
+          $('thead').append(
+            $('th').text('Afk'),
+            $('th').text('Activiteit'),
+            $('th').text('Afdeling'),
+            $('th').text('Omschrijving').style('width:100%;'),
+            $('th').text('Status'),
+          ),
+          $('tbody').append(
+            projects.activiteiten.map(item => $('tr').append(
+              $('td').text(item.afk),
+              $('td').text(item.name).style('white-space:nowrap;'),
+              $('td').text(item.afdeling),
+              $('td').text(item.omschrijving),
+              $('td').text(item.status),
+            ))
+          )
+        ),
+      ),
+  )
   }
   async function systemspecs(system) {
     // const mteck = await Aim.fetch('https://aliconnect.nl/elmabv/api/mteck').get();
@@ -1493,6 +1518,54 @@ Web.on('loaded', (event) => Abis.config({serviceRoot,socketRoot}).init({
     },
     Engineering: {
       children: {
+        ProjectPlan: {
+          async onclick() {
+            const mpp = await loadExcelSheet('http://10.10.60.31/engineering/Projects/Planning/planning-engineering-mpp.xlsx');
+            mpp.toewijzingstabel1.forEach(row => {
+              row.startDate = new Date(row.startDate1 = row.begindatum.split(/\s/).pop().replace(/(\d+)-(\d+)-(\d+)/, '20$3/$2/$1'));
+              row.endDate = new Date(row.endDate1 = row.einddatum.split(/\s/).pop().replace(/(\d+)-(\d+)-(\d+)/, '20$3/$2/$1'));
+              row.uren = row.werk.replace(/(\d+).*/, '$1');
+              row.taak = mpp.taaktabel1.find(taak => taak.id == row.taakId);
+              row.projectNr = row.taak.projectNr;
+              row.activiteit = row.taak.activiteit;
+              row.act = projects.activiteiten.find(act => act.afk == row.activiteit);
+              row.adminactiviteit = (row.act||{}).name || row.activiteit;
+            })
+            const mpptaken = mpp.toewijzingstabel1.filter(row => row.projectNr && row.activiteit)
+            console.log({mpptaken});
+            docpage().append(
+              $('h1').text('Project plan'),
+              details('Resource taken').open(true).append(
+                table().append(
+                  $('thead').append(
+                    $('th').text('Project'),
+                    $('th').text('Activiteit'),
+                    $('th').text('Taak').style('width:100%;'),
+                    $('th').text('Resource'),
+                    $('th').text('Groep'),
+                    $('th').text('Start'),
+                    $('th').text('Eind'),
+                    $('th').text('Uren'),
+                    $('th').text('Voltooid'),
+                  ),
+                  $('tbody').append(
+                    mpptaken.map(item => $('tr').append(
+                      $('td').text(item.projectNr),
+                      $('td').text(item.adminactiviteit).style('white-space:nowrap;'),
+                      $('td').text(item.taaknaam),
+                      $('td').text(item.resourcenaam).style('white-space:nowrap;'),
+                      $('td').text(item.resourcegroep).style('white-space:nowrap;'),
+                      $('td').text(item.startDate.toLocaleDateString()).style('white-space:nowrap;text-align:right;'),
+                      $('td').text(item.endDate.toLocaleDateString()).style('white-space:nowrap;text-align:right;'),
+                      $('td').text(item.uren).style('text-align:right;'),
+                      $('td').text(item.procentWerkVoltooid).style('text-align:right;'),
+                    ))
+                  )
+                ),
+              ),
+            );
+          },
+        },
         ToDo: {
           async onclick() {
             engineering = await loadExcelSheet('http://10.10.60.31/engineering/Engineering/engineering.xlsx');
